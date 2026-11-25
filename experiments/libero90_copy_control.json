@@ -1,0 +1,30 @@
+{
+  "suite": "libero_10",
+  "task_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "init_ids": [
+    0,
+    1
+  ],
+  "max_steps": 520,
+  "goal_refresh_steps": 16,
+  "conditions": [
+    {
+      "name": "Bnear_copy",
+      "checkpoint": "/media/skr/storage/checkpoints/pi07_goal_ab/l90v2_Bnear/B",
+      "layout": "alt",
+      "goals": "copy"
+    }
+  ],
+  "purpose": "Copied-current control: same checkpoint, refresh interval and image resizing as generated goals"
+}

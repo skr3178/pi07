@@ -1,0 +1,27 @@
+Loading BAGEL; GPU: NVIDIA RTX PRO 4000 Blackwell
+Free/total GPU bytes: (24518721536, 25144262656)
+Loading DFloat11 safetensors:   0%|          | 0/32 [00:00<?, ?it/s]Loading DFloat11 safetensors:   6%|▋         | 2/32 [00:00<00:02, 14.06it/s]Loading DFloat11 safetensors:  12%|█▎        | 4/32 [00:00<00:01, 14.15it/s]Loading DFloat11 safetensors:  19%|█▉        | 6/32 [00:00<00:01, 14.31it/s]Loading DFloat11 safetensors:  25%|██▌       | 8/32 [00:00<00:01, 13.88it/s]Loading DFloat11 safetensors:  31%|███▏      | 10/32 [00:00<00:01, 14.19it/s]Loading DFloat11 safetensors:  38%|███▊      | 12/32 [00:02<00:05,  3.73it/s]Loading DFloat11 safetensors:  44%|████▍     | 14/32 [00:02<00:03,  4.98it/s]Loading DFloat11 safetensors:  50%|█████     | 16/32 [00:02<00:02,  6.38it/s]Loading DFloat11 safetensors:  56%|█████▋    | 18/32 [00:02<00:01,  7.87it/s]Loading DFloat11 safetensors:  62%|██████▎   | 20/32 [00:02<00:01,  9.38it/s]Loading DFloat11 safetensors:  72%|███████▏  | 23/32 [00:02<00:00, 12.27it/s]Loading DFloat11 safetensors:  78%|███████▊  | 25/32 [00:02<00:00, 13.26it/s]Loading DFloat11 safetensors:  84%|████████▍ | 27/32 [00:02<00:00, 14.15it/s]Loading DFloat11 safetensors:  94%|█████████▍| 30/32 [00:02<00:00, 16.71it/s]Loading DFloat11 safetensors: 100%|██████████| 32/32 [00:03<00:00, 16.88it/s]Loading DFloat11 safetensors: 100%|██████████| 32/32 [00:03<00:00, 10.28it/s]
+Total model size: 19.8852 GB
+Loaded in 6.69 seconds
+Generating food1_bare
+Allocated 544997376 bf16 on device cuda:0
+Saved /home/skr/Downloads/pi_07/pi07_code/artifacts/pi07_reference_subgoals/results_bagel/food1_bare_seed0.png in 69.0 seconds
+Generating food1_template
+Saved /home/skr/Downloads/pi_07/pi07_code/artifacts/pi07_reference_subgoals/results_bagel/food1_template_seed0.png in 69.4 seconds
+Generating food2_bare
+Saved /home/skr/Downloads/pi_07/pi07_code/artifacts/pi07_reference_subgoals/results_bagel/food2_bare_seed0.png in 66.86 seconds
+Generating food2_template
+Saved /home/skr/Downloads/pi_07/pi07_code/artifacts/pi07_reference_subgoals/results_bagel/food2_template_seed0.png in 66.89 seconds
+Generating food3_bare
+Saved /home/skr/Downloads/pi_07/pi07_code/artifacts/pi07_reference_subgoals/results_bagel/food3_bare_seed0.png in 66.84 seconds
+Generating food3_template
+Saved /home/skr/Downloads/pi_07/pi07_code/artifacts/pi07_reference_subgoals/results_bagel/food3_template_seed0.png in 66.97 seconds
+Generating food4_bare
+Saved /home/skr/Downloads/pi_07/pi07_code/artifacts/pi07_reference_subgoals/results_bagel/food4_bare_seed0.png in 66.89 seconds
+Generating food4_template
+Saved /home/skr/Downloads/pi_07/pi07_code/artifacts/pi07_reference_subgoals/results_bagel/food4_template_seed0.png in 66.94 seconds
+Generating food5_bare
+Saved /home/skr/Downloads/pi_07/pi07_code/artifacts/pi07_reference_subgoals/results_bagel/food5_bare_seed0.png in 66.83 seconds
+Generating food5_template
+Saved /home/skr/Downloads/pi_07/pi07_code/artifacts/pi07_reference_subgoals/results_bagel/food5_template_seed0.png in 66.86 seconds
+Done: /home/skr/Downloads/pi_07/pi07_code/artifacts/pi07_reference_subgoals/results_bagel/comparison.png

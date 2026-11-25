@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "observations_checked": 36,
+  "padded_action_positions_checked": 588,
+  "cameras_state_executed_actions_exact": true,
+  "unknown_metadata_preserved": true,
+  "physical_start_groups_disjoint": true,
+  "dataset": "/home/skr/Downloads/pi_07/pi07_code/data/libero10_rollouts_20261104"
+}

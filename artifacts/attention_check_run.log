@@ -1,0 +1,10 @@
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+original {"mse_8": 0.12289012562632347, "mse_50": 0.20354208311081357}
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+codex_layout {"mse_8": 0.12273509888908081, "mse_50": 0.2039658376057882}
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+alt_layout {"mse_8": 0.12283933294595853, "mse_50": 0.20370248196490773}
+{"max_abs_action_diff_codex_layout_vs_original": 1.919132947921753, "max_abs_action_diff_alt_layout_vs_original": 1.8995702266693115}

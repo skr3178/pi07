@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "model_bytes_identical": true,
+  "step2_update_identical": true,
+  "step2_validation_identical": true,
+  "scope": "Two CPU optimizer updates, resuming after the first; not a training efficacy result.",
+  "uninterrupted": "pi07_code/artifacts/section_v_resume_full_20261104",
+  "resumed": "pi07_code/artifacts/section_v_resume_resumed_20261104"
+}

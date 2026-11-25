@@ -1,0 +1,14 @@
+{
+  "present_goal_offsets": {
+    "min": 0,
+    "median": 23.0,
+    "p95": 121.0,
+    "max": 375
+  },
+  "ordinary_goal_offsets": {
+    "min": 0,
+    "max": 40
+  },
+  "zero_offset_present_goals": 86,
+  "endpoint_goals_beyond_40_frames": 435
+}

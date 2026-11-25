@@ -1,0 +1,5 @@
+env: built on attempt 1 at 2026-10-28 20:31:56
+torch 2.7.1+cu128 | cuda 12.8 | sm_120 supported: True | torchvision 0.22.1+cu128 | transformers 4.56.1 | diffusers 0.34.0 | huggingface_hub 0.36.2
+imagewam importable from /home/skr/Downloads/pi_07/ImageWAM/src/imagewam/__init__.py
+7.6G	/media/skr/storage/envs/imagewam-venv
+full log: /media/skr/storage/envs/imagewam_setup.log

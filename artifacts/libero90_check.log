@@ -1,0 +1,4 @@
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+as_is {"mse_8": 0.5513268672506257, "mse_50": 0.7459401519338165}
+rotated_180 {"mse_8": 0.5888508806000429, "mse_50": 0.7621466988601376}

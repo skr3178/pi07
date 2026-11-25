@@ -1,0 +1,234 @@
+{
+  "status": "complete",
+  "matched_base_optimizer_budget_current_and_future_indices": true,
+  "runs": [
+    {
+      "run": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_task_1000_20261104",
+      "profile": "task",
+      "status": "complete",
+      "updates": 1000,
+      "goal_present_training_examples": 0,
+      "prompt_options": {
+        "subtasks": false,
+        "goals": false,
+        "metadata": false,
+        "goal_probability": 0.25,
+        "subtask_drop_given_goal": 0.3,
+        "metadata_drop": 0.15,
+        "metadata_field_drop": 0.05,
+        "speed_bin_steps": 50
+      },
+      "first_8_curve": [
+        {
+          "step": 0,
+          "mse": 0.6196613129886546
+        },
+        {
+          "step": 250,
+          "mse": 0.5368336159876672
+        },
+        {
+          "step": 500,
+          "mse": 0.6216915350416745
+        },
+        {
+          "step": 750,
+          "mse": 0.47983454722815944
+        },
+        {
+          "step": 1000,
+          "mse": 0.5151302912287594
+        }
+      ],
+      "final_first_8_mse": 0.5151302912287594,
+      "offline_conditions": {
+        "off": 0.5151302896844865
+      }
+    },
+    {
+      "run": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_1000_20261104",
+      "profile": "subtask",
+      "status": "complete",
+      "updates": 1000,
+      "goal_present_training_examples": 0,
+      "prompt_options": {
+        "subtasks": true,
+        "goals": false,
+        "metadata": false,
+        "goal_probability": 0.25,
+        "subtask_drop_given_goal": 0.0,
+        "metadata_drop": 0.15,
+        "metadata_field_drop": 0.05,
+        "speed_bin_steps": 50
+      },
+      "first_8_curve": [
+        {
+          "step": 0,
+          "mse": 0.6168034897300141
+        },
+        {
+          "step": 250,
+          "mse": 0.5326444093766681
+        },
+        {
+          "step": 500,
+          "mse": 0.6103560095341268
+        },
+        {
+          "step": 750,
+          "mse": 0.48190507510447084
+        },
+        {
+          "step": 1000,
+          "mse": 0.5138558818522697
+        }
+      ],
+      "final_first_8_mse": 0.5138558818522697
+    },
+    {
+      "run": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_goal_1000_20261104",
+      "profile": "goal",
+      "status": "complete",
+      "updates": 1000,
+      "goal_present_training_examples": 2058,
+      "prompt_options": {
+        "subtasks": false,
+        "goals": true,
+        "metadata": false,
+        "goal_probability": 0.25,
+        "subtask_drop_given_goal": 0.0,
+        "metadata_drop": 0.15,
+        "metadata_field_drop": 0.05,
+        "speed_bin_steps": 50
+      },
+      "first_8_curve": [
+        {
+          "step": 0,
+          "mse": 0.6799543997760126
+        },
+        {
+          "step": 250,
+          "mse": 0.6048066415731835
+        },
+        {
+          "step": 500,
+          "mse": 0.6684971713642286
+        },
+        {
+          "step": 750,
+          "mse": 0.5788273872253319
+        },
+        {
+          "step": 1000,
+          "mse": 0.5660844631184773
+        }
+      ],
+      "final_first_8_mse": 0.5660844631184773,
+      "goals_off_first_8_mse": 0.49342970455151836
+    },
+    {
+      "run": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_goal_1000_20261104",
+      "profile": "subtask_goal",
+      "status": "complete",
+      "updates": 1000,
+      "goal_present_training_examples": 2058,
+      "prompt_options": {
+        "subtasks": true,
+        "goals": true,
+        "metadata": false,
+        "goal_probability": 0.25,
+        "subtask_drop_given_goal": 0.0,
+        "metadata_drop": 0.15,
+        "metadata_field_drop": 0.05,
+        "speed_bin_steps": 50
+      },
+      "first_8_curve": [
+        {
+          "step": 0,
+          "mse": 0.7478090523386568
+        },
+        {
+          "step": 250,
+          "mse": 0.619864135605262
+        },
+        {
+          "step": 500,
+          "mse": 0.6773843329430655
+        },
+        {
+          "step": 750,
+          "mse": 0.5432172143746726
+        },
+        {
+          "step": 1000,
+          "mse": 0.5863854369056787
+        }
+      ],
+      "final_first_8_mse": 0.5863854369056787,
+      "goals_off_first_8_mse": 0.5103087505019367,
+      "offline_conditions": {
+        "saved_real": 0.5863854412811186,
+        "near_real": 0.5816369300782573,
+        "endpoint_real": 0.5850076268327541,
+        "copy_current": 0.5848036540759987,
+        "wrong_task": 0.5872376148715299,
+        "off": 0.5103087495153179
+      },
+      "real_minus_copy": {
+        "equal_task_mean_difference": 0.0015779688954353297,
+        "task_bootstrap_95_interval": [
+          -0.005684377767145634,
+          0.009131098237420828
+        ],
+        "positive_means_real_goal_has_larger_error": true
+      }
+    },
+    {
+      "run": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_full_1000_20261104",
+      "profile": "full",
+      "status": "complete",
+      "updates": 1000,
+      "goal_present_training_examples": 2058,
+      "prompt_options": {
+        "subtasks": true,
+        "goals": true,
+        "metadata": true,
+        "goal_probability": 0.25,
+        "subtask_drop_given_goal": 0.3,
+        "metadata_drop": 0.15,
+        "metadata_field_drop": 0.05,
+        "speed_bin_steps": 50
+      },
+      "first_8_curve": [
+        {
+          "step": 0,
+          "mse": 0.7751610534317247
+        },
+        {
+          "step": 250,
+          "mse": 0.628688433565824
+        },
+        {
+          "step": 500,
+          "mse": 0.660243638387984
+        },
+        {
+          "step": 750,
+          "mse": 0.5269369794207968
+        },
+        {
+          "step": 1000,
+          "mse": 0.5868349262345991
+        }
+      ],
+      "final_first_8_mse": 0.5868349262345991,
+      "goals_off_first_8_mse": 0.5171050696374702
+    }
+  ],
+  "caveats": [
+    "One training seed; fixed held-out demo observations, not simulator success.",
+    "Real future goals are offline-only; no online access to demonstration futures.",
+    "The full profile additionally changes conditional subtask dropout and enables duration; it is not an isolated metadata-effect comparison.",
+    "The small LIBERO-10 dataset has strongly constrained task order; goal usefulness is not guaranteed."
+  ]
+}

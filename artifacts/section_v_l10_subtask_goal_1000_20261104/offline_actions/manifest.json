@@ -1,0 +1,25 @@
+{
+  "training_run": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_goal_1000_20261104",
+  "checkpoint_sha256": "48a8814faf3d5e29ef4b2f528c4d4c8ad73f154dc9fc3a71b60f4b46b16f8945",
+  "validation_schedule_sha256": "cdbc44499e6bd33c941917ae6566ff3623ac60a21a7374a8559caf2a453ec324",
+  "modes": [
+    "saved_real",
+    "near_real",
+    "endpoint_real",
+    "copy_current",
+    "wrong_task",
+    "off"
+  ],
+  "device": "cuda",
+  "batch_size": 8,
+  "noise_rule": "900000 + batch start",
+  "units": "checkpoint-normalized 7-D action error, ignoring padded timesteps",
+  "text": "same trained profile fields in every image condition; offline subtask and duration annotations",
+  "copied_image_processing": "original 256px current images; live copied control additionally uses 224px resize",
+  "source_sha256": {
+    "evaluate_section_v_offline.py": "8a2af5ee1210212c0e2f9ced7684d4a14d5507d73cde693dc026d97630e94960",
+    "section_v_data.py": "b5f315c2b427b5f81f6ac638260afbbcfa7921d7fd8f9df85b985755486dd9dd",
+    "libero_data.py": "e8125feba0bdae509d2a00f10c5cdcb37af5e7bf179fe4ae5c00317de76378bf",
+    "metadata_guidance.py": "14031c328e0a215bfa0b4f702f014ee6278defec42b98a37e8a6c5fcf5b8eb7e"
+  }
+}

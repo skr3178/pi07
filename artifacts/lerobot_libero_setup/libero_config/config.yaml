@@ -1,0 +1,7 @@
+{
+  "benchmark_root": "/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero/libero/libero",
+  "bddl_files": "/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero/libero/libero/bddl_files",
+  "init_states": "/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero/libero/libero/init_files",
+  "assets": "/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero/libero/libero/assets",
+  "datasets": "/home/skr/Downloads/pi_07/pi07_code/data"
+}

@@ -1,0 +1,185 @@
+{
+  "status": "passed",
+  "checks": {
+    "cuda": {
+      "gpu": "NVIDIA RTX PRO 4000 Blackwell",
+      "cuda": "12.8",
+      "capability": [
+        12,
+        0
+      ]
+    },
+    "dataset": {
+      "observation.images.image": {
+        "shape": [
+          3,
+          256,
+          256
+        ],
+        "dtype": "torch.float32",
+        "min": 0.0,
+        "max": 1.0
+      },
+      "observation.images.image2": {
+        "shape": [
+          3,
+          256,
+          256
+        ],
+        "dtype": "torch.float32",
+        "min": 0.0,
+        "max": 0.9490196108818054
+      },
+      "observation.state": {
+        "shape": [
+          8
+        ],
+        "dtype": "torch.float32",
+        "min": -0.19946953654289246,
+        "max": 3.131434679031372
+      },
+      "action": {
+        "shape": [
+          50,
+          7
+        ],
+        "dtype": "torch.float32",
+        "min": -1.0,
+        "max": 0.637499988079071
+      },
+      "task": "turn on the stove and put the moka pot on it"
+    },
+    "policy_load": {
+      "checkpoint": "/media/skr/storage/models/smolvla_libero",
+      "strict": true,
+      "seconds": 24.61588799799938,
+      "chunk_size": 50,
+      "n_action_steps": 8,
+      "parameter_count": 450046176
+    },
+    "dataset_policy_action": {
+      "shape": [
+        1,
+        7
+      ],
+      "dtype": "torch.float32",
+      "min": -1.0193357467651367,
+      "max": 0.2118442952632904
+    }
+  },
+  "simulator_runs": [
+    {
+      "suite": "libero_10",
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_max_abs_errors": [
+        0.0,
+        0.0
+      ],
+      "control_freq": 20,
+      "policy_input_shapes": {
+        "observation.images.image": [
+          1,
+          3,
+          256,
+          256
+        ],
+        "observation.images.image2": [
+          1,
+          3,
+          256,
+          256
+        ],
+        "observation.state": [
+          1,
+          8
+        ]
+      },
+      "action": [
+        0.09911833703517914,
+        -0.09501363337039948,
+        -0.025494053959846497,
+        -0.0014338488690555096,
+        0.002045286353677511,
+        -0.007116781547665596,
+        -0.981725811958313
+      ],
+      "clipped_action_components": 0,
+      "inference_seconds": 0.14255537499957427,
+      "reward_after_one_policy_action": 0.0,
+      "terminated": false,
+      "truncated": false,
+      "is_success": false
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 0,
+      "task": "open the middle drawer of the cabinet",
+      "initial_state_max_abs_errors": [
+        0.0,
+        0.0
+      ],
+      "control_freq": 20,
+      "policy_input_shapes": {
+        "observation.images.image": [
+          1,
+          3,
+          256,
+          256
+        ],
+        "observation.images.image2": [
+          1,
+          3,
+          256,
+          256
+        ],
+        "observation.state": [
+          1,
+          8
+        ]
+      },
+      "action": [
+        0.11334186047315598,
+        -0.08175994455814362,
+        -0.0729033350944519,
+        -0.002039510989561677,
+        0.051865868270397186,
+        0.013892972841858864,
+        -1.0013800859451294
+      ],
+      "clipped_action_components": 1,
+      "inference_seconds": 0.1422529889987345,
+      "reward_after_one_policy_action": 0.0,
+      "terminated": false,
+      "truncated": false,
+      "is_success": false
+    }
+  ],
+  "versions": {
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128",
+    "torchcodec": "0.5",
+    "transformers": "4.56.1",
+    "lerobot": "0.3.4",
+    "libero": "0.1.4",
+    "mujoco": "3.3.2",
+    "numpy": "2.2.6"
+  },
+  "vlm_config_tokenizer_snapshot": "/media/skr/storage/hf_home/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+  "config_compatibility": {
+    "adapter": "inactive_fields_only",
+    "handled_fields": {
+      "type": "smolvla",
+      "use_peft": false,
+      "rtc_config": null
+    },
+    "overrides": {
+      "device": "cuda",
+      "load_vlm_weights": false,
+      "n_action_steps": 8,
+      "push_to_hub": false
+    }
+  },
+  "peak_gpu_allocated_gb": 1.270319616,
+  "limitation": "Functional preflight only: no full episode evaluation, training or ImageWAM-policy integration."
+}

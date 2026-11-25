@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "real_observations": 1,
+  "fixture_images_used_for_training": 0,
+  "unreviewed_excluded_by_default": true,
+  "left_right_camera_routing": true,
+  "actions_and_current_images_unchanged": true,
+  "hidden_goals_never_replaced": true,
+  "zero_mixture_selects_none": true,
+  "bad_provenance_cases_rejected": 5,
+  "schedule_samples": 10,
+  "note": "One decoded observation; ten schedule entries. Earlier count corrected to distinguish decoding from scheduling."
+}

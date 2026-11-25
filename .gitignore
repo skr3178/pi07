@@ -1,0 +1,30 @@
+# Datasets, vendored code, caches
+data/
+vendor/
+__pycache__/
+*.pyc
+*.lock
+*.nbc
+*.nbi
+artifacts/lerobot_libero_setup/datasets_cache/
+# Model weights, optimizer state, arrays, videos, tables
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.mp4
+*.parquet
+*.arrow
+checkpoint/
+checkpoints/
+artifacts/jobs/
+# Large regenerable prompt/audit logs and third-party papers
+train_prompts.jsonl
+sample_audit.jsonl
+*.pdf
+# Images copied from the π0.7 website and paper (third-party)
+artifacts/pi07_reference_subgoals/current_*.png
+artifacts/pi07_reference_subgoals/subgoal_*.png
+artifacts/pi07_reference_subgoals/paper_fig3/

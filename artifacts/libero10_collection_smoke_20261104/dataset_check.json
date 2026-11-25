@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "observations_checked": 3,
+  "padded_action_positions_checked": 136,
+  "cameras_state_executed_actions_exact": true,
+  "unknown_metadata_preserved": true,
+  "physical_start_groups_disjoint": null,
+  "dataset": "/home/skr/Downloads/pi_07/pi07_code/data/rollout_recording_smoke_20261104"
+}

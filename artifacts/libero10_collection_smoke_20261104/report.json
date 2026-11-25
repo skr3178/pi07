@@ -1,0 +1,66 @@
+{
+  "status": "complete",
+  "episodes": [
+    {
+      "condition": "collection_smoke",
+      "task_id": 1,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "initial_state_id": 12,
+      "seed": 112,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "cream_cheese_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "butter_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "training_data": {
+        "file": "collection_smoke_task1_init12_training.npz",
+        "sha256": "f551a34e8b5ea9baf389b3134dcb7566fc7410678adcf7e3ab48269d869bafdc",
+        "observations": 8,
+        "action_noise_std": 0.15,
+        "excludes_post_terminal_reset_observation": true,
+        "fps": 20
+      },
+      "success": false,
+      "steps": 8,
+      "timeout": true,
+      "clipped_components": 4,
+      "action_components": 56,
+      "chunk_seconds": [
+        1.781745835003676
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "collection_smoke_task1_init12.mp4",
+      "wall_seconds": 6.77780150801118
+    }
+  ],
+  "summaries": {
+    "collection_smoke": {
+      "episodes": 1,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_max_predicate_fraction": 0.0,
+      "wall_seconds": 6.77780150801118
+    }
+  },
+  "policy_peak_allocated_gb": {
+    "collection_smoke": 1.28171264
+  }
+}

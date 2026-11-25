@@ -1,0 +1,2680 @@
+{
+  "status": "complete",
+  "episodes": [
+    {
+      "condition": "collection_clean",
+      "task_id": 1,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "initial_state_id": 12,
+      "seed": 112,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "cream_cheese_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "butter_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "training_data": {
+        "file": "collection_clean_task1_init12_training.npz",
+        "sha256": "df0ece6e56601f70e64217a115bcc0de6b94f26d19ace4c0a618cfac562406f0",
+        "observations": 278,
+        "action_noise_std": 0.0,
+        "excludes_post_terminal_reset_observation": true,
+        "fps": 20
+      },
+      "success": true,
+      "steps": 278,
+      "timeout": false,
+      "clipped_components": 54,
+      "action_components": 1946,
+      "chunk_seconds": [
+        1.6105869599996367,
+        0.5463498890021583,
+        0.5351307819946669,
+        0.5710502389993053,
+        0.5868287089979276,
+        0.4840117440035101,
+        0.540299201005837,
+        0.5128452979988651,
+        0.49756459100171924,
+        0.4086541950091487,
+        0.4969553599948995,
+        0.5579429670033278,
+        0.5737367369874846,
+        0.5014563239965355,
+        0.5755362549971323,
+        0.5761801850021584,
+        0.5335530899901642,
+        0.5303968020016328,
+        0.5537636519875377,
+        0.5620793770067394,
+        0.5358975120034302,
+        0.5748968410043744,
+        0.537444208006491,
+        0.5839796880027279,
+        0.5255001949990401,
+        0.5929529490094865,
+        0.5134373510081787,
+        0.5309175520087592,
+        0.5239478450093884,
+        0.5976559370028554,
+        0.5489178769930732,
+        0.5175598630012246,
+        0.5413101269950857,
+        0.5647602009994444,
+        0.5980989609961398
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 1.0,
+      "final_predicate_fraction": 1.0,
+      "video": "collection_clean_task1_init12.mp4",
+      "wall_seconds": 38.38482309499523
+    },
+    {
+      "condition": "collection_clean",
+      "task_id": 1,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "initial_state_id": 13,
+      "seed": 113,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "cream_cheese_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "butter_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "training_data": {
+        "file": "collection_clean_task1_init13_training.npz",
+        "sha256": "c874fae629674801d00acf4b5f59a85ac59ed85fd53608ab56e0b12e05b3f13e",
+        "observations": 520,
+        "action_noise_std": 0.0,
+        "excludes_post_terminal_reset_observation": true,
+        "fps": 20
+      },
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 53,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.5491694070078665,
+        0.5541570640052669,
+        0.5664239820034709,
+        0.5139147500012768,
+        0.5781440639984794,
+        0.5309337450016756,
+        0.584504343001754,
+        0.562952331994893,
+        0.5206965499965008,
+        0.5753421770059504,
+        0.531153614007053,
+        0.5858460570016177,
+        0.53893707098905,
+        0.5994808160030516,
+        0.5298248210019665,
+        0.5258411670074565,
+        0.5550347679964034,
+        0.5412429470015923,
+        0.5890190179925412,
+        0.5196238729986362,
+        0.5842936849949183,
+        0.5601421479950659,
+        0.5375795230065705,
+        0.5755427580006653,
+        0.5582172959984746,
+        0.5852808869967703,
+        0.5159056489937939,
+        0.546512672008248,
+        0.5963157060032245,
+        0.5650745160091901,
+        0.5258318259875523,
+        0.56151908900938,
+        0.5560330570006045,
+        0.4855416869977489,
+        0.5817264840006828,
+        0.6115496999991592,
+        0.5328595530008897,
+        0.5299813849997008,
+        0.5728166089975275,
+        0.5673439630045323,
+        0.4888354969880311,
+        0.5587079849938164,
+        0.6156664239970269,
+        0.5527830589999212,
+        0.5439116439956706,
+        0.5622553629946196,
+        0.576607442999375,
+        0.5149203360051615,
+        0.5520173589902697,
+        0.5674283080006717,
+        0.5675975920021301,
+        0.5361527030036086,
+        0.5499365720024798,
+        0.5903112580126617,
+        0.5069691969983978,
+        0.5551216940075392,
+        0.5522319509909721,
+        0.542372620999231,
+        0.5460208449949278,
+        0.5634348659950774,
+        0.5946286380058154,
+        0.5312688190024346,
+        0.5435611509892624,
+        0.5790475240064552,
+        0.5523656849982217
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "collection_clean_task1_init13.mp4",
+      "wall_seconds": 62.66890676300682
+    },
+    {
+      "condition": "collection_clean",
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 12,
+      "seed": 212,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "turnon",
+          "flat_stove_1"
+        ],
+        [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ]
+      ],
+      "training_data": {
+        "file": "collection_clean_task2_init12_training.npz",
+        "sha256": "eecf80987f7e68f3783809e6fad253da44f8dabca3f2bbd163ae60b57bda648c",
+        "observations": 520,
+        "action_noise_std": 0.0,
+        "excludes_post_terminal_reset_observation": true,
+        "fps": 20
+      },
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 109,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.5399640719988383,
+        0.57134764600778,
+        0.563575235006283,
+        0.4935105159966042,
+        0.5575912530039204,
+        0.567569029997685,
+        0.5722799669892993,
+        0.5725138130073901,
+        0.5490682730014669,
+        0.5897937279951293,
+        0.5242118549940642,
+        0.5556288520019734,
+        0.5500164760014741,
+        0.48517010899377055,
+        0.5749902130046394,
+        0.5685713510029018,
+        0.5582072190009058,
+        0.5679861539974809,
+        0.5547930669999914,
+        0.5339650480018463,
+        0.5184753909998108,
+        0.5636756440071622,
+        0.526438542001415,
+        0.5425522619916592,
+        0.5629383510095067,
+        0.5851265359960962,
+        0.5241459219978424,
+        0.5543039360054536,
+        0.5766927359945839,
+        0.4930878510058392,
+        0.582252486012294,
+        0.5580234359949827,
+        0.5627826329873642,
+        0.5652577949949773,
+        0.561343670997303,
+        0.5363394320011139,
+        0.5339632020040881,
+        0.5632647949969396,
+        0.5873509529919829,
+        0.5509080379997613,
+        0.5655626910011051,
+        0.5755179550033063,
+        0.49822003398730885,
+        0.5527917900035391,
+        0.5548299949878128,
+        0.49950141400040593,
+        0.5778418349946151,
+        0.5682820369984256,
+        0.5697058950026985,
+        0.563404892993276,
+        0.5535243540070951,
+        0.5323332289990503,
+        0.5371024269988993,
+        0.5543361860036384,
+        0.6045719289977569,
+        0.5392331709881546,
+        0.5515830579970498,
+        0.5618495020025875,
+        0.4849191730027087,
+        0.552800675999606,
+        0.5619423809985165,
+        0.48916348700004164,
+        0.5846111580030993,
+        0.5565511149907252,
+        0.5660461080115056
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "collection_clean_task2_init12.mp4",
+      "wall_seconds": 60.59526725699834
+    },
+    {
+      "condition": "collection_clean",
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 13,
+      "seed": 213,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "turnon",
+          "flat_stove_1"
+        ],
+        [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ]
+      ],
+      "training_data": {
+        "file": "collection_clean_task2_init13_training.npz",
+        "sha256": "9651a45b1a707cc665cb848483eda1da8c2f47512a343afa9b0a55b8c7b61e28",
+        "observations": 520,
+        "action_noise_std": 0.0,
+        "excludes_post_terminal_reset_observation": true,
+        "fps": 20
+      },
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 120,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.5557288370036986,
+        0.5881688070076052,
+        0.5243057309999131,
+        0.5473617730021942,
+        0.5679139580024639,
+        0.4872996369958855,
+        0.5458787780080456,
+        0.6007432920014253,
+        0.5635733539966168,
+        0.5621807819989044,
+        0.559597304003546,
+        0.5174246520036831,
+        0.5153545949870022,
+        0.5674537029990461,
+        0.6109232519957004,
+        0.5684903049987042,
+        0.5336731019924628,
+        0.5542748509906232,
+        0.5845070649957052,
+        0.49272471699805465,
+        0.5485593590128701,
+        0.5652325090049999,
+        0.4982844360056333,
+        0.556978088003234,
+        0.6135047930001747,
+        0.5711918320012046,
+        0.5501475760102039,
+        0.5590696680010296,
+        0.5735174099972937,
+        0.5082444970030338,
+        0.5407581119943643,
+        0.5594767610018607,
+        0.50014527500025,
+        0.5529242400079966,
+        0.5982504840067122,
+        0.5728455240023322,
+        0.5559843189985259,
+        0.6028026700078044,
+        0.5358775430067908,
+        0.5451754070090828,
+        0.5206732920050854,
+        0.6091929370013531,
+        0.5644677739910549,
+        0.5045938469993416,
+        0.5864401669969084,
+        0.5793546120112296,
+        0.5148030909913359,
+        0.5271748549857875,
+        0.5970863130060025,
+        0.5572385200066492,
+        0.5044025189999957,
+        0.5619217729981756,
+        0.6056983500020579,
+        0.5155175929976394,
+        0.6598644900077488,
+        0.6138077409996185,
+        0.5694494639901677,
+        0.6943453199928626,
+        0.5268929890007712,
+        0.570183428004384,
+        0.6667790109931957,
+        0.5573525110085029,
+        0.616935496989754,
+        0.5047261319996323,
+        0.5797829879884375
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "collection_clean_task2_init13.mp4",
+      "wall_seconds": 60.9124232489994
+    },
+    {
+      "condition": "collection_clean",
+      "task_id": 5,
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "initial_state_id": 12,
+      "seed": 512,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "black_book_1",
+          "desk_caddy_1_back_contain_region"
+        ]
+      ],
+      "training_data": {
+        "file": "collection_clean_task5_init12_training.npz",
+        "sha256": "928fb12549a87cd64f0de473d8181484adce24b5156146d0763b828509a1191f",
+        "observations": 520,
+        "action_noise_std": 0.0,
+        "excludes_post_terminal_reset_observation": true,
+        "fps": 20
+      },
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 95,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.6122680219996255,
+        0.5996517689927714,
+        0.5351906130090356,
+        0.5938909169926774,
+        0.5829202570021152,
+        0.4837325180124026,
+        0.6071952890051762,
+        0.5454864939965773,
+        0.5836122619948583,
+        0.5844468389987014,
+        0.4536454240005696,
+        0.6069199460034724,
+        0.5662792160001118,
+        0.5607936909946147,
+        0.5803354639938334,
+        0.4094797470024787,
+        0.5716820500092581,
+        0.5600925960025052,
+        0.5648421150108334,
+        0.5781587899982696,
+        0.5195058450044598,
+        0.4874704079993535,
+        0.5851741469959961,
+        0.5738534839911154,
+        0.6051872870011721,
+        0.5939268479996826,
+        0.48296608999953605,
+        0.4733384080027463,
+        0.40761820699844975,
+        0.36926690601103473,
+        0.37295135599561036,
+        0.42303954300587066,
+        0.37565888999961317,
+        0.36857539099582937,
+        0.3436618349951459,
+        0.39262473200506065,
+        0.36868226900696754,
+        0.37728062499081716,
+        0.32356486200296786,
+        0.39938561400049366,
+        0.3701364909939002,
+        0.4204400400049053,
+        0.28307318399311043,
+        0.39969846500025596,
+        0.3673806119913934,
+        0.37111036699207034,
+        0.3580849320132984,
+        0.4079642590077128,
+        0.3778204859991092,
+        0.3840675709943753,
+        0.35289770300732926,
+        0.39447371299320366,
+        0.33291104799718596,
+        0.2000845039874548,
+        0.2016960930050118,
+        0.2579018120013643,
+        0.33157790699624456,
+        0.34106834800331853,
+        0.34575009100080933,
+        0.3156459419988096,
+        0.32625205800286494,
+        0.33578132301045116,
+        0.34675017700647004,
+        0.30439347799983807,
+        0.32363213400822133
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "collection_clean_task5_init12.mp4",
+      "wall_seconds": 50.819592312996974
+    },
+    {
+      "condition": "collection_clean",
+      "task_id": 5,
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "initial_state_id": 13,
+      "seed": 513,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "black_book_1",
+          "desk_caddy_1_back_contain_region"
+        ]
+      ],
+      "training_data": {
+        "file": "collection_clean_task5_init13_training.npz",
+        "sha256": "886c88df5e21333cf39c6c65fb5b69036f423400fc989b18ced42388722169e9",
+        "observations": 520,
+        "action_noise_std": 0.0,
+        "excludes_post_terminal_reset_observation": true,
+        "fps": 20
+      },
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 97,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.4126878189999843,
+        0.41807034000521526,
+        0.396006868002587,
+        0.39813833800144494,
+        0.42057849100092426,
+        0.39967811200767756,
+        0.36553179800102953,
+        0.3746456459921319,
+        0.40699265799776185,
+        0.36636248700961005,
+        0.36953080199600663,
+        0.3674691219930537,
+        0.39772937800444197,
+        0.357095268991543,
+        0.1971563779952703,
+        0.19931114099745173,
+        0.2005949089943897,
+        0.19938829500460997,
+        0.1980876659945352,
+        0.1965125049900962,
+        0.19932617900485639,
+        0.19939259300008416,
+        0.20011236700520385,
+        0.2012232310080435,
+        0.19739712600130588,
+        0.19509529799688607,
+        0.19797020599071402,
+        0.19735633900563698,
+        0.19837225599621888,
+        0.19741331499244552,
+        0.1978754980082158,
+        0.19574428799387533,
+        0.19500911499198992,
+        0.19563265900069382,
+        0.2048681750020478,
+        0.19604559999424964,
+        0.19582598000124563,
+        0.1962827120005386,
+        0.1963922559953062,
+        0.19609947899880353,
+        0.19644545600749552,
+        0.19568460500158835,
+        0.19725410599494353,
+        0.19700800599821378,
+        0.19759103399701416,
+        0.19847890200617258,
+        0.19834167500084732,
+        0.2007403049938148,
+        0.19920737099891994,
+        0.19968898099614307,
+        0.19672070800152142,
+        0.19999014300992712,
+        0.19949788300436921,
+        0.19546620499750134,
+        0.19735925999702886,
+        0.19612362199404743,
+        0.19605618600326125,
+        0.196005210003932,
+        0.19610660000762437,
+        0.20030820499232505,
+        0.21942828799365088,
+        0.19630443899950478,
+        0.1984419600048568,
+        0.19719398899178486,
+        0.19667867699172348
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "collection_clean_task5_init13.mp4",
+      "wall_seconds": 33.560234443997615
+    },
+    {
+      "condition": "collection_noise",
+      "task_id": 1,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "initial_state_id": 12,
+      "seed": 112,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "cream_cheese_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "butter_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "training_data": {
+        "file": "collection_noise_task1_init12_training.npz",
+        "sha256": "e84b5db7e8ceb413e0469a35be23ae8d6a3b275dfe3880f5950848bdd3400b85",
+        "observations": 520,
+        "action_noise_std": 0.15,
+        "excludes_post_terminal_reset_observation": true,
+        "fps": 20
+      },
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 223,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.20144497300498188,
+        0.19463186999200843,
+        0.19556447200011462,
+        0.19392559200059623,
+        0.19468740400043316,
+        0.194053649000125,
+        0.19568732001062017,
+        0.19456989401078317,
+        0.19874976799474098,
+        0.20815252499596681,
+        0.21348367899190634,
+        0.1947989900072571,
+        0.19786315200326499,
+        0.19730940699810162,
+        0.19563546100107487,
+        0.19731241300178226,
+        0.19966950399975758,
+        0.2614693570067175,
+        0.2878282240126282,
+        0.28272255999036133,
+        0.3372531780041754,
+        0.33806437300518155,
+        0.28413545701187104,
+        0.29108658600307535,
+        0.32508640899322927,
+        0.34746118600014597,
+        0.39397525700042024,
+        0.3690262019954389,
+        0.5078882920061005,
+        0.5354957300005481,
+        0.5202061400050297,
+        0.4992334989947267,
+        0.5389997590100393,
+        0.5254355109937023,
+        0.4946088410069933,
+        0.4819134550052695,
+        0.32267363599385135,
+        0.47005349899700377,
+        0.4707247720070882,
+        0.47210800398897845,
+        0.43922905198996887,
+        0.579756298000575,
+        0.6052442060026806,
+        0.6041035450034542,
+        0.6284934130089823,
+        0.36231661899364553,
+        0.5789540840050904,
+        0.5796594189887401,
+        0.5797180869994918,
+        0.607526798004983,
+        0.3614146720065037,
+        0.5562742800102569,
+        0.5567461600003298,
+        0.556718527994235,
+        0.5713965610048035,
+        0.49757458599924576,
+        0.583446857999661,
+        0.5804218990087975,
+        0.5838594070082763,
+        0.4884486209921306,
+        0.6046338720043423,
+        0.6027960890060058,
+        0.5919769869942684,
+        0.6206690169929061,
+        0.30841133699868806
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.5,
+      "final_predicate_fraction": 0.5,
+      "video": "collection_noise_task1_init12.mp4",
+      "wall_seconds": 49.078958159996546
+    },
+    {
+      "condition": "collection_noise",
+      "task_id": 1,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "initial_state_id": 13,
+      "seed": 113,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "cream_cheese_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "butter_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "training_data": {
+        "file": "collection_noise_task1_init13_training.npz",
+        "sha256": "5484b418424903543a97b341817796dac5da91f53b1d5923aa8d1edf8c071c97",
+        "observations": 520,
+        "action_noise_std": 0.15,
+        "excludes_post_terminal_reset_observation": true,
+        "fps": 20
+      },
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 203,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.4375063439947553,
+        0.48527688400645275,
+        0.4442191760026617,
+        0.5379012859921204,
+        0.5497558170027332,
+        0.4998727519996464,
+        0.511791913988418,
+        0.48811499698786065,
+        0.5560649929975625,
+        0.5126178229984362,
+        0.5259380019997479,
+        0.43447848099458497,
+        0.5092005400074413,
+        0.5089182119991165,
+        0.4606392320129089,
+        0.5117600060038967,
+        0.506607424991671,
+        0.4717504240106791,
+        0.4376668589975452,
+        0.43251193400647026,
+        0.5195886870060349,
+        0.5022125039977254,
+        0.46816121898882557,
+        0.4084961420012405,
+        0.4727026449982077,
+        0.5026469219883438,
+        0.513767694006674,
+        0.47228749899659306,
+        0.4563703000021633,
+        0.4472284909861628,
+        0.5121179289999418,
+        0.51003062199743,
+        0.5286807709926507,
+        0.47701310500269756,
+        0.40844859500066377,
+        0.4962813680031104,
+        0.5160194680065615,
+        0.5081503850087756,
+        0.47236618600436486,
+        0.4148742170073092,
+        0.4698122560075717,
+        0.5102229409967549,
+        0.5152570990030654,
+        0.47335349400236737,
+        0.40960205100418534,
+        0.46065350199933164,
+        0.4707696580007905,
+        0.47485319001134485,
+        0.44749605499964673,
+        0.46387543399760034,
+        0.46986037700844463,
+        0.4796428300032858,
+        0.48550352100573946,
+        0.43109770498995204,
+        0.4767757539957529,
+        0.46728469400841277,
+        0.4686904069967568,
+        0.4551184879965149,
+        0.4713850569969509,
+        0.4605063150083879,
+        0.4661454430024605,
+        0.4371258739993209,
+        0.45625443500466645,
+        0.44063869099773,
+        0.4741399949998595
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "collection_noise_task1_init13.mp4",
+      "wall_seconds": 56.612289603988756
+    },
+    {
+      "condition": "collection_noise",
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 12,
+      "seed": 212,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "turnon",
+          "flat_stove_1"
+        ],
+        [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ]
+      ],
+      "training_data": {
+        "file": "collection_noise_task2_init12_training.npz",
+        "sha256": "8b6e543cf87c9905c3b42f3cdc6e02afa50effbbdadd747683cabaa371d8da8e",
+        "observations": 220,
+        "action_noise_std": 0.15,
+        "excludes_post_terminal_reset_observation": true,
+        "fps": 20
+      },
+      "success": true,
+      "steps": 220,
+      "timeout": false,
+      "clipped_components": 104,
+      "action_components": 1540,
+      "chunk_seconds": [
+        0.49737569798890036,
+        0.42637067699979525,
+        0.4891500800003996,
+        0.4271248229924822,
+        0.5080874529958237,
+        0.4244655380025506,
+        0.44511536799836904,
+        0.48123112200119067,
+        0.44806756799516734,
+        0.48447589900752064,
+        0.44556448399089277,
+        0.4954138070024783,
+        0.4717143820016645,
+        0.48403618500742596,
+        0.4432790440041572,
+        0.5071389730001101,
+        0.4637156559911091,
+        0.49605687300208956,
+        0.440938522995566,
+        0.5099101239902666,
+        0.45949152699904516,
+        0.49382582399994135,
+        0.43280807000701316,
+        0.49575685799936764,
+        0.44525375399098266,
+        0.5100788540003123,
+        0.4512522010045359,
+        0.4957491300010588
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 1.0,
+      "final_predicate_fraction": 1.0,
+      "video": "collection_noise_task2_init12.mp4",
+      "wall_seconds": 24.01662660400325
+    },
+    {
+      "condition": "collection_noise",
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 13,
+      "seed": 213,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "turnon",
+          "flat_stove_1"
+        ],
+        [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ]
+      ],
+      "training_data": {
+        "file": "collection_noise_task2_init13_training.npz",
+        "sha256": "337e8d4b11fab43b71d2c05499f3cffd649d92eaafc4860a304d6c9934e82465",
+        "observations": 520,
+        "action_noise_std": 0.15,
+        "excludes_post_terminal_reset_observation": true,
+        "fps": 20
+      },
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 225,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.4257879039942054,
+        0.4772178350103786,
+        0.4495945459930226,
+        0.43373598001198843,
+        0.46429124199494254,
+        0.45200474400189705,
+        0.49260007799603045,
+        0.4307884240115527,
+        0.49207032698905095,
+        0.44926716000190936,
+        0.4930604539986234,
+        0.4342767039925093,
+        0.5067307129938854,
+        0.4309820119960932,
+        0.501036481000483,
+        0.43629164301091805,
+        0.5017815309984144,
+        0.4180880390049424,
+        0.4851297340064775,
+        0.4366454499977408,
+        0.5017703670018818,
+        0.4258647539973026,
+        0.43845487700309604,
+        0.4753231020004023,
+        0.441372411994962,
+        0.47754237399203703,
+        0.4585239290026948,
+        0.4986937679932453,
+        0.45004377800796647,
+        0.5009930189989973,
+        0.4342228510067798,
+        0.4923256869951729,
+        0.46301358701020945,
+        0.49412574600137305,
+        0.4724488189967815,
+        0.4936886890063761,
+        0.44338676500774454,
+        0.5129924329958158,
+        0.4582076100050472,
+        0.49576118400727864,
+        0.4377774099993985,
+        0.5030844339926261,
+        0.4563969070004532,
+        0.5051400299998932,
+        0.43788857499021105,
+        0.508173912006896,
+        0.443215177001548,
+        0.4770705970004201,
+        0.4442900930007454,
+        0.4435335399903124,
+        0.46627134599839337,
+        0.44291059600072913,
+        0.48006586599512957,
+        0.45279515600122977,
+        0.4942974809964653,
+        0.45381930698931683,
+        0.48181755299447104,
+        0.4495413289987482,
+        0.499360899993917,
+        0.44022053899243474,
+        0.4768486539978767,
+        0.43473678099690005,
+        0.47542016599618364,
+        0.44008718700206373,
+        0.44290203200944234
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "collection_noise_task2_init13.mp4",
+      "wall_seconds": 51.87233939699945
+    },
+    {
+      "condition": "collection_noise",
+      "task_id": 5,
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "initial_state_id": 12,
+      "seed": 512,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "black_book_1",
+          "desk_caddy_1_back_contain_region"
+        ]
+      ],
+      "training_data": {
+        "file": "collection_noise_task5_init12_training.npz",
+        "sha256": "7d6eaf66cbdc9c3952c701d3e60f943aa8786c706d557651b1b2206d7a70f44d",
+        "observations": 520,
+        "action_noise_std": 0.15,
+        "excludes_post_terminal_reset_observation": true,
+        "fps": 20
+      },
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 220,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.5236810790083837,
+        0.6351216269977158,
+        0.6340355780121172,
+        0.593869457996334,
+        0.6140407109924126,
+        0.6506680830061669,
+        0.6826894160039956,
+        0.6285477579949657,
+        0.6337265040056081,
+        0.6364397580036893,
+        0.6485963499872014,
+        0.6329511130024912,
+        0.678201310991426,
+        0.6820083869970404,
+        0.6924059449956985,
+        0.5618646520015318,
+        0.6245901700021932,
+        0.6493431050039362,
+        0.6532406890037237,
+        0.6479420069954358,
+        0.6082465069921454,
+        0.6105447659938363,
+        0.6384703840012662,
+        0.6368428139976459,
+        0.6252713920112001,
+        0.6537231109978165,
+        0.6872230239969213,
+        0.668341757991584,
+        0.6750453999993624,
+        0.5845619250030722,
+        0.6718834350031102,
+        0.6312859809986548,
+        0.6247901850001654,
+        0.6656585019954946,
+        0.5939342549972935,
+        0.6326082159939688,
+        0.5939458449865924,
+        0.6181194469972979,
+        0.6892963190039154,
+        0.6331355150032323,
+        0.6012968819995876,
+        0.6112389299960341,
+        0.6576927510031965,
+        0.6710627580032451,
+        0.6525341189990286,
+        0.6662834440066945,
+        0.6778762619942427,
+        0.6875183990050573,
+        0.573341139999684,
+        0.626632104991586,
+        0.6633343930006959,
+        0.6796748640044825,
+        0.6589883380074752,
+        0.6023366890003672,
+        0.64998360699974,
+        0.610834570004954,
+        0.6256945770001039,
+        0.6706165380019229,
+        0.6621878629957791,
+        0.6518326029909076,
+        0.5599673439865,
+        0.6310972349892836,
+        0.6249922999995761,
+        0.6301968129992019,
+        0.6737312640034361
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "collection_noise_task5_init12.mp4",
+      "wall_seconds": 68.22583209000004
+    },
+    {
+      "condition": "collection_noise",
+      "task_id": 5,
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "initial_state_id": 13,
+      "seed": 513,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "black_book_1",
+          "desk_caddy_1_back_contain_region"
+        ]
+      ],
+      "training_data": {
+        "file": "collection_noise_task5_init13_training.npz",
+        "sha256": "2f428cedd9ea87a4281cfa15f6664948846432e3ea097c165af03b8f522ec397",
+        "observations": 520,
+        "action_noise_std": 0.15,
+        "excludes_post_terminal_reset_observation": true,
+        "fps": 20
+      },
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 221,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.6324040039908141,
+        0.6588873260043329,
+        0.6608371649926994,
+        0.6793089029961266,
+        0.6921694170014234,
+        0.535660329987877,
+        0.633773884997936,
+        0.6602325909916544,
+        0.6966045610024594,
+        0.6384421659895452,
+        0.5609771809977246,
+        0.6393960839923238,
+        0.6104018539917888,
+        0.6545522520027589,
+        0.6551288069895236,
+        0.5993159789941274,
+        0.6484648170007858,
+        0.5931958629953442,
+        0.6313408319983864,
+        0.6801332839968381,
+        0.664556277988595,
+        0.713878548995126,
+        0.6909182109957328,
+        0.6474740800040308,
+        0.6252715870068641,
+        0.5946100449946243,
+        0.6895925330027239,
+        0.6349124879925512,
+        0.6397431539953686,
+        0.6559893270023167,
+        0.6283434850047342,
+        0.6309321660082787,
+        0.6848746590112569,
+        0.6229338339908281,
+        0.6860643179970793,
+        0.7010450689995196,
+        0.5801804209913826,
+        0.6437829860078637,
+        0.636192616992048,
+        0.6526484019996133,
+        0.694904301999486,
+        0.5129151550063398,
+        0.6290330899937544,
+        0.6400656110054115,
+        0.5827952539984835,
+        0.6989248299942119,
+        0.6252424709964544,
+        0.632166994997533,
+        0.6369943830068223,
+        0.5716176370042376,
+        0.6807818319939543,
+        0.6228742659877753,
+        0.6211515089962631,
+        0.7104576380079379,
+        0.6354183660005219,
+        0.5459798890078673,
+        0.7016967329982435,
+        0.6175124019937357,
+        0.6405291419941932,
+        0.6181534869974712,
+        0.564916559989797,
+        0.6686917439947138,
+        0.5587354809977114,
+        0.5957457899930887,
+        0.6306271140056197
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "collection_noise_task5_init13.mp4",
+      "wall_seconds": 67.59482861499419
+    }
+  ],
+  "summaries": {
+    "collection_clean": {
+      "episodes": 6,
+      "errors": 0,
+      "successes": 1,
+      "success_rate": 0.16666666666666666,
+      "mean_max_predicate_fraction": 0.16666666666666666,
+      "wall_seconds": 306.9412471209944
+    },
+    "collection_noise": {
+      "episodes": 6,
+      "errors": 0,
+      "successes": 1,
+      "success_rate": 0.16666666666666666,
+      "mean_max_predicate_fraction": 0.25,
+      "wall_seconds": 317.4008744699822
+    }
+  },
+  "policy_peak_allocated_gb": {
+    "collection_clean": 1.281874432,
+    "collection_noise": 1.282481664
+  }
+}

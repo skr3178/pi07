@@ -1,0 +1,23 @@
+{
+  "purpose": "Runtime smoke of oracle subtask text using a ONE-UPDATE checkpoint, not a benchmark",
+  "suite": "libero_10",
+  "task_ids": [
+    2,
+    3,
+    9
+  ],
+  "init_ids": [
+    0
+  ],
+  "max_steps": 16,
+  "goal_refresh_steps": 16,
+  "conditions": [
+    {
+      "name": "full_oracle_off",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l90_training_smoke_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+WARNING:robosuite_logs:No private macro file found!
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+WARNING:robosuite_logs:It is recommended to use a private macro file
+[robosuite WARNING] To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+WARNING:robosuite_logs:To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+A_dropped_task0_init0: success=False steps=520 wall=22.1s
+A_dropped_task0_init1: success=False steps=520 wall=20.0s
+A_dropped_task4_init0: success=False steps=520 wall=23.8s
+A_dropped_task4_init1: success=False steps=520 wall=22.4s
+A_dropped_task8_init0: success=False steps=520 wall=20.1s
+A_dropped_task8_init1: success=False steps=520 wall=20.1s
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+B_dropped_task0_init0: success=False steps=520 wall=20.6s
+B_dropped_task0_init1: success=False steps=520 wall=20.3s
+B_dropped_task4_init0: success=False steps=520 wall=23.7s
+B_dropped_task4_init1: success=False steps=520 wall=23.2s
+B_dropped_task8_init0: success=False steps=520 wall=20.3s
+B_dropped_task8_init1: success=False steps=520 wall=20.4s
+ImageWAM ready: {"status": "ready", "startup_seconds": 16.36678427899824, "startup_peak_allocated_gb": 17.607355392, "text_encoder_unloaded": true, "allocated_gb": 9.222652928, "prompts": 3}
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+B_generated_task0_init0: success=False steps=520 wall=67.8s
+B_generated_task0_init1: success=False steps=520 wall=68.5s
+B_generated_task4_init0: success=False steps=520 wall=71.7s
+B_generated_task4_init1: success=False steps=520 wall=71.3s
+B_generated_task8_init0: success=False steps=520 wall=68.6s
+B_generated_task8_init1: success=False steps=520 wall=68.4s

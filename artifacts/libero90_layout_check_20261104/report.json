@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "runs": [],
+  "zero_update_layout_check": {
+    "max_abs_action_difference": 0.011108994483947754,
+    "rms_action_difference": 0.0015736049972474575,
+    "observations": 8,
+    "goal_masks": false
+  },
+  "optimizer_updates": 0
+}

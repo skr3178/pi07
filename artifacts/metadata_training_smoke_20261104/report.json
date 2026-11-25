@@ -1,0 +1,89 @@
+{
+  "status": "complete",
+  "optimizer_updates": 2,
+  "validation": [
+    {
+      "step": 0,
+      "flow_mse": 6.610609531402588,
+      "valid_action_components": 350,
+      "observations": 1,
+      "sampled_actions": {
+        "first_8": {
+          "mse": 0.28261045047215055,
+          "valid_components": 56,
+          "per_observation": [
+            0.2826104462146759
+          ]
+        },
+        "first_50": {
+          "mse": 0.3839112636021205,
+          "valid_components": 350,
+          "per_observation": [
+            0.38391125202178955
+          ]
+        }
+      }
+    },
+    {
+      "step": 2,
+      "flow_mse": 6.600457668304443,
+      "valid_action_components": 350,
+      "observations": 1,
+      "sampled_actions": {
+        "first_8": {
+          "mse": 0.2831494467599051,
+          "valid_components": 56,
+          "per_observation": [
+            0.28314945101737976
+          ]
+        },
+        "first_50": {
+          "mse": 0.383865487234933,
+          "valid_components": 350,
+          "per_observation": [
+            0.38386547565460205
+          ]
+        }
+      }
+    }
+  ],
+  "updates": [
+    {
+      "step": 1,
+      "loss": 1.1325855255126953,
+      "gradient_norm": 28.562679290771484
+    },
+    {
+      "step": 2,
+      "loss": 19.562297821044922,
+      "gradient_norm": 146.64759826660156
+    }
+  ],
+  "initial_state_sha256": "587b2521637197026b691eb80f9ce5ee6f7e3501d6764735eb9a144a3ecc21d6",
+  "trainable_parameters": 99880992,
+  "training_and_validation_seconds": 11.445182995012146,
+  "frozen_backbone_unchanged": true,
+  "final_goals_dropped": {
+    "flow_mse": 6.434319019317627,
+    "valid_action_components": 350,
+    "observations": 1,
+    "sampled_actions": {
+      "first_8": {
+        "mse": 0.3411226953778948,
+        "valid_components": 56,
+        "per_observation": [
+          0.34112268686294556
+        ]
+      },
+      "first_50": {
+        "mse": 0.5115416172572544,
+        "valid_components": 350,
+        "per_observation": [
+          0.5115416049957275
+        ]
+      }
+    }
+  },
+  "latest_checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/metadata_training_smoke_20261104/checkpoint",
+  "checkpoint_roundtrip_exact": true
+}

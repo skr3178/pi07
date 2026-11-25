@@ -1,0 +1,193 @@
+{
+  "status": "complete",
+  "episodes": [
+    {
+      "condition": "reference",
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 0,
+      "seed": 0,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "alphabet_soup_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "tomato_sauce_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "success": false,
+      "steps": 8,
+      "timeout": true,
+      "clipped_components": 0,
+      "action_components": 56,
+      "chunk_seconds": [
+        0.7121814749989426
+      ],
+      "generations": [],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "reference_task0_init0.mp4",
+      "wall_seconds": 5.09441260699532
+    },
+    {
+      "condition": "A",
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 0,
+      "seed": 0,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "alphabet_soup_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "tomato_sauce_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "success": false,
+      "steps": 8,
+      "timeout": true,
+      "clipped_components": 0,
+      "action_components": 56,
+      "chunk_seconds": [
+        0.2147916690009879
+      ],
+      "generations": [],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "A_task0_init0.mp4",
+      "wall_seconds": 2.9811140219972003
+    },
+    {
+      "condition": "Bnear_off",
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 0,
+      "seed": 0,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "alphabet_soup_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "tomato_sauce_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "success": false,
+      "steps": 8,
+      "timeout": true,
+      "clipped_components": 0,
+      "action_components": 56,
+      "chunk_seconds": [
+        0.19804951301193796
+      ],
+      "generations": [],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "Bnear_off_task0_init0.mp4",
+      "wall_seconds": 2.899324166995939
+    },
+    {
+      "condition": "Bnear_generated",
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 0,
+      "seed": 0,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "alphabet_soup_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "tomato_sauce_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "success": false,
+      "steps": 8,
+      "timeout": true,
+      "clipped_components": 0,
+      "action_components": 56,
+      "chunk_seconds": [
+        0.20076887900358997
+      ],
+      "generations": [
+        {
+          "step": 0,
+          "status": "ok",
+          "seconds": 1.6766121120017488,
+          "peak_allocated_gb": 9.505056768,
+          "peak_reserved_gb": 9.946791936
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "Bnear_generated_task0_init0.mp4",
+      "wall_seconds": 4.599447418004274
+    }
+  ],
+  "summaries": {
+    "reference": {
+      "episodes": 1,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_max_predicate_fraction": 0.0,
+      "wall_seconds": 5.09441260699532
+    },
+    "A": {
+      "episodes": 1,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_max_predicate_fraction": 0.0,
+      "wall_seconds": 2.9811140219972003
+    },
+    "Bnear_off": {
+      "episodes": 1,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_max_predicate_fraction": 0.0,
+      "wall_seconds": 2.899324166995939
+    },
+    "Bnear_generated": {
+      "episodes": 1,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_max_predicate_fraction": 0.0,
+      "wall_seconds": 4.599447418004274
+    }
+  },
+  "policy_peak_allocated_gb": {
+    "reference": 1.270171136,
+    "A": 1.282481664,
+    "Bnear_off": 1.282481664,
+    "Bnear_generated": 1.282481664
+  },
+  "world_model_startup": {
+    "status": "ready",
+    "startup_seconds": 164.2890259679989,
+    "startup_peak_allocated_gb": 17.59949056,
+    "text_encoder_unloaded": true,
+    "allocated_gb": 9.222652928,
+    "prompts": 1
+  }
+}

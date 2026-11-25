@@ -1,0 +1,49 @@
+{
+  "variant": {
+    "variant": "cap",
+    "arms": "B",
+    "marker": false,
+    "unfreeze_last": 0,
+    "steps": 1000,
+    "batch_size": 8,
+    "seed": 20261029,
+    "lr": 1e-05,
+    "marker_lr": 0.001,
+    "output": "/home/skr/Downloads/pi_07/pi07_code/artifacts/goal_fix/cap"
+  },
+  "goal_rate": 1.0,
+  "goal_offsets": "8-16 frames",
+  "arms": {
+    "B": {
+      "trainable_parameters": 99880992,
+      "train_seconds": 304.22025634999954,
+      "peak_allocated_gb": 4.713162752,
+      "final_mean_loss_last250": 0.41716487193107604,
+      "offline_action_mse": {
+        "real_future": {
+          "mse_8": 0.32290225453237786,
+          "mse_50": 0.33343470404466885
+        },
+        "dropped": {
+          "mse_8": 0.2272651636716315,
+          "mse_50": 0.30179899025684415
+        },
+        "copied_current": {
+          "mse_8": 0.2813567493664528,
+          "mse_50": 0.32818592478948055
+        },
+        "mismatched_task": {
+          "mse_8": 0.36395398864389195,
+          "mse_50": 0.3879055091479579
+        }
+      }
+    }
+  },
+  "gradient_check": {
+    "B": {
+      "vlm_params_trainable": 0,
+      "vlm_params_with_nonzero_grad": 0,
+      "marker_grad_nonzero": false
+    }
+  }
+}

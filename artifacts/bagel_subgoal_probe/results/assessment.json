@@ -1,0 +1,35 @@
+{
+  "scope": "Manual qualitative review of three selected LIBERO frames, one prompt and seed each. Not simulator success or policy evaluation.",
+  "overall": "All three outputs have visible task or scene-preservation problems. These examples do not establish a general failure rate, but do not support using this base checkpoint directly for this run.",
+  "cases": {
+    "drawer_close": {
+      "usable_as_subgoal": false,
+      "observation": "Drawer remains visibly open; robot arm is truncated/disconnected and the bottle beside the cabinet disappears."
+    },
+    "microwave_close": {
+      "usable_as_subgoal": false,
+      "observation": "Microwave door remains open; most of the robot and the unrelated countertop mug disappear, and background framing changes."
+    },
+    "pudding_place": {
+      "usable_as_subgoal": false,
+      "observation": "Generates an unboxed dessert and an extra plate instead of relocating the existing rectangular pudding package. Robot and mug are largely preserved."
+    }
+  },
+  "limitations": [
+    "Public base BAGEL, not the robot-finetuned world model described in the pi0.7 paper.",
+    "One static camera; no action or time-horizon conditioning.",
+    "Later demo frames were used only for comparison, never as generation inputs. Their offsets are 9.8 to 11.6 seconds and represent subtask endpoints.",
+    "Pudding instruction uses task-relative right, which differs from image-right in this camera view.",
+    "PyTorch SDPA fallback was checked numerically against explicit attention; equivalence to upstream full-model FlashAttention output was not tested.",
+    "All compressed blocks were CPU-offloaded. Latency includes this offload and concurrent GPU jobs; it is not an optimized throughput measurement."
+  ],
+  "reproduce_from_workspace": ".venv-bagel/bin/python -u pi07_code/probe_bagel.py",
+  "artifacts": [
+    "../cases.json",
+    "../environment.json",
+    "../runtime_changes.patch",
+    "../run.log",
+    "report.json",
+    "comparison.png"
+  ]
+}

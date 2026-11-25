@@ -1,0 +1,199 @@
+{
+  "purpose": "development evaluation; final starts excluded",
+  "spec": {
+    "suite": "libero_10",
+    "task_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "init_ids": [
+      0,
+      1
+    ],
+    "max_steps": 520,
+    "goal_refresh_steps": 16,
+    "conditions": [
+      {
+        "name": "reference",
+        "checkpoint": "/media/skr/storage/models/smolvla_libero_90_pi07",
+        "layout": "plain",
+        "goals": "off"
+      },
+      {
+        "name": "A",
+        "checkpoint": "/media/skr/storage/checkpoints/pi07_goal_ab/l90v2_A/A",
+        "layout": "alt",
+        "goals": "off"
+      },
+      {
+        "name": "Bnear_off",
+        "checkpoint": "/media/skr/storage/checkpoints/pi07_goal_ab/l90v2_Bnear/B",
+        "layout": "alt",
+        "goals": "off"
+      },
+      {
+        "name": "Bnear_generated",
+        "checkpoint": "/media/skr/storage/checkpoints/pi07_goal_ab/l90v2_Bnear/B",
+        "layout": "alt",
+        "goals": "generated"
+      }
+    ]
+  },
+  "jobs": [
+    {
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 0,
+      "seed": 0
+    },
+    {
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 1,
+      "seed": 1
+    },
+    {
+      "task_id": 1,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "initial_state_id": 0,
+      "seed": 100
+    },
+    {
+      "task_id": 1,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "initial_state_id": 1,
+      "seed": 101
+    },
+    {
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 0,
+      "seed": 200
+    },
+    {
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 1,
+      "seed": 201
+    },
+    {
+      "task_id": 3,
+      "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "initial_state_id": 0,
+      "seed": 300
+    },
+    {
+      "task_id": 3,
+      "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "initial_state_id": 1,
+      "seed": 301
+    },
+    {
+      "task_id": 4,
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "initial_state_id": 0,
+      "seed": 400
+    },
+    {
+      "task_id": 4,
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "initial_state_id": 1,
+      "seed": 401
+    },
+    {
+      "task_id": 5,
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "initial_state_id": 0,
+      "seed": 500
+    },
+    {
+      "task_id": 5,
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "initial_state_id": 1,
+      "seed": 501
+    },
+    {
+      "task_id": 6,
+      "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "initial_state_id": 0,
+      "seed": 600
+    },
+    {
+      "task_id": 6,
+      "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "initial_state_id": 1,
+      "seed": 601
+    },
+    {
+      "task_id": 7,
+      "task": "put both the alphabet soup and the cream cheese box in the basket",
+      "initial_state_id": 0,
+      "seed": 700
+    },
+    {
+      "task_id": 7,
+      "task": "put both the alphabet soup and the cream cheese box in the basket",
+      "initial_state_id": 1,
+      "seed": 701
+    },
+    {
+      "task_id": 8,
+      "task": "put both moka pots on the stove",
+      "initial_state_id": 0,
+      "seed": 800
+    },
+    {
+      "task_id": 8,
+      "task": "put both moka pots on the stove",
+      "initial_state_id": 1,
+      "seed": 801
+    },
+    {
+      "task_id": 9,
+      "task": "put the yellow and white mug in the microwave and close it",
+      "initial_state_id": 0,
+      "seed": 900
+    },
+    {
+      "task_id": 9,
+      "task": "put the yellow and white mug in the microwave and close it",
+      "initial_state_id": 1,
+      "seed": 901
+    }
+  ],
+  "checkpoint_sha256": {
+    "reference": "43275682eaea8b5728ab490eff7a6d74aab1e751002516ca2b48d47859e648a4",
+    "A": "d5d1fc6cff4f8f6d50a6d60cc28548825a3a7e4724e023d2b60cfd42a4e2838e",
+    "Bnear_off": "b13810f0a58feb2b4b2df052f46f7250319c6dfc524a64f1f118214e15e0866f",
+    "Bnear_generated": "b13810f0a58feb2b4b2df052f46f7250319c6dfc524a64f1f118214e15e0866f"
+  },
+  "source_sha256": {
+    "evaluate_libero.py": "f86032a1ad80214e53645f5f76c6e932f621a0d49987302febfdbf3a283e22e1",
+    "run_goal_development.py": "8f4000458e0fc7c880ded162743f13387e28268d34b47748fdf588c8df3d9b2c",
+    "imagewam_goal_worker.py": "14ae63d004953153ac7c4b84b2f4e996ba98891e06fcf118321c134f895ebfdf",
+    "goal_policy.py": "7c2f7edc5e46652239333788aed34b619e9b755c4815ad14a08f0f7afd195782",
+    "attention_check.py": "3fec03f09087432f9dad9910f0406baaafddc4de5c7dbadb09539fd441e563cb",
+    "libero_runtime.py": "c5d1f9e98007c3c4d66f89b0bffc8e29f456c5e1c527ce9fb82bd93c86a9fbd5",
+    "section_v_prompt.py": "eeff1c71ff986e39b30fa651de9e9ffeb5e5cb96e08859eefde6a96a5211b5cc"
+  },
+  "execute_steps": 8,
+  "settling_steps": 10,
+  "control_hz": 20,
+  "world_model_calls_per_refresh": 1,
+  "goal_prompt": "full task text",
+  "live_subtask_controller": null,
+  "world_model": "/media/skr/storage/models/imagewam/imagewam_release/libero/flux2_klein_4b/model.pt",
+  "timing": "simulator pauses for generation and policy inference",
+  "progress_definition": "fraction of BDDL terminal predicates currently true; not a quality label",
+  "world_model_sha256": "53620f93f8772d2047f27f9ca9b4a1f56cdd7932de566282e0f4a80cfff21cb5",
+  "world_model_config_sha256": "8a257ba05ea1ed70afa294b17c384ce8a2d08598e661bf937b22882346e46462",
+  "world_model_stats_sha256": "5770ca032724314814dce0db828f2c3eb402bcf75933bd6e6f4a516831f3f3e8"
+}

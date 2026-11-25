@@ -1,0 +1,107 @@
+{
+  "status": "complete",
+  "episodes": [
+    {
+      "condition": "speed_beta0",
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 0,
+      "seed": 200,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "turnon",
+          "flat_stove_1"
+        ],
+        [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ]
+      ],
+      "success": false,
+      "steps": 8,
+      "timeout": true,
+      "clipped_components": 0,
+      "action_components": 56,
+      "chunk_seconds": [
+        1.3312475359998643
+      ],
+      "generations": [],
+      "subtask_events": [
+        {
+          "step": 0,
+          "text": "turn on the stove",
+          "source": "simulator_predicate_oracle"
+        }
+      ],
+      "goal_updates": [],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "speed_beta0_task2_init0.mp4",
+      "wall_seconds": 4.346927482998581
+    },
+    {
+      "condition": "speed_beta1p3",
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 0,
+      "seed": 200,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "turnon",
+          "flat_stove_1"
+        ],
+        [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ]
+      ],
+      "success": false,
+      "steps": 8,
+      "timeout": true,
+      "clipped_components": 0,
+      "action_components": 56,
+      "chunk_seconds": [
+        1.2608053089934401
+      ],
+      "generations": [],
+      "subtask_events": [
+        {
+          "step": 0,
+          "text": "turn on the stove",
+          "source": "simulator_predicate_oracle"
+        }
+      ],
+      "goal_updates": [],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "speed_beta1p3_task2_init0.mp4",
+      "wall_seconds": 3.119157599998289
+    }
+  ],
+  "summaries": {
+    "speed_beta0": {
+      "episodes": 1,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_max_predicate_fraction": 0.0,
+      "wall_seconds": 4.346927482998581
+    },
+    "speed_beta1p3": {
+      "episodes": 1,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_max_predicate_fraction": 0.0,
+      "wall_seconds": 3.119157599998289
+    }
+  },
+  "policy_peak_allocated_gb": {
+    "speed_beta0": 1.289314304,
+    "speed_beta1p3": 1.297571328
+  }
+}

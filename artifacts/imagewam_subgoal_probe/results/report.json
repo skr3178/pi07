@@ -1,0 +1,286 @@
+{
+ "single_step": [
+  {
+   "id": "drawer_close",
+   "episode": 50,
+   "frame": 160,
+   "task": {
+    "prompt": "put the black bowl in the bottom drawer of the cabinet and close it",
+    "runs": [
+     {
+      "seed": 0,
+      "psnr_main": 20.99055797358675,
+      "psnr_wrist": 13.606860147274102,
+      "psnr_moving": 11.228374575276078
+     },
+     {
+      "seed": 1,
+      "psnr_main": 21.39803123991875,
+      "psnr_wrist": 13.265413413299328,
+      "psnr_moving": 10.935288162069153
+     },
+     {
+      "seed": 2,
+      "psnr_main": 20.91134564725664,
+      "psnr_wrist": 12.44955987492065,
+      "psnr_moving": 10.042114518817417
+     }
+    ],
+    "mean_psnr_main": 21.1,
+    "mean_psnr_wrist": 13.11,
+    "mean_psnr_moving": 10.74
+   },
+   "subtask_prompt": "close the bottom drawer of the cabinet",
+   "moving_pixel_fraction": 0.2888,
+   "copy_baseline": {
+    "psnr_main": 20.908634747590295,
+    "psnr_wrist": 12.785942337853358,
+    "psnr_moving": 9.811811368414705
+   },
+   "subtask": {
+    "prompt": "close the bottom drawer of the cabinet",
+    "runs": [
+     {
+      "seed": 0,
+      "psnr_main": 20.983427962056076,
+      "psnr_wrist": 13.40336549525788,
+      "psnr_moving": 11.035388271136927
+     },
+     {
+      "seed": 1,
+      "psnr_main": 21.238305100914495,
+      "psnr_wrist": 12.914625058839068,
+      "psnr_moving": 10.708745256165912
+     },
+     {
+      "seed": 2,
+      "psnr_main": 20.84435295189019,
+      "psnr_wrist": 12.394092318318169,
+      "psnr_moving": 9.960425190189024
+     }
+    ],
+    "mean_psnr_main": 21.02,
+    "mean_psnr_wrist": 12.9,
+    "mean_psnr_moving": 10.57
+   }
+  },
+  {
+   "id": "microwave_close",
+   "episode": 100,
+   "frame": 212,
+   "task": {
+    "prompt": "put the yellow and white mug in the microwave and close it",
+    "runs": [
+     {
+      "seed": 0,
+      "psnr_main": 16.315006348954824,
+      "psnr_wrist": 14.564666047101662,
+      "psnr_moving": 9.47775079185163
+     },
+     {
+      "seed": 1,
+      "psnr_main": 16.48507260427309,
+      "psnr_wrist": 15.813087179501903,
+      "psnr_moving": 9.680942412318599
+     },
+     {
+      "seed": 2,
+      "psnr_main": 16.41400105439634,
+      "psnr_wrist": 15.666112936615361,
+      "psnr_moving": 9.479950754928542
+     }
+    ],
+    "mean_psnr_main": 16.4,
+    "mean_psnr_wrist": 15.35,
+    "mean_psnr_moving": 9.55
+   },
+   "subtask_prompt": "close the microwave door",
+   "moving_pixel_fraction": 0.1278,
+   "copy_baseline": {
+    "psnr_main": 16.737409357452915,
+    "psnr_wrist": 16.683962999036048,
+    "psnr_moving": 7.819604305743048
+   },
+   "subtask": {
+    "prompt": "close the microwave door",
+    "runs": [
+     {
+      "seed": 0,
+      "psnr_main": 16.5685592433312,
+      "psnr_wrist": 14.63393237857449,
+      "psnr_moving": 9.62471244872632
+     },
+     {
+      "seed": 1,
+      "psnr_main": 16.66498644831242,
+      "psnr_wrist": 15.555945260835038,
+      "psnr_moving": 9.662352113123923
+     },
+     {
+      "seed": 2,
+      "psnr_main": 16.602359447766077,
+      "psnr_wrist": 15.584143521799858,
+      "psnr_moving": 9.547746382457557
+     }
+    ],
+    "mean_psnr_main": 16.61,
+    "mean_psnr_wrist": 15.26,
+    "mean_psnr_moving": 9.61
+   }
+  },
+  {
+   "id": "pudding_place",
+   "episode": 400,
+   "frame": 104,
+   "task": {
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "runs": [
+     {
+      "seed": 0,
+      "psnr_main": 20.260453779489588,
+      "psnr_wrist": 17.56110176445272,
+      "psnr_moving": 14.03706373881718
+     },
+     {
+      "seed": 1,
+      "psnr_main": 16.918065202772116,
+      "psnr_wrist": 19.050901963927164,
+      "psnr_moving": 13.16096047180634
+     },
+     {
+      "seed": 2,
+      "psnr_main": 21.496725226350524,
+      "psnr_wrist": 16.177014740130296,
+      "psnr_moving": 11.887815928702711
+     }
+    ],
+    "mean_psnr_main": 19.56,
+    "mean_psnr_wrist": 17.6,
+    "mean_psnr_moving": 13.03
+   },
+   "subtask_prompt": "place the chocolate pudding to the right of the plate",
+   "moving_pixel_fraction": 0.2206,
+   "copy_baseline": {
+    "psnr_main": 15.814100525487891,
+    "psnr_wrist": 16.035549399071968,
+    "psnr_moving": 9.403335173412849
+   },
+   "subtask": {
+    "prompt": "place the chocolate pudding to the right of the plate",
+    "runs": [
+     {
+      "seed": 0,
+      "psnr_main": 19.85172520405644,
+      "psnr_wrist": 17.61578884300632,
+      "psnr_moving": 13.939531535135528
+     },
+     {
+      "seed": 1,
+      "psnr_main": 16.28928557390068,
+      "psnr_wrist": 17.29662344964062,
+      "psnr_moving": 11.98213719300389
+     },
+     {
+      "seed": 2,
+      "psnr_main": 18.608778900272142,
+      "psnr_wrist": 18.890756376492217,
+      "psnr_moving": 14.06157813073953
+     }
+    ],
+    "mean_psnr_main": 18.25,
+    "mean_psnr_wrist": 17.93,
+    "mean_psnr_moving": 13.33
+   }
+  }
+ ],
+ "chained": [
+  {
+   "id": "drawer_close",
+   "prompt_kind": "task",
+   "steps": 6,
+   "end_frame": 256,
+   "reference_frame": 260,
+   "psnr_main_vs_real_end": 17.032289596536906,
+   "psnr_main_vs_reference": 16.00229476609542,
+   "copy_baseline_psnr_main_vs_reference": 13.783150748589
+  },
+  {
+   "id": "drawer_close",
+   "prompt_kind": "subtask",
+   "steps": 6,
+   "end_frame": 256,
+   "reference_frame": 260,
+   "psnr_main_vs_real_end": 16.862717532146622,
+   "psnr_main_vs_reference": 15.887354028214343,
+   "copy_baseline_psnr_main_vs_reference": 13.783150748589
+  },
+  {
+   "id": "microwave_close",
+   "prompt_kind": "task",
+   "steps": 7,
+   "end_frame": 324,
+   "reference_frame": 328,
+   "psnr_main_vs_real_end": 15.051633884752624,
+   "psnr_main_vs_reference": 14.97547259017789,
+   "copy_baseline_psnr_main_vs_reference": 14.574784058127129
+  },
+  {
+   "id": "microwave_close",
+   "prompt_kind": "subtask",
+   "steps": 7,
+   "end_frame": 324,
+   "reference_frame": 328,
+   "psnr_main_vs_real_end": 14.600769185044127,
+   "psnr_main_vs_reference": 14.568171478289017,
+   "copy_baseline_psnr_main_vs_reference": 14.574784058127129
+  },
+  {
+   "id": "pudding_place",
+   "prompt_kind": "task",
+   "steps": 6,
+   "end_frame": 200,
+   "reference_frame": 202,
+   "psnr_main_vs_real_end": 18.28848215870677,
+   "psnr_main_vs_reference": 17.856098571228266,
+   "copy_baseline_psnr_main_vs_reference": 14.669095842360086
+  },
+  {
+   "id": "pudding_place",
+   "prompt_kind": "subtask",
+   "steps": 6,
+   "end_frame": 200,
+   "reference_frame": 202,
+   "psnr_main_vs_real_end": 18.67401962482691,
+   "psnr_main_vs_reference": 18.262175004747398,
+   "copy_baseline_psnr_main_vs_reference": 14.669095842360086
+  }
+ ],
+ "pi07_food": [
+  {
+   "id": "food1_bare",
+   "subtask": "push the open button on the microwave"
+  },
+  {
+   "id": "food2_bare",
+   "subtask": "pick up the plate of food in the microwave"
+  },
+  {
+   "id": "food3_bare",
+   "subtask": "move to the dining table"
+  },
+  {
+   "id": "food4_bare",
+   "subtask": "put the plate with food on the dining table"
+  },
+  {
+   "id": "food5_bare",
+   "subtask": "close the microwave"
+  }
+ ],
+ "seconds_per_image": {
+  "mean": 1.38,
+  "min": 1.33,
+  "n": 61
+ },
+ "peak_gpu_gb_without_qwen3": 9.5
+}

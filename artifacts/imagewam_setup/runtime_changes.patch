@@ -1,0 +1,21 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index 9fefa83..a60c1f9 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -84,11 +84,11 @@ include = ["imagewam*"]
+ # 安装命令: uv pip install -e .
+ # ---------------------------------------------------------------------------
+ [[tool.uv.index]]
+-name = "pytorch-cu118"
+-url = "https://download.pytorch.org/whl/cu118"
++name = "pytorch-cu128"
++url = "https://download.pytorch.org/whl/cu128"
+ explicit = true
+ 
+ [tool.uv.sources]
+-torch = [{ index = "pytorch-cu118" }]
+-torchvision = [{ index = "pytorch-cu118" }]
+-torchcodec = [{ index = "pytorch-cu118" }]
++torch = [{ index = "pytorch-cu128" }]
++torchvision = [{ index = "pytorch-cu128" }]
++torchcodec = [{ index = "pytorch-cu128" }]

@@ -1,0 +1,11 @@
+{
+  "task_and_full_observation_future_schedules_identical": true,
+  "starting_checkpoint_identical": true,
+  "optimizer_and_token_budget_identical": true,
+  "task_profile_visible_goals": 0,
+  "full_profile_visible_goals": 2058,
+  "examples_per_profile": 8000,
+  "quality_annotations": 0,
+  "mistake_annotations": 0,
+  "production_training_launched": false
+}

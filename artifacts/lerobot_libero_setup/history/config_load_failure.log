@@ -1,0 +1,35 @@
+CUDA calculation passed
+Real AV1 dataset sample and 50-action window decoded
+Traceback (most recent call last):
+  File "/home/skr/Downloads/pi_07/pi07_code/artifacts/lerobot_libero_setup/smoke_test.py", line 180, in <module>
+    main()
+  File "/home/skr/Downloads/pi_07/pi07_code/artifacts/lerobot_libero_setup/smoke_test.py", line 99, in main
+    config = SmolVLAConfig.from_pretrained(checkpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot/src/lerobot/configs/policies.py", line 199, in from_pretrained
+    orig_config = draccus.parse(cls, config_file, args=[])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/argparsing.py", line 211, in parse
+    return parser.parse_args(args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/argparsing.py", line 102, in parse_args
+    args, _ = self.parse_known_args(args, namespace, is_parse_args=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/argparsing.py", line 136, in parse_known_args
+    parsed_t = self._postprocessing(parsed_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/argparsing.py", line 180, in _postprocessing
+    cfg = decoding.decode(self.config_class, deflat_d)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/parsers/registry_utils.py", line 78, in wrapper
+    return base_func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/parsers/decoding.py", line 48, in decode
+    return get_decoding_fn(cls)(raw_value, ())  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/parsers/decoding.py", line 175, in decode_choice_class
+    return decode_dataclass(cls, raw_value)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/parsers/decoding.py", line 149, in decode_dataclass
+    raise DecodingError(path, f"The fields {formatted_keys} are not valid for {stringify_type(cls)}")
+draccus.utils.DecodingError: The fields `type`, `use_peft`, `rtc_config` are not valid for SmolVLAConfig

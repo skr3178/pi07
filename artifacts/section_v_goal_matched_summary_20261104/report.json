@@ -1,0 +1,110 @@
+{
+  "status": "complete",
+  "dataset": "libero_goal",
+  "matched_base_optimizer_budget_current_and_future_indices": true,
+  "runs": [
+    {
+      "run": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_goal_task_1000_20261104",
+      "profile": "task",
+      "status": "complete",
+      "updates": 1000,
+      "goal_present_training_examples": 0,
+      "prompt_options": {
+        "subtasks": false,
+        "goals": false,
+        "metadata": false,
+        "goal_probability": 0.25,
+        "subtask_drop_given_goal": 0.3,
+        "metadata_drop": 0.15,
+        "metadata_field_drop": 0.05,
+        "speed_bin_steps": 50
+      },
+      "first_8_curve": [
+        {
+          "step": 0,
+          "mse": 1.1638299042033466
+        },
+        {
+          "step": 250,
+          "mse": 0.8047684448783646
+        },
+        {
+          "step": 500,
+          "mse": 0.6423289033003778
+        },
+        {
+          "step": 750,
+          "mse": 0.6652832343428371
+        },
+        {
+          "step": 1000,
+          "mse": 0.623003492918492
+        }
+      ],
+      "final_first_8_mse": 0.623003492918492
+    },
+    {
+      "run": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_goal_visual_1000_20261104",
+      "profile": "goal",
+      "status": "complete",
+      "updates": 1000,
+      "goal_present_training_examples": 2023,
+      "prompt_options": {
+        "subtasks": false,
+        "goals": true,
+        "metadata": false,
+        "goal_probability": 0.25,
+        "subtask_drop_given_goal": 0.3,
+        "metadata_drop": 0.15,
+        "metadata_field_drop": 0.05,
+        "speed_bin_steps": 50
+      },
+      "first_8_curve": [
+        {
+          "step": 0,
+          "mse": 1.175518308367048
+        },
+        {
+          "step": 250,
+          "mse": 0.8650854005958757
+        },
+        {
+          "step": 500,
+          "mse": 0.6661642365514215
+        },
+        {
+          "step": 750,
+          "mse": 0.6887595077709125
+        },
+        {
+          "step": 1000,
+          "mse": 0.6299668942900419
+        }
+      ],
+      "final_first_8_mse": 0.6299668942900419,
+      "goals_off_first_8_mse": 0.62598811200665,
+      "offline_conditions": {
+        "saved_real": 0.6299668950770462,
+        "near_real": 0.6308010425913909,
+        "endpoint_real": 0.631412734771986,
+        "copy_current": 0.633341041241745,
+        "wrong_task": 0.6329084080598693,
+        "off": 0.6259881098642495
+      },
+      "real_minus_copy": {
+        "equal_task_mean_difference": -0.003093697564942489,
+        "task_bootstrap_95_interval": [
+          -0.00831439162450177,
+          0.002974835154839938
+        ],
+        "positive_means_real_goal_has_larger_error": true
+      }
+    }
+  ],
+  "caveats": [
+    "One training seed; fixed held-out demo observations, not simulator success.",
+    "Real future goals are offline-only; no online access to demonstration futures.",
+    "Conditional subtask dropout settings match across these profiles.",
+    "Goal usefulness is not guaranteed; data task order, annotation provenance and pretraining overlap limit the claim."
+  ]
+}

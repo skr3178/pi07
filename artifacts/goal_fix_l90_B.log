@@ -1,0 +1,53 @@
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+B gradient check: {'vlm_params_trainable': 0, 'vlm_params_with_nonzero_grad': 0, 'marker_grad_nonzero': False}
+B step 250: mean loss 0.7483
+B step 500: mean loss 0.5369
+B held-out at step 500:
+  real_future: {"mse_8": 0.6495303643526212, "mse_50": 0.669622831648469}
+  dropped: {"mse_8": 0.6251429984705961, "mse_50": 0.6525201536640475}
+B step 750: mean loss 0.4947
+B step 1000: mean loss 0.4871
+B held-out at step 1000:
+  real_future: {"mse_8": 0.5090135316189865, "mse_50": 0.5630040411581217}
+  dropped: {"mse_8": 0.4884616511037085, "mse_50": 0.5883077090499763}
+B step 1250: mean loss 0.4695
+B step 1500: mean loss 0.4665
+B held-out at step 1500:
+  real_future: {"mse_8": 0.4858053750638354, "mse_50": 0.558801615494566}
+  dropped: {"mse_8": 0.5023103951120943, "mse_50": 0.5634729172761651}
+B step 1750: mean loss 0.4618
+B step 2000: mean loss 0.4590
+B trained: {"trainable_parameters": 99880992, "base": "/media/skr/storage/models/smolvla_libero_90_pi07", "loss_per_250": [0.7483307741880417, 0.5368519724607468, 0.49466727817058564, 0.4871161572933197, 0.4694746886491776, 0.466493928194046, 0.46180832815170286, 0.45900500869750976], "curve": [{"step": 500, "mean_loss_last250": 0.5368519724607468, "offline_action_mse": {"real_future": {"mse_8": 0.6495303643526212, "mse_50": 0.669622831648469}, "dropped": {"mse_8": 0.6251429984705961, "mse_50": 0.6525201536640475}}}, {"step": 1000, "mean_loss_last250": 0.4871161572933197, "offline_action_mse": {"real_future": {"mse_8": 0.5090135316189865, "mse_50": 0.5630040411581217}, "dropped": {"mse_8": 0.4884616511037085, "mse_50": 0.5883077090499763}}}, {"step": 1500, "mean_loss_last250": 0.466493928194046, "offline_action_mse": {"real_future": {"mse_8": 0.4858053750638354, "mse_50": 0.558801615494566}, "dropped": {"mse_8": 0.5023103951120943, "mse_50": 0.5634729172761651}}}], "train_seconds": 1318.3765041959996, "peak_allocated_gb": 4.713157632, "final_mean_loss_last250": 0.45900500869750976}
+  real_future: {"mse_8": 0.4174758415935965, "mse_50": 0.5192710157611508}
+  dropped: {"mse_8": 0.45234150558806613, "mse_50": 0.568250936664928}
+  copied_current: {"mse_8": 0.40412630816937006, "mse_50": 0.51696574154377}
+  mismatched_task: {"mse_8": 0.4259644313526051, "mse_50": 0.5313788289819914}
+Traceback (most recent call last):
+  File "/home/skr/Downloads/pi_07/pi07_code/train_goal_fix.py", line 180, in <module>
+    p.add_argument("--eval-every", type=int, default=0)
+    ^^^^^^^^^^^^^^^^^^^^
+  File "/home/skr/Downloads/pi_07/pi07_code/train_goal_fix.py", line 161, in main
+    report["arms"][arm] = row
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skr/Downloads/pi_07/pi07_code/train_goal_pilot.py", line 34, in write_json
+    tmp.write_text(json.dumps(value, indent=2)+"\n"); tmp.replace(path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type PosixPath is not JSON serializable

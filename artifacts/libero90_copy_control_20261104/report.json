@@ -1,0 +1,4252 @@
+{
+  "status": "complete",
+  "episodes": [
+    {
+      "condition": "Bnear_copy",
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 0,
+      "seed": 0,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "alphabet_soup_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "tomato_sauce_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 33,
+      "action_components": 3640,
+      "chunk_seconds": [
+        1.0557365440035937,
+        0.3385276420012815,
+        0.3119853829994099,
+        0.3401074290013639,
+        0.3051219010085333,
+        0.3412657830049284,
+        0.31690994200471323,
+        0.3309518140013097,
+        0.3282715690002078,
+        0.4865770629985491,
+        0.5778394530061632,
+        0.5350345129991183,
+        0.5509702879935503,
+        0.478308627003571,
+        0.4350963999895612,
+        0.39745075500104576,
+        0.5413155639980687,
+        0.534064118997776,
+        0.5259420449874597,
+        0.48800811399996746,
+        0.3576793060055934,
+        0.34910558199044317,
+        0.5318299639911857,
+        0.5294076999998651,
+        0.5193900209997082,
+        0.4841191020095721,
+        0.36973942299664486,
+        0.4919493130000774,
+        0.6349170839966973,
+        0.6359653740073554,
+        0.6342017940041842,
+        0.5301006689987844,
+        0.49512003900599666,
+        0.4693369930027984,
+        0.6167333500052337,
+        0.6355059100023936,
+        0.46888655600196216,
+        0.6233223430026555,
+        0.5177773030009121,
+        0.49525424900639337,
+        0.6102961790020345,
+        0.5011068129970226,
+        0.5837515479943249,
+        0.5841118569951504,
+        0.5075844490056625,
+        0.53212409200205,
+        0.6313472759939032,
+        0.6360636869940208,
+        0.6335462249990087,
+        0.6355166400026064,
+        0.45907781600544695,
+        0.5091289300034987,
+        0.5518581000069389,
+        0.597439111006679,
+        0.6227740140020614,
+        0.45380399900022894,
+        0.5788528279954335,
+        0.4633032839919906,
+        0.4468329660012387,
+        0.6226626059942646,
+        0.5089696740033105,
+        0.5845305359980557,
+        0.5738084480108228,
+        0.4683170969947241,
+        0.4683522429986624
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "Bnear_copy_task0_init0.mp4",
+      "wall_seconds": 50.438663263004855
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 1,
+      "seed": 1,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "alphabet_soup_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "tomato_sauce_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 34,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.5495044529961888,
+        0.6154418590012938,
+        0.6275045410002349,
+        0.6343354340060614,
+        0.4784661409939872,
+        0.5833151069964515,
+        0.5024948150094133,
+        0.5238719269982539,
+        0.62550468200061,
+        0.45026935600617435,
+        0.6054587260005064,
+        0.6147106900025392,
+        0.403081356009352,
+        0.3928088339889655,
+        0.39850203099194914,
+        0.37257750099524856,
+        0.35429788900364656,
+        0.33850444899871945,
+        0.35131217699381523,
+        0.3339735439949436,
+        0.303372007998405,
+        0.34418296998774167,
+        0.31978841600357555,
+        0.3302011490013683,
+        0.310372585998266,
+        0.37793871099711396,
+        0.47584112000185996,
+        0.5711964509973768,
+        0.5075207909976598,
+        0.5384343969926704,
+        0.5192038169916486,
+        0.35345823799434584,
+        0.33974390500225127,
+        0.577020882992656,
+        0.5231973229965661,
+        0.5534681339922827,
+        0.5585938570002327,
+        0.36397302101249807,
+        0.34636971598956734,
+        0.5918213059921982,
+        0.5376942110015079,
+        0.5191354700073134,
+        0.5773197980015539,
+        0.39240950100065675,
+        0.36780509700474795,
+        0.5358350439928472,
+        0.5761492320016259,
+        0.5338761710008839,
+        0.5448838509910274,
+        0.4296396639983868,
+        0.3591168909915723,
+        0.4923656889877748,
+        0.5832576810062164,
+        0.5334980490006274,
+        0.5070992779947119,
+        0.47845930900075473,
+        0.44191562199557666,
+        0.5359349810023559,
+        0.5147305090067675,
+        0.5832794519956224,
+        0.5148328999930527,
+        0.3785685329930857,
+        0.40112363701337017,
+        0.5804279799922369,
+        0.5298636799998349
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "Bnear_copy_task0_init1.mp4",
+      "wall_seconds": 46.09197420299461
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 1,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "initial_state_id": 0,
+      "seed": 100,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "cream_cheese_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "butter_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "success": true,
+      "steps": 303,
+      "timeout": false,
+      "clipped_components": 55,
+      "action_components": 2121,
+      "chunk_seconds": [
+        0.49624951199803036,
+        0.5891786819993285,
+        0.4855617470020661,
+        0.3327703469985863,
+        0.4346807089896174,
+        0.528595783005585,
+        0.4935223710053833,
+        0.59400622000976,
+        0.5123828039941145,
+        0.3396462639939273,
+        0.37939615300274454,
+        0.5831558329955442,
+        0.5327491360076237,
+        0.5208481050067348,
+        0.5746372110006632,
+        0.38555690900830086,
+        0.3644230789941503,
+        0.5291519870079355,
+        0.5767976390052354,
+        0.5328106410015607,
+        0.5345577499974752,
+        0.4244721550057875,
+        0.364338871993823,
+        0.4922612160007702,
+        0.5875573879893636,
+        0.5380002020101529,
+        0.5078877250052756,
+        0.4648102080100216,
+        0.4255667010002071,
+        0.5289481590007199,
+        0.4947432510089129,
+        0.588554251997266,
+        0.5184142599900952,
+        0.35494465299416333,
+        0.3813416409975616,
+        0.5922841179999523,
+        0.5289340129966149,
+        0.4809234129934339
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 1.0,
+      "final_predicate_fraction": 1.0,
+      "video": "Bnear_copy_task1_init0.mp4",
+      "wall_seconds": 30.24674523700378
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 1,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "initial_state_id": 1,
+      "seed": 101,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "cream_cheese_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "butter_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "success": true,
+      "steps": 300,
+      "timeout": false,
+      "clipped_components": 44,
+      "action_components": 2100,
+      "chunk_seconds": [
+        0.39869957898918074,
+        0.3674724089942174,
+        0.5703016399929766,
+        0.531877727000392,
+        0.5458793340076227,
+        0.5268988479947438,
+        0.3478345710027497,
+        0.38052177599456627,
+        0.5897296990005998,
+        0.5356429890089203,
+        0.5103259600000456,
+        0.5746887879940914,
+        0.3707378529943526,
+        0.3334070920100203,
+        0.540313794001122,
+        0.5694919450033922,
+        0.5358272719895467,
+        0.5632282659935299,
+        0.44342777600104455,
+        0.4098384039971279,
+        0.5178273190103937,
+        0.5458116889931262,
+        0.5767556119972141,
+        0.5100603460014099,
+        0.3426341910089832,
+        0.4100651650078362,
+        0.5070362419937737,
+        0.53497676999541,
+        0.5740592579968506,
+        0.5148474480083678,
+        0.3831255289987894,
+        0.4417123159946641,
+        0.5290185810008552,
+        0.4963335799984634,
+        0.5874579239898594,
+        0.5216898929938907,
+        0.33106313399912324,
+        0.40623564401175827
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 1.0,
+      "final_predicate_fraction": 1.0,
+      "video": "Bnear_copy_task1_init1.mp4",
+      "wall_seconds": 29.656930187993567
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 0,
+      "seed": 200,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "turnon",
+          "flat_stove_1"
+        ],
+        [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ]
+      ],
+      "success": true,
+      "steps": 235,
+      "timeout": false,
+      "clipped_components": 53,
+      "action_components": 1645,
+      "chunk_seconds": [
+        0.5532301750063198,
+        0.49240775901125744,
+        0.5860615279962076,
+        0.48844444000860676,
+        0.33386543500819243,
+        0.41950165400339756,
+        0.5348056529910536,
+        0.5210640090081142,
+        0.5862573810009053,
+        0.5105662169953575,
+        0.36430451899650507,
+        0.39068170000973623,
+        0.5702250989997992,
+        0.5320506190037122,
+        0.5554277019982692,
+        0.532787049000035,
+        0.3818758449924644,
+        0.40104786699521355,
+        0.5717183550004847,
+        0.5287864899873966,
+        0.5011977760004811,
+        0.5810955229972024,
+        0.4540216580062406,
+        0.4114967780042207,
+        0.5196425260073738,
+        0.576997914002277,
+        0.535002878998057,
+        0.5622292999905767,
+        0.49292004300514236,
+        0.4239490550098708
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 1.0,
+      "final_predicate_fraction": 1.0,
+      "video": "Bnear_copy_task2_init0.mp4",
+      "wall_seconds": 23.308293898997363
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 1,
+      "seed": 201,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "turnon",
+          "flat_stove_1"
+        ],
+        [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 143,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.379431528999703,
+        0.38069599099981133,
+        0.5269827750016702,
+        0.5108685489976779,
+        0.58791298099095,
+        0.5093172950000735,
+        0.42624159800470807,
+        0.46598118799738586,
+        0.5646156170114409,
+        0.5336001209943788,
+        0.4961193019989878,
+        0.5920161310059484,
+        0.4538502680079546,
+        0.42157059199234936,
+        0.5198300640040543,
+        0.5760773820074974,
+        0.5301034389995039,
+        0.5575712680001743,
+        0.49275966500863433,
+        0.3502807109907735,
+        0.4501126889954321,
+        0.5356145569967339,
+        0.4980283320037415,
+        0.5891858879913343,
+        0.5074965200037695,
+        0.3486440069973469,
+        0.3905150509963278,
+        0.5766302300035022,
+        0.4974821969954064,
+        0.591509029007284,
+        0.5243059180065757,
+        0.3862671309907455,
+        0.30796894899685867,
+        0.33035035801003687,
+        0.3306282249977812,
+        0.38758108500042,
+        0.3187134689942468,
+        0.3476916769868694,
+        0.34369834000244737,
+        0.35269001200504135,
+        0.32559397399018053,
+        0.3455755519971717,
+        0.3710947270010365,
+        0.5498230599914677,
+        0.5718230810016394,
+        0.5027132450049976,
+        0.5407573910051724,
+        0.49524287300300784,
+        0.4531644939997932,
+        0.4688847279903712,
+        0.5943245349917561,
+        0.533036514010746,
+        0.5198262799967779,
+        0.524366892001126,
+        0.39900041099463124,
+        0.3334405550122028,
+        0.5848620290053077,
+        0.5073966039926745,
+        0.5247096789971692,
+        0.5620504079997772,
+        0.3818603370018536,
+        0.3645122969901422,
+        0.5693585280096158,
+        0.5292907389957691,
+        0.49190587700286414
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "Bnear_copy_task2_init1.mp4",
+      "wall_seconds": 43.477286114997696
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 3,
+      "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "initial_state_id": 0,
+      "seed": 300,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 155,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.505554127987125,
+        0.5201852259924635,
+        0.5003879510040861,
+        0.5393463279906427,
+        0.5269207119999919,
+        0.5085633139970014,
+        0.5949324760003947,
+        0.4692817259929143,
+        0.33690509900043253,
+        0.42675540399795864,
+        0.530967717000749,
+        0.5140417420043377,
+        0.5916273100010585,
+        0.5142556100036018,
+        0.3556304999947315,
+        0.4186448209948139,
+        0.5756909049960086,
+        0.52886280301027,
+        0.5662933489948045,
+        0.5296299500041641,
+        0.3988577260024613,
+        0.4118157129996689,
+        0.5435536919976585,
+        0.5682731499982765,
+        0.5275464659935096,
+        0.5711269880121108,
+        0.4474947910057381,
+        0.4295210069976747,
+        0.5223315879993606,
+        0.5726966970105423,
+        0.5221866179927019,
+        0.5573502490005922,
+        0.4972185980004724,
+        0.3400154229893815,
+        0.42717552500835154,
+        0.5423935250000795,
+        0.5075881910015596,
+        0.5815498800075147,
+        0.5059986160049448,
+        0.34387137299927417,
+        0.3767409169959137,
+        0.5762935249949805,
+        0.522475575999124,
+        0.5530714420019649,
+        0.5611601729906397,
+        0.39323310599138495,
+        0.32149495200428646,
+        0.59251795700402,
+        0.5378592229972128,
+        0.521055935008917,
+        0.5831047219980974,
+        0.42733901999599766,
+        0.3712229859957006,
+        0.5219517210061895,
+        0.571437585997046,
+        0.5323201830033213,
+        0.5473419579939218,
+        0.4632200039923191,
+        0.4221516139950836,
+        0.5148063539963914,
+        0.5945869050046895,
+        0.5403479719971074,
+        0.5185588029999053,
+        0.5119732860039221,
+        0.42960325100284535
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.5,
+      "final_predicate_fraction": 0.5,
+      "video": "Bnear_copy_task3_init0.mp4",
+      "wall_seconds": 47.1179818919918
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 3,
+      "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "initial_state_id": 1,
+      "seed": 301,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 127,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.5896187659964198,
+        0.5355637750035385,
+        0.5176304969936609,
+        0.5788422159967013,
+        0.4382270780042745,
+        0.40016899500915315,
+        0.47490570599620696,
+        0.5421821630006889,
+        0.508067763003055,
+        0.5793908560008276,
+        0.48147942998912185,
+        0.3338246409985004,
+        0.4192002359923208,
+        0.56461759400554,
+        0.534624268009793,
+        0.5727066460094647,
+        0.5323851440043654,
+        0.36808142499648966,
+        0.3757590729946969,
+        0.5805524559982587,
+        0.5069385930110002,
+        0.5381948779977392,
+        0.5764699449937325,
+        0.4210191380116157,
+        0.4288052769989008,
+        0.5421274319960503,
+        0.5749683019967051,
+        0.5335014809970744,
+        0.56419607999851,
+        0.4441027739958372,
+        0.43336445599561557,
+        0.46444960199005436,
+        0.5439195439976174,
+        0.5361587920051534,
+        0.5333260740007972,
+        0.4784206119948067,
+        0.3542533109866781,
+        0.36709381800028495,
+        0.5458242949971464,
+        0.5404616939922562,
+        0.5237641330022598,
+        0.4993899760011118,
+        0.38791780300380196,
+        0.4896351369970944,
+        0.6348500489984872,
+        0.6352933029993437,
+        0.6348354820074746,
+        0.5194975279882783,
+        0.5399615240021376,
+        0.5458498130028602,
+        0.5805158189905342,
+        0.6216252059966791,
+        0.47528859801241197,
+        0.5932548790005967,
+        0.5647524649975821,
+        0.46305327500158455,
+        0.4555604210036108,
+        0.6269920269987779,
+        0.6261174099927302,
+        0.6358395389979705,
+        0.5877976199990371,
+        0.3447860450105509,
+        0.4774536139884731,
+        0.6114306779927574,
+        0.6099163719918579
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.5,
+      "final_predicate_fraction": 0.5,
+      "video": "Bnear_copy_task3_init1.mp4",
+      "wall_seconds": 48.61156073700113
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 4,
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "initial_state_id": 0,
+      "seed": 400,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "on",
+          "porcelain_mug_1",
+          "plate_1"
+        ],
+        [
+          "on",
+          "white_yellow_mug_1",
+          "plate_2"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 120,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.637046563992044,
+        0.6354880350118037,
+        0.634495901002083,
+        0.46376897698792163,
+        0.5032585010048933,
+        0.5139312479877844,
+        0.5984939910122193,
+        0.626644910997129,
+        0.4679109390126541,
+        0.5912622140021995,
+        0.4234353820065735,
+        0.42135064498870634,
+        0.6071070180041716,
+        0.5285677360079717,
+        0.5840615430061007,
+        0.583458191002137,
+        0.4697018990118522,
+        0.479170256992802,
+        0.6033986630063737,
+        0.6019995709939394,
+        0.6018991539895069,
+        0.6291286699997727,
+        0.41839760399307124,
+        0.49663198899361305,
+        0.48843121899699327,
+        0.5454063290089834,
+        0.5311161249992438,
+        0.5686551429971587,
+        0.4426666239887709,
+        0.38694468399626203,
+        0.3959769100038102,
+        0.33093635000113863,
+        0.312603800004581,
+        0.34427164899534546,
+        0.33010491500317585,
+        0.5763094779977109,
+        0.5243555240012938,
+        0.5523278409964405,
+        0.5529971049982123,
+        0.3345855570078129,
+        0.33093138100230135,
+        0.5279242399992654,
+        0.501844712998718,
+        0.5911858019971987,
+        0.5127349039976252,
+        0.36304815601033624,
+        0.370901660004165,
+        0.5703800509945722,
+        0.506403680992662,
+        0.5366335059952689,
+        0.561090947012417,
+        0.37889274100598413,
+        0.3488229929935187,
+        0.5443448170117335,
+        0.5738160610053455,
+        0.5128196610021405,
+        0.5531500509969192,
+        0.41552631500235293,
+        0.38410210800066125,
+        0.5027636110025924,
+        0.5867544420034392,
+        0.5377477290021488,
+        0.4890980789932655,
+        0.4409241550019942,
+        0.4269799939938821
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.5,
+      "final_predicate_fraction": 0.0,
+      "video": "Bnear_copy_task4_init0.mp4",
+      "wall_seconds": 52.30629898799816
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 4,
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "initial_state_id": 1,
+      "seed": 401,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "on",
+          "porcelain_mug_1",
+          "plate_1"
+        ],
+        [
+          "on",
+          "white_yellow_mug_1",
+          "plate_2"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 138,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.5175137209880631,
+        0.571141908003483,
+        0.5036574139958248,
+        0.4014258530078223,
+        0.4245084180001868,
+        0.5761456740001449,
+        0.5341485050012125,
+        0.5598931809945498,
+        0.563281360999099,
+        0.3690588640019996,
+        0.33912590000545606,
+        0.5895477060112171,
+        0.531473790993914,
+        0.5126494559954153,
+        0.5728994160017464,
+        0.4239432970061898,
+        0.37327373199514113,
+        0.5042143399914494,
+        0.5814050339977257,
+        0.5332751419919077,
+        0.4814497570041567,
+        0.4243374399957247,
+        0.4601784699916607,
+        0.5333191440004157,
+        0.5030529500072589,
+        0.5875588779890677,
+        0.508842305993312,
+        0.32839135800895747,
+        0.42852929499349557,
+        0.5279705580032896,
+        0.4996109490020899,
+        0.5805957090051379,
+        0.4854286259942455,
+        0.3375836229970446,
+        0.3953657439997187,
+        0.5767948709981283,
+        0.5167431489971932,
+        0.5434718030010117,
+        0.5499635750020389,
+        0.3924604819912929,
+        0.36002461399766617,
+        0.5392395840026438,
+        0.5714872209937312,
+        0.5162981920002494,
+        0.5160576939961175,
+        0.43858206999721006,
+        0.43583655399561394,
+        0.5098063589975936,
+        0.5215240389952669,
+        0.5749108269956196,
+        0.4792469710082514,
+        0.3544104129978223,
+        0.44126275400049053,
+        0.5432775929948548,
+        0.5234977390064159,
+        0.5731228430086048,
+        0.5189666340011172,
+        0.3445776790031232,
+        0.33637062800698914,
+        0.5845115709962556,
+        0.5288257069914835,
+        0.49614924199704546,
+        0.5518004420009675,
+        0.41083861800143495,
+        0.4262828679929953
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "Bnear_copy_task4_init1.mp4",
+      "wall_seconds": 51.76056154401158
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 5,
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "initial_state_id": 0,
+      "seed": 500,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "black_book_1",
+          "desk_caddy_1_back_contain_region"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 65,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.5826519039983395,
+        0.5102947280101944,
+        0.4098411129962187,
+        0.4545331929984968,
+        0.557487747995765,
+        0.5396112449961947,
+        0.508611668003141,
+        0.5823823620012263,
+        0.45152736399904825,
+        0.42254563799360767,
+        0.5264555000030668,
+        0.5724173210037407,
+        0.5232850949978456,
+        0.5559641650033882,
+        0.49511130299651995,
+        0.4256944939988898,
+        0.4453449870052282,
+        0.5724958079954376,
+        0.5151018070027931,
+        0.548674478995963,
+        0.5317766060034046,
+        0.3695273659977829,
+        0.368211197986966,
+        0.5719703299982939,
+        0.5217415349907242,
+        0.5558130239951424,
+        0.5632521380030084,
+        0.40760808100458235,
+        0.3654511159984395,
+        0.571626169999945,
+        0.5598379080038285,
+        0.504251057995134,
+        0.5723755340004573,
+        0.468898196995724,
+        0.40124137100065127,
+        0.5188498170027742,
+        0.5885855780070415,
+        0.5204019930097274,
+        0.5255824269988807,
+        0.49354270499316044,
+        0.4476884649920976,
+        0.5256990939960815,
+        0.5464090269961162,
+        0.5504983810096746,
+        0.5233723269921029,
+        0.4882451349985786,
+        0.47847153000475373,
+        0.5685407730052248,
+        0.5443819170031929,
+        0.492803201006609,
+        0.5851816880021943,
+        0.4772902019903995,
+        0.3969936119974591,
+        0.5022140109940665,
+        0.5749528769956669,
+        0.5201930150069529,
+        0.5690663099958329,
+        0.4810040490119718,
+        0.34621232899371535,
+        0.4397425880015362,
+        0.5305385829997249,
+        0.49924512999132276,
+        0.5922895959956804,
+        0.5222234200045932,
+        0.35030086198821664
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "Bnear_copy_task5_init0.mp4",
+      "wall_seconds": 48.22643861400138
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 5,
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "initial_state_id": 1,
+      "seed": 501,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "black_book_1",
+          "desk_caddy_1_back_contain_region"
+        ]
+      ],
+      "success": true,
+      "steps": 186,
+      "timeout": false,
+      "clipped_components": 38,
+      "action_components": 1302,
+      "chunk_seconds": [
+        0.544057844002964,
+        0.5572686109953793,
+        0.5272542759921635,
+        0.45074624099652283,
+        0.47118444900843315,
+        0.566403017990524,
+        0.561875297993538,
+        0.5060226539935684,
+        0.5778274129988858,
+        0.4427357749955263,
+        0.33195997499569785,
+        0.31738553299510386,
+        0.30760071700206026,
+        0.35856732400134206,
+        0.34226840498740785,
+        0.39705790200969204,
+        0.49459778900200035,
+        0.5769931620015996,
+        0.5256212799868081,
+        0.5597727980057243,
+        0.4980795130104525,
+        0.33133509299659636,
+        0.4261721530056093,
+        0.5573891359963454
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 1.0,
+      "final_predicate_fraction": 1.0,
+      "video": "Bnear_copy_task5_init1.mp4",
+      "wall_seconds": 20.71453595200728
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 6,
+      "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "initial_state_id": 0,
+      "seed": 600,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "on",
+          "porcelain_mug_1",
+          "plate_1"
+        ],
+        [
+          "on",
+          "chocolate_pudding_1",
+          "living_room_table_plate_right_region"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 49,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.5405805289919954,
+        0.5586760389996925,
+        0.5315534209948964,
+        0.5183576019917382,
+        0.4877855800004909,
+        0.5268386539974017,
+        0.5296282909985166,
+        0.5071941729984246,
+        0.5879005549941212,
+        0.4811637059901841,
+        0.4208847109985072,
+        0.39676936499017756,
+        0.5738058549904963,
+        0.5144207609992009,
+        0.5347255800006678,
+        0.5349298700020881,
+        0.37727500399341807,
+        0.3393626119941473,
+        0.5709447539993562,
+        0.5294892420060933,
+        0.4956030780012952,
+        0.5873237030027667,
+        0.4105142759945011,
+        0.37517839499923866,
+        0.5182342030020664,
+        0.5813396949961316,
+        0.5345322210050654,
+        0.5162414369988255,
+        0.4420144640025683,
+        0.41386848299589474,
+        0.5248925550113199,
+        0.5577063560049282,
+        0.5782906740059843,
+        0.5108333099924494,
+        0.36794884101254866,
+        0.4180963059916394,
+        0.5073659220070112,
+        0.5405942940124078,
+        0.5762407520087436,
+        0.5291878819989506,
+        0.40733252999780234,
+        0.4034783620008966,
+        0.5720417639968218,
+        0.5148723519960186,
+        0.5336852769978577,
+        0.5605368699907558,
+        0.3552844810037641,
+        0.367408265999984,
+        0.5663834820006741,
+        0.544332024990581,
+        0.5238099620037246,
+        0.5688182599988068,
+        0.4292312229954405,
+        0.37197464700147975,
+        0.5187447019998217,
+        0.5845803510019323,
+        0.5395858389965724,
+        0.5157328419882106,
+        0.44640424801036716,
+        0.42200540500925854,
+        0.5263583909982117,
+        0.556645684002433,
+        0.5747263459925307,
+        0.5115006810083287,
+        0.3553789370052982
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "Bnear_copy_task6_init0.mp4",
+      "wall_seconds": 49.66524606500752
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 6,
+      "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "initial_state_id": 1,
+      "seed": 601,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "on",
+          "porcelain_mug_1",
+          "plate_1"
+        ],
+        [
+          "on",
+          "chocolate_pudding_1",
+          "living_room_table_plate_right_region"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 71,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.5732472160016187,
+        0.5040502760093659,
+        0.3889308890065877,
+        0.4154353269987041,
+        0.5080064140056493,
+        0.5380015739938244,
+        0.5784247840056196,
+        0.5291559840115951,
+        0.3954515950026689,
+        0.43613176500366535,
+        0.5300814349902794,
+        0.5029973189957673,
+        0.5881516030058265,
+        0.5242634559981525,
+        0.3664247569977306,
+        0.40553597900725435,
+        0.5889485350053292,
+        0.5370945570030017,
+        0.5158098950050771,
+        0.5798673480021534,
+        0.419363622990204,
+        0.36367032599810045,
+        0.517572883007233,
+        0.5870590010017622,
+        0.5380837160046212,
+        0.5071547600091435,
+        0.4314351409993833,
+        0.4225072089902824,
+        0.5174869940092321,
+        0.5498953409987735,
+        0.577439372005756,
+        0.5069616710097762,
+        0.3420267059991602,
+        0.45007150700257625,
+        0.5300970839889487,
+        0.5008204910118366,
+        0.5830637309991289,
+        0.5148197439993965,
+        0.366883921000408,
+        0.355143438995583,
+        0.5753773369942792,
+        0.5062622609984828,
+        0.5027747850108426,
+        0.49413482900126837,
+        0.3575479100109078,
+        0.3610936230106745,
+        0.5287385279953014,
+        0.5272198930033483,
+        0.5070598440070171,
+        0.468456595990574,
+        0.34131385099317413,
+        0.360741368989693,
+        0.5370347160060192,
+        0.5360889170115115,
+        0.5305946989974473,
+        0.4817922359943623,
+        0.4922328409884358,
+        0.5117203700065147,
+        0.6011270029994193,
+        0.62907867100148,
+        0.4533579790004296,
+        0.6100026079948293,
+        0.4393097550055245,
+        0.43282516600447707,
+        0.6148068809998222
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "Bnear_copy_task6_init1.mp4",
+      "wall_seconds": 49.982388266013004
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 7,
+      "task": "put both the alphabet soup and the cream cheese box in the basket",
+      "initial_state_id": 0,
+      "seed": 700,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "alphabet_soup_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "cream_cheese_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 83,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.6176240899949335,
+        0.6352457489992958,
+        0.6341721029893961,
+        0.6356879920058418,
+        0.4473137089953525,
+        0.486010078995605,
+        0.5062441870104522,
+        0.6095313219993841,
+        0.6286255789891584,
+        0.45870341001136694,
+        0.6165880339976866,
+        0.48463827899831813,
+        0.41965750000963453,
+        0.6112743319972651,
+        0.5108753189997515,
+        0.5837064270017436,
+        0.5852077790041221,
+        0.5206845009961398,
+        0.517893501004437,
+        0.6354357230011374,
+        0.6361915790039347,
+        0.6355476010066923,
+        0.6331903079990298,
+        0.46841434900125023,
+        0.5163481069903355,
+        0.5568492330057779,
+        0.5920830449904315,
+        0.6253899419971276,
+        0.45992535300320014,
+        0.581561518003582,
+        0.4545302600017749,
+        0.4464387420011917,
+        0.6244318709941581,
+        0.46174657899246085,
+        0.5936258129950147,
+        0.605881784009398,
+        0.4814385880017653,
+        0.3956784379988676,
+        0.42449769099766854,
+        0.38466427600360475,
+        0.4756747700012056,
+        0.5902296069980366,
+        0.6118256379995728,
+        0.6022197250131285,
+        0.4986167939932784,
+        0.40949505200842395,
+        0.3921848320023855,
+        0.5010578729998088,
+        0.5918595990078757,
+        0.537721323009464,
+        0.5023026480048429,
+        0.4721230959985405,
+        0.4090683990070829,
+        0.530063161990256,
+        0.5450085639895406,
+        0.557042813001317,
+        0.5222750490065664,
+        0.43792774599569384,
+        0.46302932799153496,
+        0.5717891160020372,
+        0.507182091998402,
+        0.5354264650086407,
+        0.5734695209976053,
+        0.42769490600039717,
+        0.4226683499873616
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "Bnear_copy_task7_init0.mp4",
+      "wall_seconds": 49.63593186000071
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 7,
+      "task": "put both the alphabet soup and the cream cheese box in the basket",
+      "initial_state_id": 1,
+      "seed": 701,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "alphabet_soup_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "cream_cheese_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 70,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.3994857389916433,
+        0.4941601059981622,
+        0.5840191589959431,
+        0.5379317240003729,
+        0.5098621159995673,
+        0.5057481750118313,
+        0.40725011700124014,
+        0.5344005580118392,
+        0.5507314069982385,
+        0.542189381987555,
+        0.5226186479994794,
+        0.4492245040019043,
+        0.4569264559977455,
+        0.5713325469987467,
+        0.505329948005965,
+        0.5351775819872273,
+        0.5743458810029551,
+        0.44808364199707285,
+        0.42065784099395387,
+        0.5307462720084004,
+        0.5736059050104814,
+        0.5317771800037008,
+        0.55372636699758,
+        0.47503811700153165,
+        0.4246681479999097,
+        0.418581808989984,
+        0.5699004540074384,
+        0.5322776800021529,
+        0.5429148909897776,
+        0.5178255450009601,
+        0.352386762999231,
+        0.3709503239952028,
+        0.5701367230067262,
+        0.5345130869973218,
+        0.5467547419975745,
+        0.5376587369974004,
+        0.39413602999411523,
+        0.3815711939969333,
+        0.565052669000579,
+        0.5319563829980325,
+        0.5073759119986789,
+        0.5827917369897477,
+        0.4089200729940785,
+        0.3948211340029957,
+        0.5209635810024338,
+        0.5775939110026229,
+        0.5102352190006059,
+        0.5330839489906793,
+        0.4849962750013219,
+        0.4017746059980709,
+        0.5231615279917605,
+        0.5502638770121848,
+        0.5770481560030021,
+        0.5221439649903914,
+        0.3970996219868539,
+        0.4401452900056029,
+        0.5278112450032495,
+        0.5120516479946673,
+        0.5927360490022693,
+        0.5132235070050228,
+        0.3749673139973311,
+        0.40128677799657453,
+        0.5718027419934515,
+        0.5169822059979197,
+        0.5334858669957612
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.5,
+      "final_predicate_fraction": 0.5,
+      "video": "Bnear_copy_task7_init1.mp4",
+      "wall_seconds": 47.20123741599673
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 8,
+      "task": "put both moka pots on the stove",
+      "initial_state_id": 0,
+      "seed": 800,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        [
+          "on",
+          "moka_pot_2",
+          "flat_stove_1_cook_region"
+        ],
+        [
+          "turnon",
+          "flat_stove_1"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 93,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.5762162390019512,
+        0.5277861380018294,
+        0.4954606650135247,
+        0.5162038290000055,
+        0.4352757250017021,
+        0.5166538859921275,
+        0.5258050440024817,
+        0.5706815869925776,
+        0.5201134599919897,
+        0.45982265198836103,
+        0.46894995600450784,
+        0.5654844420059817,
+        0.5563623579946579,
+        0.5031037779990584,
+        0.5745729129994288,
+        0.44233765700482763,
+        0.42783170100301504,
+        0.5256444360129535,
+        0.5747076940024272,
+        0.5332134109921753,
+        0.5605688710056711,
+        0.48005907399056014,
+        0.40746990700426977,
+        0.40019092000147793,
+        0.5739459869946586,
+        0.5346359160030261,
+        0.5551804910064675,
+        0.5225906260020565,
+        0.35757011199893896,
+        0.36568337999051437,
+        0.5702772049990017,
+        0.5306255379982758,
+        0.545671799001866,
+        0.5525846130040009,
+        0.41615746200841386,
+        0.39373918299679644,
+        0.5262589379999554,
+        0.5754372600058559,
+        0.5338466679968406,
+        0.5591347150038928,
+        0.4783516900060931,
+        0.41188122899620794,
+        0.5038095009949757,
+        0.5824434600071982,
+        0.5358452039945405,
+        0.5299977910035523,
+        0.5111763899913058,
+        0.4439437240071129,
+        0.5068337640113896,
+        0.5353096290054964,
+        0.5743661489977967,
+        0.5304660219990183,
+        0.4504366379987914,
+        0.4962356960022589,
+        0.5621186229982413,
+        0.5351090759941144,
+        0.5082393379998393,
+        0.5805732619919581,
+        0.46114504199067596,
+        0.42097440898942295,
+        0.5277181819983525,
+        0.5712212110083783,
+        0.5229299269994954,
+        0.5519261500012362,
+        0.4995647470059339
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.3333333333333333,
+      "final_predicate_fraction": 0.3333333333333333,
+      "video": "Bnear_copy_task8_init0.mp4",
+      "wall_seconds": 46.4198079600028
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 8,
+      "task": "put both moka pots on the stove",
+      "initial_state_id": 1,
+      "seed": 801,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ],
+        [
+          "on",
+          "moka_pot_2",
+          "flat_stove_1_cook_region"
+        ],
+        [
+          "turnon",
+          "flat_stove_1"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 73,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.5262356149905827,
+        0.5409830999997212,
+        0.38382930400257464,
+        0.3450456710124854,
+        0.555829888995504,
+        0.5350890889967559,
+        0.5077317849936662,
+        0.5832581849972485,
+        0.39665022600092925,
+        0.3793172029982088,
+        0.5403292340051848,
+        0.5717337139940355,
+        0.5148811300023226,
+        0.5441491870005848,
+        0.48314909100008663,
+        0.4099887609918369,
+        0.5260337299987441,
+        0.572479119990021,
+        0.5338972119934624,
+        0.4948432569944998,
+        0.49542076099896803,
+        0.4941301610087976,
+        0.5631960369937588,
+        0.5345333260047482,
+        0.507889429005445,
+        0.5814622949983459,
+        0.43821286599268205,
+        0.38742201500281226,
+        0.49704590400506277,
+        0.5722387629939476,
+        0.535592023996287,
+        0.5672491940058535,
+        0.49606306600617245,
+        0.3409639120072825,
+        0.3044824200042058,
+        0.3182255569990957,
+        0.32614984300744254,
+        0.3472458829928655,
+        0.5431177499995101,
+        0.5574487799894996,
+        0.5270917370071402,
+        0.5752965889987536,
+        0.47771219999413006,
+        0.4377119349956047,
+        0.5084154969954398,
+        0.5831639289972372,
+        0.5301809119991958,
+        0.5279450840025675,
+        0.5071708720060997,
+        0.46529813499364536,
+        0.5145979539956897,
+        0.5524684179981705,
+        0.5778035420080414,
+        0.5246605860011186,
+        0.48257718699460384,
+        0.5114785430050688,
+        0.5609517939883517,
+        0.5394995809911052,
+        0.511689576000208,
+        0.5819558729999699,
+        0.44771507699624635,
+        0.38205202999233734,
+        0.4704978240042692,
+        0.5713489690097049,
+        0.5346616540045943
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.3333333333333333,
+      "final_predicate_fraction": 0.3333333333333333,
+      "video": "Bnear_copy_task8_init1.mp4",
+      "wall_seconds": 45.56237410000176
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 9,
+      "task": "put the yellow and white mug in the microwave and close it",
+      "initial_state_id": 0,
+      "seed": 900,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "white_yellow_mug_1",
+          "microwave_1_heating_region"
+        ],
+        [
+          "close",
+          "microwave_1"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 106,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.502737878006883,
+        0.4434603749978123,
+        0.43238371700863354,
+        0.537146525006392,
+        0.5086163709929679,
+        0.5802162889885949,
+        0.5153222400113009,
+        0.4205328390089562,
+        0.4378198460035492,
+        0.5802379289962118,
+        0.5129818080022233,
+        0.5290634849952767,
+        0.5754142590012634,
+        0.4390304870030377,
+        0.4316289740090724,
+        0.5310015580034815,
+        0.5739236759982305,
+        0.532515433995286,
+        0.5575266050000209,
+        0.4654082499910146,
+        0.4297288200032199,
+        0.4339302470034454,
+        0.5699667949957075,
+        0.5330802319949726,
+        0.5533007870108122,
+        0.5107952969992766,
+        0.36102305799431633,
+        0.3720207589940401,
+        0.569685431997641,
+        0.5325720999971963,
+        0.5513816860038787,
+        0.5417957059980836,
+        0.40436674100055825,
+        0.39201698699616827,
+        0.5337719490053132,
+        0.5696601620002184,
+        0.532449214006192,
+        0.5751164679968497,
+        0.47740655300731305,
+        0.43246351199923083,
+        0.5166515039891237,
+        0.5784937080024974,
+        0.5129769670020323,
+        0.5423925430077361,
+        0.4975800770043861,
+        0.43039909600338433,
+        0.4405914999952074,
+        0.5788389180088416,
+        0.5045758870110149,
+        0.5358382609992987,
+        0.5387052220030455,
+        0.3581402959971456,
+        0.3446676660096273,
+        0.5765000940009486,
+        0.5248408750048839,
+        0.5571859850024339,
+        0.5550896759959869,
+        0.4007052609958919,
+        0.368504287005635,
+        0.5751613820029888,
+        0.5367049569904339,
+        0.4925775059964508,
+        0.5890911230089841,
+        0.43913118800264783,
+        0.41078351699979976
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "Bnear_copy_task9_init0.mp4",
+      "wall_seconds": 47.422617554999306
+    },
+    {
+      "condition": "Bnear_copy",
+      "task_id": 9,
+      "task": "put the yellow and white mug in the microwave and close it",
+      "initial_state_id": 1,
+      "seed": 901,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "white_yellow_mug_1",
+          "microwave_1_heating_region"
+        ],
+        [
+          "close",
+          "microwave_1"
+        ]
+      ],
+      "success": false,
+      "steps": 520,
+      "timeout": true,
+      "clipped_components": 143,
+      "action_components": 3640,
+      "chunk_seconds": [
+        0.4930782330047805,
+        0.5901449590019183,
+        0.5352373299974715,
+        0.4328670940012671,
+        0.43587663100333884,
+        0.562108376994729,
+        0.5674126219964819,
+        0.5107049930084031,
+        0.5759515640093014,
+        0.44260773599671666,
+        0.45247388099960517,
+        0.5263811059994623,
+        0.5824264799884986,
+        0.5066949409956578,
+        0.5278423529962311,
+        0.5080510749976384,
+        0.4329699910013005,
+        0.3637263940036064,
+        0.5862467320112046,
+        0.5136086089914897,
+        0.5274813360010739,
+        0.5608728229999542,
+        0.3653992070030654,
+        0.3614129689958645,
+        0.5822684010054218,
+        0.5375846539973281,
+        0.5113580970064504,
+        0.5833014880045084,
+        0.402992332004942,
+        0.384463334994507,
+        0.5274858149932697,
+        0.5721034330053953,
+        0.5156240499927662,
+        0.5447632369905477,
+        0.4854840109910583,
+        0.4516066460055299,
+        0.5033308970014332,
+        0.5876984970091144,
+        0.528276643002755,
+        0.5194237100076862,
+        0.5195578020066023,
+        0.5170176309911767,
+        0.5549670699983835,
+        0.5286504489922663,
+        0.4944073600054253,
+        0.5849746010062518,
+        0.4708083470031852,
+        0.34988875201088376,
+        0.3708312420058064,
+        0.5341863899957389,
+        0.526213271994493,
+        0.535165811990737,
+        0.49049672900582664,
+        0.39984581399767194,
+        0.3628612839966081,
+        0.5406458209909033,
+        0.5276855020056246,
+        0.5345313100115163,
+        0.5164647519995924,
+        0.4096468600037042,
+        0.38272753299679607,
+        0.5152801840013126,
+        0.6370803229947342,
+        0.6266955110040726,
+        0.6311131889960961
+      ],
+      "generations": [],
+      "subtask_events": [],
+      "goal_updates": [
+        {
+          "step": 0,
+          "source": "copied_current"
+        },
+        {
+          "step": 16,
+          "source": "copied_current"
+        },
+        {
+          "step": 32,
+          "source": "copied_current"
+        },
+        {
+          "step": 48,
+          "source": "copied_current"
+        },
+        {
+          "step": 64,
+          "source": "copied_current"
+        },
+        {
+          "step": 80,
+          "source": "copied_current"
+        },
+        {
+          "step": 96,
+          "source": "copied_current"
+        },
+        {
+          "step": 112,
+          "source": "copied_current"
+        },
+        {
+          "step": 128,
+          "source": "copied_current"
+        },
+        {
+          "step": 144,
+          "source": "copied_current"
+        },
+        {
+          "step": 160,
+          "source": "copied_current"
+        },
+        {
+          "step": 176,
+          "source": "copied_current"
+        },
+        {
+          "step": 192,
+          "source": "copied_current"
+        },
+        {
+          "step": 208,
+          "source": "copied_current"
+        },
+        {
+          "step": 224,
+          "source": "copied_current"
+        },
+        {
+          "step": 240,
+          "source": "copied_current"
+        },
+        {
+          "step": 256,
+          "source": "copied_current"
+        },
+        {
+          "step": 272,
+          "source": "copied_current"
+        },
+        {
+          "step": 288,
+          "source": "copied_current"
+        },
+        {
+          "step": 304,
+          "source": "copied_current"
+        },
+        {
+          "step": 320,
+          "source": "copied_current"
+        },
+        {
+          "step": 336,
+          "source": "copied_current"
+        },
+        {
+          "step": 352,
+          "source": "copied_current"
+        },
+        {
+          "step": 368,
+          "source": "copied_current"
+        },
+        {
+          "step": 384,
+          "source": "copied_current"
+        },
+        {
+          "step": 400,
+          "source": "copied_current"
+        },
+        {
+          "step": 416,
+          "source": "copied_current"
+        },
+        {
+          "step": 432,
+          "source": "copied_current"
+        },
+        {
+          "step": 448,
+          "source": "copied_current"
+        },
+        {
+          "step": 464,
+          "source": "copied_current"
+        },
+        {
+          "step": 480,
+          "source": "copied_current"
+        },
+        {
+          "step": 496,
+          "source": "copied_current"
+        },
+        {
+          "step": 512,
+          "source": "copied_current"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "Bnear_copy_task9_init1.mp4",
+      "wall_seconds": 47.96013625799969
+    }
+  ],
+  "summaries": {
+    "Bnear_copy": {
+      "episodes": 20,
+      "errors": 0,
+      "successes": 4,
+      "success_rate": 0.2,
+      "mean_max_predicate_fraction": 0.3333333333333333,
+      "wall_seconds": 875.8070101120247
+    }
+  },
+  "policy_peak_allocated_gb": {
+    "Bnear_copy": 1.281874432
+  }
+}

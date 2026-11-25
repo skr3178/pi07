@@ -1,0 +1,13 @@
+Loading BAGEL; GPU: NVIDIA RTX PRO 4000 Blackwell
+Free/total GPU bytes: (24518721536, 25144262656)
+Loading DFloat11 safetensors:   0%|          | 0/32 [00:00<?, ?it/s]Loading DFloat11 safetensors:   3%|▎         | 1/32 [00:00<00:04,  7.31it/s]Loading DFloat11 safetensors:   6%|▋         | 2/32 [00:00<00:03,  8.01it/s]Loading DFloat11 safetensors:   9%|▉         | 3/32 [00:00<00:03,  8.72it/s]Loading DFloat11 safetensors:  12%|█▎        | 4/32 [00:00<00:03,  9.01it/s]Loading DFloat11 safetensors:  19%|█▉        | 6/32 [00:00<00:02,  9.24it/s]Loading DFloat11 safetensors:  22%|██▏       | 7/32 [00:03<00:21,  1.14it/s]Loading DFloat11 safetensors:  25%|██▌       | 8/32 [00:03<00:16,  1.50it/s]Loading DFloat11 safetensors:  28%|██▊       | 9/32 [00:03<00:11,  1.97it/s]Loading DFloat11 safetensors:  31%|███▏      | 10/32 [00:03<00:08,  2.51it/s]Loading DFloat11 safetensors:  34%|███▍      | 11/32 [00:04<00:06,  3.15it/s]Loading DFloat11 safetensors:  38%|███▊      | 12/32 [00:05<00:14,  1.41it/s]Loading DFloat11 safetensors:  44%|████▍     | 14/32 [00:05<00:07,  2.35it/s]Loading DFloat11 safetensors:  50%|█████     | 16/32 [00:06<00:04,  3.52it/s]Loading DFloat11 safetensors:  56%|█████▋    | 18/32 [00:06<00:02,  4.91it/s]Loading DFloat11 safetensors:  62%|██████▎   | 20/32 [00:06<00:01,  6.47it/s]Loading DFloat11 safetensors:  72%|███████▏  | 23/32 [00:06<00:00,  9.30it/s]Loading DFloat11 safetensors:  78%|███████▊  | 25/32 [00:06<00:00, 10.70it/s]Loading DFloat11 safetensors:  84%|████████▍ | 27/32 [00:06<00:00, 12.03it/s]Loading DFloat11 safetensors:  94%|█████████▍| 30/32 [00:06<00:00, 14.90it/s]Loading DFloat11 safetensors: 100%|██████████| 32/32 [00:06<00:00, 15.55it/s]Loading DFloat11 safetensors: 100%|██████████| 32/32 [00:06<00:00,  4.65it/s]
+Total model size: 19.8852 GB
+Loaded in 79.43 seconds
+Generating drawer_close
+Allocated 544997376 bf16 on device cuda:0
+Saved pi07_code/artifacts/bagel_subgoal_probe/results_gpu/drawer_close_seed0.png in 54.44 seconds
+Generating microwave_close
+Saved pi07_code/artifacts/bagel_subgoal_probe/results_gpu/microwave_close_seed0.png in 55.2 seconds
+Generating pudding_place
+Saved pi07_code/artifacts/bagel_subgoal_probe/results_gpu/pudding_place_seed0.png in 55.56 seconds
+Done: pi07_code/artifacts/bagel_subgoal_probe/results_gpu/comparison.png

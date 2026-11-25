@@ -1,0 +1,73 @@
+{
+  "variant": {
+    "variant": "l90_A",
+    "arms": "A",
+    "layout": "alt",
+    "base": "/media/skr/storage/models/smolvla_libero_90_pi07",
+    "lr": 0.0001,
+    "steps": 2000,
+    "batch_size": 8,
+    "seed": 20261029,
+    "eval_every": 500
+  },
+  "note": "rebuilt from the log; the run's own report write failed on a Path in args (fixed)",
+  "goal_rate": 1.0,
+  "goal_offsets": "8-16 frames",
+  "arms": {
+    "A": {
+      "trainable_parameters": 99880992,
+      "base": "/media/skr/storage/models/smolvla_libero_90_pi07",
+      "loss_per_250": [
+        0.7289324914216995,
+        0.5251954723596572,
+        0.4858047323226929,
+        0.47941120553016664,
+        0.46155964815616607,
+        0.4606819384098053,
+        0.45699807167053225,
+        0.4520698837041855
+      ],
+      "curve": [
+        {
+          "step": 500,
+          "mean_loss_last250": 0.5251954723596572,
+          "offline_action_mse": {
+            "dropped": {
+              "mse_8": 0.5974872486116904,
+              "mse_50": 0.6345363318410792
+            }
+          }
+        },
+        {
+          "step": 1000,
+          "mean_loss_last250": 0.47941120553016664,
+          "offline_action_mse": {
+            "dropped": {
+              "mse_8": 0.48504543227229713,
+              "mse_50": 0.5788381834595769
+            }
+          }
+        },
+        {
+          "step": 1500,
+          "mean_loss_last250": 0.4606819384098053,
+          "offline_action_mse": {
+            "dropped": {
+              "mse_8": 0.49192516475154496,
+              "mse_50": 0.5421769660720188
+            }
+          }
+        }
+      ],
+      "train_seconds": 1264.7420526009992,
+      "peak_allocated_gb": 4.714077696,
+      "final_mean_loss_last250": 0.4520698837041855,
+      "offline_action_mse": {
+        "dropped": {
+          "mse_8": 0.42051158317261866,
+          "mse_50": 0.5273781700416632
+        }
+      }
+    }
+  }
+}

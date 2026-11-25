@@ -1,0 +1,63 @@
+{
+  "profile": "full",
+  "prompt_options": {
+    "subtasks": true,
+    "goals": true,
+    "metadata": true,
+    "goal_probability": 0.25,
+    "subtask_drop_given_goal": 0.3,
+    "metadata_drop": 0.15,
+    "metadata_field_drop": 0.05,
+    "speed_bin_steps": 50
+  },
+  "seed": 20261029,
+  "steps": 1,
+  "batch_size": 1,
+  "examples": 1,
+  "base_checkpoint": "/media/skr/storage/models/smolvla_libero",
+  "base_checkpoint_sha256": "9a9f6413e42c0f332fccbce9a0dc796af2790f82cf002f791cdbf7e01e1afca8",
+  "source_schedule_dir": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_smoke_schedule",
+  "train_schedule_sha256": "b3e8902d68913e3b904cdae09791cd7594a565ce82f9c50c0205de8d0ff5c53a",
+  "validation_schedule_sha256": "e154c943a6ecf2a7e89afb1284f8aacb6e3005ea906a06f17ac9f7d6a6511292",
+  "annotations_sha256": null,
+  "source_sha256": {
+    "train_section_v.py": "5ecb411fbde27707879729a6dbcfb5c6b0e4536f346088c56e327fb76a8a61c1",
+    "section_v_prompt.py": "eeff1c71ff986e39b30fa651de9e9ffeb5e5cb96e08859eefde6a96a5211b5cc",
+    "section_v_data.py": "99810d391831b4f89400e5a84e25543aaea2cb638fb6df85d97fc6e2494ce828",
+    "goal_policy.py": "7c2f7edc5e46652239333788aed34b619e9b755c4815ad14a08f0f7afd195782",
+    "goal_data.py": "25ad71bec00f0c5f71cb150c18d1668269365bedb73a89fc51579d53ab1d0f04",
+    "libero_runtime.py": "c5d1f9e98007c3c4d66f89b0bffc8e29f456c5e1c527ce9fb82bd93c86a9fbd5",
+    "train_goal_pilot.py": "cd90363d1c0a1c6f4b8fe802bc05f43fae2983b33f58777f143cb917f17efec8"
+  },
+  "known_training_annotations": {
+    "subtask": 1,
+    "speed_steps": 1,
+    "quality": 0,
+    "mistake": 0
+  },
+  "goal_present_count": 0,
+  "max_tokens": 43,
+  "token_limit": 128,
+  "silent_truncation": false,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0001,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "eps": 1e-08,
+    "weight_decay": 1e-10,
+    "warmup_steps": 20,
+    "grad_clip": 10.0
+  },
+  "flow_seed_rule": "seed + 100000 + update; same explicit noise/time as original pilot",
+  "notes": [
+    "All profiles include Control Mode: ee and the same 128-token budget.",
+    "Train a fresh task-only profile control; old A has different text formatting/length.",
+    "Demo subtask labels and durations are offline supervision, not live observations.",
+    "Unknown quality/mistake annotations stay absent; success is not converted to quality.",
+    "Full profile does not establish mixed-quality learning without validated quality variation.",
+    "Metadata CFG (Section VII), joint control and a live subtask planner are not implemented here."
+  ]
+}

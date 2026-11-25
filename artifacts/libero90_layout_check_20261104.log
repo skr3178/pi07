@@ -1,0 +1,15 @@
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+WARNING:robosuite_logs:No private macro file found!
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+WARNING:robosuite_logs:It is recommended to use a private macro file
+[robosuite WARNING] To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+WARNING:robosuite_logs:To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py
+WARNING:root:No accelerated backend detected. Using default cpu, this will be slow.
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'cpu'.
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+WARNING:root:No accelerated backend detected. Using default cpu, this will be slow.
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'cpu'.
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+zero update {'max_abs_action_difference': 0.011108994483947754, 'rms_action_difference': 0.0015736049972474575, 'observations': 8, 'goal_masks': False}

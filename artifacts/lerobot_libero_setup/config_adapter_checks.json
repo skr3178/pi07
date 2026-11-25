@@ -1,0 +1,8 @@
+{
+  "checks": {
+    "use_peft": "rejected",
+    "rtc_config": "rejected",
+    "unrecognized_active_option": "rejected"
+  },
+  "source_checkpoint_config_unchanged": true
+}

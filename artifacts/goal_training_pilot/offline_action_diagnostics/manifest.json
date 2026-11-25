@@ -1,0 +1,23 @@
+{
+  "purpose": "offline sampled-action diagnostics; real futures are unavailable in live rollouts",
+  "conditions": [
+    "A_dropped",
+    "B_real_future",
+    "B_dropped",
+    "B_copied_current",
+    "B_mismatched_task"
+  ],
+  "validation_schedule_sha256": "cdbc44499e6bd33c941917ae6566ff3623ac60a21a7374a8559caf2a453ec324",
+  "checkpoint_sha256": {
+    "A": "8e86178734d834ceec55ec934b3498119c16d77f00486033e2afa73694d3b08f",
+    "B": "85d912c5e9f3bdb23f985e9e7e95efb42971a0ced3cba709ba99224b681ccd71"
+  },
+  "batch_size": 8,
+  "noise_seed": "900000 + batch start",
+  "metric_units": "checkpoint-normalized 7-D actions",
+  "execution_horizon": 8,
+  "full_horizon": 50,
+  "denoising_steps": 10,
+  "mismatch": "goal from the next task's held-out observation, cyclic shift by 10 rows",
+  "source_sha256": "52ca65b03d3f9a5ae09d13938f9bbbe3c200c5d7630080c5c039a0a8dac1a86c"
+}

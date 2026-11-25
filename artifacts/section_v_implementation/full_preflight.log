@@ -1,0 +1,3 @@
+WARNING:root:No accelerated backend detected. Using default cpu, this will be slow.
+WARNING:lerobot.configs.policies:Device 'cuda' is not available. Switching to 'cpu'.
+{"status": "prepared", "profile": "full", "examples": 8000, "annotation_coverage": {"subtask": 8000, "speed_steps": 8000, "quality": 0, "mistake": 0}, "max_tokens": 55}

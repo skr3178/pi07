@@ -1,0 +1,28 @@
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+WARNING:root:Missing key(s) when loading model: {'model.goal_marker'}
+B gradient check: {'vlm_params_trainable': 36, 'vlm_params_with_nonzero_grad': 30, 'marker_grad_nonzero': True}
+B step 250: mean loss 0.8056
+B step 500: mean loss 0.5230
+B step 750: mean loss 0.4428
+B step 1000: mean loss 0.4161
+B trained: {"trainable_parameters": 139211232, "train_seconds": 309.0193642660015, "peak_allocated_gb": 4.950109696, "final_mean_loss_last250": 0.4160779767632484, "goal_marker_norm": 3.5283703804016113}
+  real_future: {"mse_8": 0.32202788658732345, "mse_50": 0.3324208728103543}
+  dropped: {"mse_8": 0.2242186355822461, "mse_50": 0.2982730948791339}
+  copied_current: {"mse_8": 0.2813072171130597, "mse_50": 0.32771292199036944}
+  mismatched_task: {"mse_8": 0.361822501623875, "mse_50": 0.3851724807800818}
+'(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')), '(Request ID: 11d8fd29-0df6-42b6-876c-68b9f0cd5ec1)')' thrown while requesting HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/config.json
+WARNING:huggingface_hub.utils._http:'(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')), '(Request ID: 11d8fd29-0df6-42b6-876c-68b9f0cd5ec1)')' thrown while requesting HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/config.json
+Retrying in 1s [Retry 1/5].
+WARNING:huggingface_hub.utils._http:Retrying in 1s [Retry 1/5].
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+WARNING:root:Missing key(s) when loading model: {'model.goal_marker'}
+A gradient check: {'vlm_params_trainable': 36, 'vlm_params_with_nonzero_grad': 30, 'marker_grad_nonzero': False}
+A step 250: mean loss 0.6766
+A step 500: mean loss 0.4825
+A step 750: mean loss 0.4144
+A step 1000: mean loss 0.3902
+A trained: {"trainable_parameters": 139211232, "train_seconds": 294.82401220900283, "peak_allocated_gb": 4.952466944, "final_mean_loss_last250": 0.3902411455512047, "goal_marker_norm": 0.0}
+  dropped: {"mse_8": 0.22742154912238244, "mse_50": 0.26170728627667234}
+done

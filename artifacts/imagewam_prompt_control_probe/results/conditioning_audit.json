@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "id": "drawer_close_original",
+      "aligned_tokens": 19,
+      "counter_tokens": 21,
+      "embeddings_differ": true,
+      "all_embeddings_finite": true
+    },
+    {
+      "id": "drawer_close_late",
+      "aligned_tokens": 19,
+      "counter_tokens": 21,
+      "embeddings_differ": true,
+      "all_embeddings_finite": true
+    },
+    {
+      "id": "microwave_close_original",
+      "aligned_tokens": 16,
+      "counter_tokens": 18,
+      "embeddings_differ": true,
+      "all_embeddings_finite": true
+    },
+    {
+      "id": "microwave_close_late",
+      "aligned_tokens": 16,
+      "counter_tokens": 18,
+      "embeddings_differ": true,
+      "all_embeddings_finite": true
+    },
+    {
+      "id": "pudding_place_original",
+      "aligned_tokens": 22,
+      "counter_tokens": 22,
+      "embeddings_differ": true,
+      "all_embeddings_finite": true
+    },
+    {
+      "id": "pudding_place_late",
+      "aligned_tokens": 22,
+      "counter_tokens": 22,
+      "embeddings_differ": true,
+      "all_embeddings_finite": true
+    }
+  ],
+  "empty_text_token_count": 12,
+  "description": "CPU inspection of the exact cached Qwen3 embeddings used for inference. Distinct prompts did not accidentally share the same embedding."
+}

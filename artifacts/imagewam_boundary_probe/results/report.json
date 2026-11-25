@@ -1,0 +1,654 @@
+{
+ "cases": [
+  {
+   "task": 0,
+   "boundary": "B0",
+   "episode": 42,
+   "frame": 0,
+   "h": 16,
+   "aligned_text": "turn on the stove",
+   "other_text": "put the moka pot on the stove",
+   "d_real": {
+    "subtaskA": 0.03305,
+    "subtaskB": 0.03258,
+    "task": 0.03274,
+    "empty": 0.03362
+   },
+   "d_real_copy": 0.00619
+  },
+  {
+   "task": 0,
+   "boundary": "B1",
+   "episode": 42,
+   "frame": 96,
+   "h": 16,
+   "aligned_text": "put the moka pot on the stove",
+   "other_text": "turn on the stove",
+   "d_real": {
+    "subtaskA": 0.02261,
+    "subtaskB": 0.02145,
+    "task": 0.02074,
+    "empty": 0.02167
+   },
+   "d_real_copy": 0.02128
+  },
+  {
+   "task": 1,
+   "boundary": "B0",
+   "episode": 82,
+   "frame": 0,
+   "h": 16,
+   "aligned_text": "put the black bowl in the bottom drawer",
+   "other_text": "close the drawer",
+   "d_real": {
+    "subtaskA": 0.01775,
+    "subtaskB": 0.01692,
+    "task": 0.0175,
+    "empty": 0.01648
+   },
+   "d_real_copy": 0.02383
+  },
+  {
+   "task": 1,
+   "boundary": "B1",
+   "episode": 82,
+   "frame": 168,
+   "h": 16,
+   "aligned_text": "close the drawer",
+   "other_text": "put the black bowl in the bottom drawer",
+   "d_real": {
+    "subtaskA": 0.0354,
+    "subtaskB": 0.03555,
+    "task": 0.03576,
+    "empty": 0.03703
+   },
+   "d_real_copy": 0.03621
+  },
+  {
+   "task": 2,
+   "boundary": "B0",
+   "episode": 125,
+   "frame": 0,
+   "h": 16,
+   "aligned_text": "put the yellow and white mug in the microwave",
+   "other_text": "close the microwave",
+   "d_real": {
+    "subtaskA": 0.00703,
+    "subtaskB": 0.00692,
+    "task": 0.00715,
+    "empty": 0.00822
+   },
+   "d_real_copy": 0.02463
+  },
+  {
+   "task": 2,
+   "boundary": "B1",
+   "episode": 125,
+   "frame": 168,
+   "h": 16,
+   "aligned_text": "close the microwave",
+   "other_text": "put the yellow and white mug in the microwave",
+   "d_real": {
+    "subtaskA": 0.00974,
+    "subtaskB": 0.00889,
+    "task": 0.00933,
+    "empty": 0.00745
+   },
+   "d_real_copy": 0.01013
+  },
+  {
+   "task": 3,
+   "boundary": "B0",
+   "episode": 162,
+   "frame": 0,
+   "h": 16,
+   "aligned_text": "put the first moka pot on the stove",
+   "other_text": "put the moka pot on the stove",
+   "d_real": {
+    "subtaskA": 0.02088,
+    "subtaskB": 0.02095,
+    "task": 0.02091,
+    "empty": 0.0207
+   },
+   "d_real_copy": 0.01423
+  },
+  {
+   "task": 3,
+   "boundary": "B1",
+   "episode": 162,
+   "frame": 193,
+   "h": 16,
+   "aligned_text": "put the moka pot on the stove",
+   "other_text": "put the first moka pot on the stove",
+   "d_real": {
+    "subtaskA": 0.05038,
+    "subtaskB": 0.05034,
+    "task": 0.05049,
+    "empty": 0.04966
+   },
+   "d_real_copy": 0.00688
+  },
+  {
+   "task": 4,
+   "boundary": "B0",
+   "episode": 215,
+   "frame": 0,
+   "h": 16,
+   "aligned_text": "put the alphabet soup in the basket",
+   "other_text": "put the cream cheese box in the basket",
+   "d_real": {
+    "subtaskA": 0.00583,
+    "subtaskB": 0.00702,
+    "task": 0.00653,
+    "empty": 0.00373
+   },
+   "d_real_copy": 0.00743
+  },
+  {
+   "task": 4,
+   "boundary": "B1",
+   "episode": 215,
+   "frame": 132,
+   "h": 16,
+   "aligned_text": "put the cream cheese box in the basket",
+   "other_text": "put the alphabet soup in the basket",
+   "d_real": {
+    "subtaskA": 0.01428,
+    "subtaskB": 0.0109,
+    "task": 0.01135,
+    "empty": 0.01184
+   },
+   "d_real_copy": 0.02964
+  },
+  {
+   "task": 5,
+   "boundary": "B0",
+   "episode": 252,
+   "frame": 0,
+   "h": 16,
+   "aligned_text": "put the alphabet soup in the basket",
+   "other_text": "put the tomato sauce in the basket",
+   "d_real": {
+    "subtaskA": 0.00461,
+    "subtaskB": 0.00764,
+    "task": 0.00609,
+    "empty": 0.00712
+   },
+   "d_real_copy": 0.00835
+  },
+  {
+   "task": 5,
+   "boundary": "B1",
+   "episode": 252,
+   "frame": 130,
+   "h": 16,
+   "aligned_text": "put the tomato sauce in the basket",
+   "other_text": "put the alphabet soup in the basket",
+   "d_real": {
+    "subtaskA": 0.02347,
+    "subtaskB": 0.02339,
+    "task": 0.02343,
+    "empty": 0.02324
+   },
+   "d_real_copy": 0.02371
+  },
+  {
+   "task": 6,
+   "boundary": "B0",
+   "episode": 303,
+   "frame": 0,
+   "h": 16,
+   "aligned_text": "put the cream cheese box in the basket",
+   "other_text": "put the butter in the basket",
+   "d_real": {
+    "subtaskA": 0.0068,
+    "subtaskB": 0.00604,
+    "task": 0.00663,
+    "empty": 0.0065
+   },
+   "d_real_copy": 0.01002
+  },
+  {
+   "task": 6,
+   "boundary": "B1",
+   "episode": 303,
+   "frame": 130,
+   "h": 16,
+   "aligned_text": "put the butter in the basket",
+   "other_text": "put the cream cheese box in the basket",
+   "d_real": {
+    "subtaskA": 0.01802,
+    "subtaskB": 0.01735,
+    "task": 0.01803,
+    "empty": 0.01865
+   },
+   "d_real_copy": 0.03291
+  },
+  {
+   "task": 7,
+   "boundary": "B0",
+   "episode": 350,
+   "frame": 0,
+   "h": 16,
+   "aligned_text": "put the white mug on the plate",
+   "other_text": "put the yellow and white mug on the right plate",
+   "d_real": {
+    "subtaskA": 0.00748,
+    "subtaskB": 0.00745,
+    "task": 0.00698,
+    "empty": 0.0076
+   },
+   "d_real_copy": 0.00993
+  },
+  {
+   "task": 7,
+   "boundary": "B1",
+   "episode": 350,
+   "frame": 117,
+   "h": 16,
+   "aligned_text": "put the yellow and white mug on the right plate",
+   "other_text": "put the white mug on the plate",
+   "d_real": {
+    "subtaskA": 0.00782,
+    "subtaskB": 0.00742,
+    "task": 0.00751,
+    "empty": 0.00562
+   },
+   "d_real_copy": 0.01332
+  },
+  {
+   "task": 8,
+   "boundary": "B0",
+   "episode": 408,
+   "frame": 0,
+   "h": 16,
+   "aligned_text": "put the white mug on the plate",
+   "other_text": "put the chocolate pudding to the right of the plate",
+   "d_real": {
+    "subtaskA": 0.01138,
+    "subtaskB": 0.01157,
+    "task": 0.01143,
+    "empty": 0.0112
+   },
+   "d_real_copy": 0.00712
+  },
+  {
+   "task": 8,
+   "boundary": "B1",
+   "episode": 408,
+   "frame": 137,
+   "h": 16,
+   "aligned_text": "put the chocolate pudding to the right of the plate",
+   "other_text": "put the white mug on the plate",
+   "d_real": {
+    "subtaskA": 0.01697,
+    "subtaskB": 0.01672,
+    "task": 0.01782,
+    "empty": 0.01966
+   },
+   "d_real_copy": 0.02006
+  },
+  {
+   "task": 0,
+   "boundary": "B0",
+   "episode": 42,
+   "frame": 0,
+   "h": 80,
+   "aligned_text": "turn on the stove",
+   "other_text": "put the moka pot on the stove",
+   "d_real": {
+    "subtaskA": 0.03981,
+    "subtaskB": 0.03732,
+    "task": 0.03775,
+    "empty": 0.03803
+   },
+   "d_real_copy": 0.06423,
+   "heading": {
+    "subtaskA_seed0": "A",
+    "subtaskA_seed1": "A",
+    "subtaskB_seed0": "A",
+    "subtaskB_seed1": "A"
+   }
+  },
+  {
+   "task": 0,
+   "boundary": "B1",
+   "episode": 42,
+   "frame": 96,
+   "h": 80,
+   "aligned_text": "put the moka pot on the stove",
+   "other_text": "turn on the stove",
+   "d_real": {
+    "subtaskA": 0.09604,
+    "subtaskB": 0.02741,
+    "task": 0.02646,
+    "empty": 0.09864
+   },
+   "d_real_copy": 0.09425
+  },
+  {
+   "task": 1,
+   "boundary": "B0",
+   "episode": 82,
+   "frame": 0,
+   "h": 80,
+   "aligned_text": "put the black bowl in the bottom drawer",
+   "other_text": "close the drawer",
+   "d_real": {
+    "subtaskA": 0.02243,
+    "subtaskB": 0.02176,
+    "task": 0.02214,
+    "empty": 0.02165
+   },
+   "d_real_copy": 0.03682,
+   "heading": {
+    "subtaskA_seed0": "A",
+    "subtaskA_seed1": "A",
+    "subtaskB_seed0": "A",
+    "subtaskB_seed1": "A"
+   }
+  },
+  {
+   "task": 1,
+   "boundary": "B1",
+   "episode": 82,
+   "frame": 168,
+   "h": 80,
+   "aligned_text": "close the drawer",
+   "other_text": "put the black bowl in the bottom drawer",
+   "d_real": {
+    "subtaskA": 0.02973,
+    "subtaskB": 0.02929,
+    "task": 0.02976,
+    "empty": 0.0298
+   },
+   "d_real_copy": 0.03768
+  },
+  {
+   "task": 2,
+   "boundary": "B0",
+   "episode": 125,
+   "frame": 0,
+   "h": 80,
+   "aligned_text": "put the yellow and white mug in the microwave",
+   "other_text": "close the microwave",
+   "d_real": {
+    "subtaskA": 0.01522,
+    "subtaskB": 0.01863,
+    "task": 0.01535,
+    "empty": 0.02019
+   },
+   "d_real_copy": 0.03254,
+   "heading": {
+    "subtaskA_seed0": "A",
+    "subtaskA_seed1": "A",
+    "subtaskB_seed0": "A",
+    "subtaskB_seed1": "A"
+   }
+  },
+  {
+   "task": 2,
+   "boundary": "B1",
+   "episode": 125,
+   "frame": 168,
+   "h": 80,
+   "aligned_text": "close the microwave",
+   "other_text": "put the yellow and white mug in the microwave",
+   "d_real": {
+    "subtaskA": 0.01908,
+    "subtaskB": 0.0201,
+    "task": 0.01962,
+    "empty": 0.01913
+   },
+   "d_real_copy": 0.05686
+  },
+  {
+   "task": 3,
+   "boundary": "B0",
+   "episode": 162,
+   "frame": 0,
+   "h": 80,
+   "aligned_text": "put the first moka pot on the stove",
+   "other_text": "put the moka pot on the stove",
+   "d_real": {
+    "subtaskA": 0.02394,
+    "subtaskB": 0.02394,
+    "task": 0.02372,
+    "empty": 0.02797
+   },
+   "d_real_copy": 0.0392,
+   "heading": {
+    "subtaskA_seed0": "A",
+    "subtaskA_seed1": "A",
+    "subtaskB_seed0": "A",
+    "subtaskB_seed1": "A"
+   }
+  },
+  {
+   "task": 3,
+   "boundary": "B1",
+   "episode": 162,
+   "frame": 193,
+   "h": 80,
+   "aligned_text": "put the moka pot on the stove",
+   "other_text": "put the first moka pot on the stove",
+   "d_real": {
+    "subtaskA": 0.02871,
+    "subtaskB": 0.02906,
+    "task": 0.02838,
+    "empty": 0.0262
+   },
+   "d_real_copy": 0.04894
+  },
+  {
+   "task": 4,
+   "boundary": "B0",
+   "episode": 215,
+   "frame": 0,
+   "h": 80,
+   "aligned_text": "put the alphabet soup in the basket",
+   "other_text": "put the cream cheese box in the basket",
+   "d_real": {
+    "subtaskA": 0.01147,
+    "subtaskB": 0.00962,
+    "task": 0.01121,
+    "empty": 0.00954
+   },
+   "d_real_copy": 0.00966,
+   "heading": {
+    "subtaskA_seed0": "A",
+    "subtaskA_seed1": "A",
+    "subtaskB_seed0": "A",
+    "subtaskB_seed1": "A"
+   }
+  },
+  {
+   "task": 4,
+   "boundary": "B1",
+   "episode": 215,
+   "frame": 132,
+   "h": 80,
+   "aligned_text": "put the cream cheese box in the basket",
+   "other_text": "put the alphabet soup in the basket",
+   "d_real": {
+    "subtaskA": 0.02891,
+    "subtaskB": 0.03175,
+    "task": 0.02911,
+    "empty": 0.02318
+   },
+   "d_real_copy": 0.03345
+  },
+  {
+   "task": 5,
+   "boundary": "B0",
+   "episode": 252,
+   "frame": 0,
+   "h": 80,
+   "aligned_text": "put the alphabet soup in the basket",
+   "other_text": "put the tomato sauce in the basket",
+   "d_real": {
+    "subtaskA": 0.00633,
+    "subtaskB": 0.01264,
+    "task": 0.00766,
+    "empty": 0.00887
+   },
+   "d_real_copy": 0.01001,
+   "heading": {
+    "subtaskA_seed0": "A",
+    "subtaskA_seed1": "A",
+    "subtaskB_seed0": "A",
+    "subtaskB_seed1": "A"
+   }
+  },
+  {
+   "task": 5,
+   "boundary": "B1",
+   "episode": 252,
+   "frame": 130,
+   "h": 80,
+   "aligned_text": "put the tomato sauce in the basket",
+   "other_text": "put the alphabet soup in the basket",
+   "d_real": {
+    "subtaskA": 0.01193,
+    "subtaskB": 0.01049,
+    "task": 0.0115,
+    "empty": 0.03838
+   },
+   "d_real_copy": 0.04308
+  },
+  {
+   "task": 6,
+   "boundary": "B0",
+   "episode": 303,
+   "frame": 0,
+   "h": 80,
+   "aligned_text": "put the cream cheese box in the basket",
+   "other_text": "put the butter in the basket",
+   "d_real": {
+    "subtaskA": 0.02481,
+    "subtaskB": 0.01686,
+    "task": 0.02433,
+    "empty": 0.01597
+   },
+   "d_real_copy": 0.01266,
+   "heading": {
+    "subtaskA_seed0": "A",
+    "subtaskA_seed1": "A",
+    "subtaskB_seed0": "A",
+    "subtaskB_seed1": "A"
+   }
+  },
+  {
+   "task": 6,
+   "boundary": "B1",
+   "episode": 303,
+   "frame": 130,
+   "h": 80,
+   "aligned_text": "put the butter in the basket",
+   "other_text": "put the cream cheese box in the basket",
+   "d_real": {
+    "subtaskA": 0.03551,
+    "subtaskB": 0.03707,
+    "task": 0.02759,
+    "empty": 0.04586
+   },
+   "d_real_copy": 0.03894
+  },
+  {
+   "task": 7,
+   "boundary": "B0",
+   "episode": 350,
+   "frame": 0,
+   "h": 80,
+   "aligned_text": "put the white mug on the plate",
+   "other_text": "put the yellow and white mug on the right plate",
+   "d_real": {
+    "subtaskA": 0.01404,
+    "subtaskB": 0.01404,
+    "task": 0.01454,
+    "empty": 0.01235
+   },
+   "d_real_copy": 0.01772,
+   "heading": {
+    "subtaskA_seed0": "A",
+    "subtaskA_seed1": "A",
+    "subtaskB_seed0": "A",
+    "subtaskB_seed1": "A"
+   }
+  },
+  {
+   "task": 7,
+   "boundary": "B1",
+   "episode": 350,
+   "frame": 117,
+   "h": 80,
+   "aligned_text": "put the yellow and white mug on the right plate",
+   "other_text": "put the white mug on the plate",
+   "d_real": {
+    "subtaskA": 0.01387,
+    "subtaskB": 0.01798,
+    "task": 0.01809,
+    "empty": 0.01911
+   },
+   "d_real_copy": 0.03181
+  },
+  {
+   "task": 8,
+   "boundary": "B0",
+   "episode": 408,
+   "frame": 0,
+   "h": 80,
+   "aligned_text": "put the white mug on the plate",
+   "other_text": "put the chocolate pudding to the right of the plate",
+   "d_real": {
+    "subtaskA": 0.02492,
+    "subtaskB": 0.02426,
+    "task": 0.02565,
+    "empty": 0.01998
+   },
+   "d_real_copy": 0.02362,
+   "heading": {
+    "subtaskA_seed0": "A",
+    "subtaskA_seed1": "A",
+    "subtaskB_seed0": "A",
+    "subtaskB_seed1": "A"
+   }
+  },
+  {
+   "task": 8,
+   "boundary": "B1",
+   "episode": 408,
+   "frame": 137,
+   "h": 80,
+   "aligned_text": "put the chocolate pudding to the right of the plate",
+   "other_text": "put the white mug on the plate",
+   "d_real": {
+    "subtaskA": 0.01832,
+    "subtaskB": 0.01892,
+    "task": 0.01646,
+    "empty": 0.0188
+   },
+   "d_real_copy": 0.04152
+  }
+ ],
+ "summary": {
+  "h16": {
+   "aligned_closer_to_real_than_other": 0.639,
+   "mean_gap_other_minus_aligned": 0.0005,
+   "mean_distance_aligned_vs_other_same_seed": 0.00205,
+   "mean_distance_between_seeds_same_prompt": 0.00813,
+   "B0_aligned_closer": 0.5,
+   "B1_aligned_closer": 0.778
+  },
+  "h80": {
+   "aligned_closer_to_real_than_other": 0.5,
+   "mean_gap_other_minus_aligned": 0.00312,
+   "mean_distance_aligned_vs_other_same_seed": 0.01481,
+   "mean_distance_between_seeds_same_prompt": 0.01679,
+   "B0_aligned_closer": 0.5,
+   "B1_aligned_closer": 0.5,
+   "B0_heading_matches_prompt": 0.5
+  }
+ },
+ "seconds_per_image": 1.41
+}

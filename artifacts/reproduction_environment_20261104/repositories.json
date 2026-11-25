@@ -1,0 +1,27 @@
+{
+  "lerobot": {
+    "path": "/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot",
+    "commit": "76a425c600b82e6bcf91650cbed347899eb1e07f",
+    "status": " M src/lerobot/envs/libero.py\n"
+  },
+  "libero": {
+    "path": "/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero",
+    "commit": "14fd6f022ff6647defc24e73563b95aa36670f43",
+    "status": ""
+  },
+  "imagewam": {
+    "path": "/home/skr/Downloads/pi_07/ImageWAM",
+    "commit": "5d4a341ed20a95cdb08f0293f3d44778b9a9e05a",
+    "status": " M pyproject.toml\n"
+  },
+  "flux2": {
+    "path": "/home/skr/Downloads/pi_07/ImageWAM/third_party/flux2",
+    "commit": "50fe5162777813d869182b139e83b10743caef15",
+    "status": ""
+  },
+  "susie": {
+    "path": "/home/skr/Downloads/pi_07/susie",
+    "commit": "8177f63332a3905202c122310a92c51b8ff14280",
+    "status": ""
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "status": "complete",
+  "optimizer_updates": 2,
+  "validation": [
+    {
+      "step": 1,
+      "flow_mse": 2.934413433074951,
+      "valid_action_components": 350,
+      "observations": 1,
+      "sampled_actions": {
+        "first_8": {
+          "mse": 0.19609582424163818,
+          "valid_components": 56,
+          "per_observation": [
+            0.19609582424163818
+          ]
+        },
+        "first_50": {
+          "mse": 0.7235315377371652,
+          "valid_components": 350,
+          "per_observation": [
+            0.7235315442085266
+          ]
+        }
+      }
+    },
+    {
+      "step": 2,
+      "flow_mse": 2.9097564220428467,
+      "valid_action_components": 350,
+      "observations": 1,
+      "sampled_actions": {
+        "first_8": {
+          "mse": 0.19445065089634486,
+          "valid_components": 56,
+          "per_observation": [
+            0.19445064663887024
+          ]
+        },
+        "first_50": {
+          "mse": 0.7214305332728794,
+          "valid_components": 350,
+          "per_observation": [
+            0.7214305400848389
+          ]
+        }
+      }
+    }
+  ],
+  "updates": [
+    {
+      "step": 2,
+      "loss": 7.16348934173584,
+      "gradient_norm": 170.21437072753906
+    }
+  ],
+  "initial_state_sha256": "f8165344b3d325b0c7f589c61f0c6f7fb15575448387be3c9cd8f45fc738d3d8",
+  "trainable_parameters": 99880992,
+  "training_and_validation_seconds": 7.957612369005801,
+  "frozen_backbone_unchanged": true,
+  "final_goals_dropped": {
+    "flow_mse": 3.936164617538452,
+    "valid_action_components": 350,
+    "observations": 1,
+    "sampled_actions": {
+      "first_8": {
+        "mse": 0.27637835911342074,
+        "valid_components": 56,
+        "per_observation": [
+          0.2763783633708954
+        ]
+      },
+      "first_50": {
+        "mse": 0.5580165754045759,
+        "valid_components": 350,
+        "per_observation": [
+          0.5580165982246399
+        ]
+      }
+    }
+  },
+  "latest_checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_resume_resumed_20261104/checkpoint",
+  "checkpoint_roundtrip_exact": true
+}

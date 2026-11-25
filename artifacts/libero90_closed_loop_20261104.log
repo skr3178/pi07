@@ -1,0 +1,73 @@
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+WARNING:robosuite_logs:No private macro file found!
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+WARNING:robosuite_logs:It is recommended to use a private macro file
+[robosuite WARNING] To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+WARNING:robosuite_logs:To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+reference_task0_init0: success=False steps=520 progress=0.50
+reference_task0_init1: success=False steps=520 progress=0.50
+reference_task1_init0: success=False steps=520 progress=0.00
+reference_task1_init1: success=False steps=520 progress=0.00
+reference_task2_init0: success=False steps=520 progress=0.00
+reference_task2_init1: success=False steps=520 progress=0.00
+reference_task3_init0: success=False steps=520 progress=0.50
+reference_task3_init1: success=False steps=520 progress=0.50
+reference_task4_init0: success=False steps=520 progress=0.00
+reference_task4_init1: success=False steps=520 progress=0.00
+reference_task5_init0: success=False steps=520 progress=0.00
+reference_task5_init1: success=False steps=520 progress=0.00
+reference_task6_init0: success=False steps=520 progress=0.00
+reference_task6_init1: success=False steps=520 progress=0.00
+reference_task7_init0: success=False steps=520 progress=0.00
+reference_task7_init1: success=False steps=520 progress=0.00
+reference_task8_init0: success=False steps=520 progress=0.33
+reference_task8_init1: success=False steps=520 progress=0.33
+reference_task9_init0: success=False steps=520 progress=0.00
+reference_task9_init1: success=False steps=520 progress=0.00
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+A_task0_init0: success=False steps=520 progress=0.00
+A_task0_init1: success=False steps=520 progress=0.00
+A_task1_init0: success=True steps=256 progress=1.00
+A_task1_init1: success=True steps=288 progress=1.00
+A_task2_init0: success=False steps=520 progress=0.50
+A_task2_init1: success=False steps=520 progress=0.00
+A_task3_init0: success=False steps=520 progress=0.50
+A_task3_init1: success=False steps=520 progress=0.50
+A_task4_init0: success=False steps=520 progress=0.50
+A_task4_init1: success=False steps=520 progress=0.00
+A_task5_init0: success=False steps=520 progress=0.00
+A_task5_init1: success=False steps=520 progress=0.00
+A_task6_init0: success=False steps=520 progress=0.50
+A_task6_init1: success=False steps=520 progress=0.00
+A_task7_init0: success=False steps=520 progress=0.00
+A_task7_init1: success=False steps=520 progress=0.50
+A_task8_init0: success=False steps=520 progress=0.33
+A_task8_init1: success=False steps=520 progress=0.33
+A_task9_init0: success=False steps=520 progress=0.00
+A_task9_init1: success=False steps=520 progress=0.00
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+Bnear_off_task0_init0: success=False steps=520 progress=0.00
+Bnear_off_task0_init1: success=False steps=520 progress=0.00
+Bnear_off_task1_init0: success=False steps=520 progress=0.50
+Bnear_off_task1_init1: success=False steps=520 progress=0.00
+Bnear_off_task2_init0: success=False steps=520 progress=0.50
+Bnear_off_task2_init1: success=False steps=520 progress=0.00
+Bnear_off_task3_init0: success=False steps=520 progress=0.00
+Bnear_off_task3_init1: success=False steps=520 progress=0.50
+Bnear_off_task4_init0: success=False steps=520 progress=0.50
+Bnear_off_task4_init1: success=False steps=520 progress=0.00
+Bnear_off_task5_init0: success=False steps=520 progress=0.00
+Bnear_off_task5_init1: success=False steps=520 progress=0.00
+Bnear_off_task6_init0: success=False steps=520 progress=0.00
+Bnear_off_task6_init1: success=False steps=520 progress=0.00
+Bnear_off_task7_init0: success=False steps=520 progress=0.00
+Bnear_off_task7_init1: success=False steps=520 progress=0.00
+Bnear_off_task8_init0: success=False steps=520 progress=0.33
+Bnear_off_task8_init1: success=False steps=520 progress=0.33
+Bnear_off_task9_init0: success=False steps=520 progress=0.00
+Bnear_off_task9_init1: success=False steps=520 progress=0.00

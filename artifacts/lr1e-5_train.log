@@ -1,0 +1,48 @@
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+A step 50: {"dropped": {"flow_mse": 0.5373117457151625, "valid_action_components": 31479}}
+A step 100: {"dropped": {"flow_mse": 0.47913242133294104, "valid_action_components": 31479}}
+A step 150: {"dropped": {"flow_mse": 0.448168758487659, "valid_action_components": 31479}}
+A step 200: {"dropped": {"flow_mse": 0.4202807015820771, "valid_action_components": 31479}}
+A step 250: {"dropped": {"flow_mse": 0.38912913600868826, "valid_action_components": 31479}}
+A step 300: {"dropped": {"flow_mse": 0.37854277876872394, "valid_action_components": 31479}}
+A step 350: {"dropped": {"flow_mse": 0.36263193688128614, "valid_action_components": 31479}}
+A step 400: {"dropped": {"flow_mse": 0.3534612118077856, "valid_action_components": 31479}}
+A step 450: {"dropped": {"flow_mse": 0.34624521401171315, "valid_action_components": 31479}}
+A step 500: {"dropped": {"flow_mse": 0.3416735024181291, "valid_action_components": 31479}}
+A step 550: {"dropped": {"flow_mse": 0.3378792934406326, "valid_action_components": 31479}}
+A step 600: {"dropped": {"flow_mse": 0.32877206075369103, "valid_action_components": 31479}}
+A step 650: {"dropped": {"flow_mse": 0.3204706188159597, "valid_action_components": 31479}}
+A step 700: {"dropped": {"flow_mse": 0.32147705649730496, "valid_action_components": 31479}}
+A step 750: {"dropped": {"flow_mse": 0.3214219453230364, "valid_action_components": 31479}}
+A step 800: {"dropped": {"flow_mse": 0.31488655838922364, "valid_action_components": 31479}}
+A step 850: {"dropped": {"flow_mse": 0.3153596064475528, "valid_action_components": 31479}}
+A step 900: {"dropped": {"flow_mse": 0.3118773432361939, "valid_action_components": 31479}}
+A step 950: {"dropped": {"flow_mse": 0.3081341967440616, "valid_action_components": 31479}}
+A step 1000: {"dropped": {"flow_mse": 0.30843696092297457, "valid_action_components": 31479}}
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+B step 50: {"real_future": {"flow_mse": 0.805517340563975, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.5373949377383553, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.806842785140581, "valid_action_components": 31479}}
+B step 100: {"real_future": {"flow_mse": 0.6813149661693887, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.48764662927379865, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.6877280168064652, "valid_action_components": 31479}}
+B step 150: {"real_future": {"flow_mse": 0.6268648241781409, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.4621896540155033, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.6371544790594, "valid_action_components": 31479}}
+B step 200: {"real_future": {"flow_mse": 0.5828592398775294, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.43173073737163237, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.5851627062142147, "valid_action_components": 31479}}
+B step 250: {"real_future": {"flow_mse": 0.5385098907784247, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.4023822529437358, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.5363185961617081, "valid_action_components": 31479}}
+B step 300: {"real_future": {"flow_mse": 0.5269680427648715, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.38666198949549285, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.5215291709390406, "valid_action_components": 31479}}
+B step 350: {"real_future": {"flow_mse": 0.5042637199302608, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.3732846614378464, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.49868348714031324, "valid_action_components": 31479}}
+B step 400: {"real_future": {"flow_mse": 0.4841513380968282, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.36105209495561613, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.47783712677911094, "valid_action_components": 31479}}
+B step 450: {"real_future": {"flow_mse": 0.47825793378189296, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.35244406536735107, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.4717222458592038, "valid_action_components": 31479}}
+B step 500: {"real_future": {"flow_mse": 0.4666286619247159, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.3473418544425364, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.46211053919124156, "valid_action_components": 31479}}
+B step 550: {"real_future": {"flow_mse": 0.460276259212513, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.34644585674223116, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.4511871329076507, "valid_action_components": 31479}}
+B step 600: {"real_future": {"flow_mse": 0.44916687717245823, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.3374321883238234, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.4404717471126665, "valid_action_components": 31479}}
+B step 650: {"real_future": {"flow_mse": 0.44121894378224186, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.3278782393022036, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.4321543917951251, "valid_action_components": 31479}}
+B step 700: {"real_future": {"flow_mse": 0.4340464642558438, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.3297127784723331, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.4258137727966037, "valid_action_components": 31479}}
+B step 750: {"real_future": {"flow_mse": 0.42696030175179567, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.328354298392481, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.41561627443668603, "valid_action_components": 31479}}
+B step 800: {"real_future": {"flow_mse": 0.4208292516935447, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.32265711647154144, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.41199810804593345, "valid_action_components": 31479}}
+B step 850: {"real_future": {"flow_mse": 0.41655558323181546, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.32400322539331333, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.40870237685135263, "valid_action_components": 31479}}
+B step 900: {"real_future": {"flow_mse": 0.41332147481350306, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.3188056338885797, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.40923529429941513, "valid_action_components": 31479}}
+B step 950: {"real_future": {"flow_mse": 0.41015070677134946, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.3143410214668437, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.40880102695876924, "valid_action_components": 31479}}
+B step 1000: {"real_future": {"flow_mse": 0.40716171193737866, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.3157559600119223, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.40004519145038625, "valid_action_components": 31479}}
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory

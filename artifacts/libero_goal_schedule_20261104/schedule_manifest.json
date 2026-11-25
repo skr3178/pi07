@@ -1,0 +1,24 @@
+{
+  "dataset": "libero_goal",
+  "dataset_root": "/media/skr/storage/datasets/LIBERO-fastwam/lerobot_v30/libero_goal_no_noops_lerobot",
+  "dataset_info_sha256": "587ae25da9d11802f410458c5029a2ed6614ab2f2c11c300a6ffa962c05cb831",
+  "seed": 20261104,
+  "train_examples": 8000,
+  "validation_examples": 100,
+  "validation_task_counts": {
+    "0": 10,
+    "1": 10,
+    "2": 10,
+    "3": 10,
+    "4": 10,
+    "5": 10,
+    "6": 10,
+    "7": 10,
+    "8": 10,
+    "9": 10
+  },
+  "validation_episode_count": 48,
+  "future_horizon_unit": "retained dataset frames; physical elapsed time not certified",
+  "endpoint_definition": "episode end, no subtask labels",
+  "source_sha256": "dd8ae665edd66c62b11fd787fd59c4b6697a3463cfaa72c78c018c19408ea6eb"
+}

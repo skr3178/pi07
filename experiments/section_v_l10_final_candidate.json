@@ -1,0 +1,61 @@
+{
+  "suite": "libero_10",
+  "task_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "init_ids": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "max_steps": 520,
+  "goal_refresh_steps": 16,
+  "conditions": [
+    {
+      "name": "A",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_task_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off"
+    },
+    {
+      "name": "SG_off",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_goal_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates"
+    },
+    {
+      "name": "SG_copy",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_goal_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "copy",
+      "subtasks": "oracle_predicates"
+    },
+    {
+      "name": "SG_generated",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_goal_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "generated",
+      "subtasks": "oracle_predicates"
+    }
+  ],
+  "purpose": "Frozen final LIBERO-10 comparison: 100 identical starts per condition after development. Fixed 1,000-update Section V task/combined models, with off/copied/generated goal controls.",
+  "phase": "final",
+  "frozen_protocol": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_final_protocol_20261104/protocol.json"
+}

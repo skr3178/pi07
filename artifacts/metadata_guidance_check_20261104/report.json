@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_resume_full_20261104/checkpoint",
+  "checkpoint_sha256": "e60643098effb589aac78d50991559fbf3707889ae879b9d53d7ef0e6b0eb122",
+  "beta_convention": "v_cond + beta * (v_cond - v_no_metadata); zero is ordinary conditioned inference",
+  "zero_guidance_max_error": 0.0,
+  "identical_branch_max_error": 0.0,
+  "beta_1_3_action_max_change": 2.1272923946380615,
+  "non_metadata_change_rejected": true,
+  "conditioned_text": "Task: turn on the stove and put the moka pot on it. Subtask: put the moka pot on the stove. Speed: 300 recorded steps. Control Mode: ee.",
+  "unconditioned_text": "Task: turn on the stove and put the moka pot on it. Subtask: put the moka pot on the stove. Control Mode: ee.",
+  "source_sha256": {
+    "metadata_guidance.py": "14031c328e0a215bfa0b4f702f014ee6278defec42b98a37e8a6c5fcf5b8eb7e",
+    "check_metadata_guidance.py": "9434b7f23c3194063957652f0baaa1971a38c6208cb9c226a99d4d12dc54b266"
+  },
+  "scope": "Numerical sampler/interface check with a two-update smoke checkpoint; not behavior efficacy."
+}

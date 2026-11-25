@@ -1,0 +1,8 @@
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+task step 250
+task step 500
+task step 750
+task step 1000
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory

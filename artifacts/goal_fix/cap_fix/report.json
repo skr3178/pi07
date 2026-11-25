@@ -1,0 +1,68 @@
+{
+  "variant": {
+    "variant": "cap_fix",
+    "arms": "B,A",
+    "marker": true,
+    "unfreeze_last": 4,
+    "steps": 1000,
+    "batch_size": 8,
+    "seed": 20261029,
+    "lr": 1e-05,
+    "marker_lr": 0.001,
+    "output": "/home/skr/Downloads/pi_07/pi07_code/artifacts/goal_fix/cap_fix"
+  },
+  "goal_rate": 1.0,
+  "goal_offsets": "8-16 frames",
+  "arms": {
+    "B": {
+      "trainable_parameters": 139211232,
+      "train_seconds": 309.0193642660015,
+      "peak_allocated_gb": 4.950109696,
+      "final_mean_loss_last250": 0.4160779767632484,
+      "goal_marker_norm": 3.5283703804016113,
+      "offline_action_mse": {
+        "real_future": {
+          "mse_8": 0.32202788658732345,
+          "mse_50": 0.3324208728103543
+        },
+        "dropped": {
+          "mse_8": 0.2242186355822461,
+          "mse_50": 0.2982730948791339
+        },
+        "copied_current": {
+          "mse_8": 0.2813072171130597,
+          "mse_50": 0.32771292199036944
+        },
+        "mismatched_task": {
+          "mse_8": 0.361822501623875,
+          "mse_50": 0.3851724807800818
+        }
+      }
+    },
+    "A": {
+      "trainable_parameters": 139211232,
+      "train_seconds": 294.82401220900283,
+      "peak_allocated_gb": 4.952466944,
+      "final_mean_loss_last250": 0.3902411455512047,
+      "goal_marker_norm": 0.0,
+      "offline_action_mse": {
+        "dropped": {
+          "mse_8": 0.22742154912238244,
+          "mse_50": 0.26170728627667234
+        }
+      }
+    }
+  },
+  "gradient_check": {
+    "B": {
+      "vlm_params_trainable": 36,
+      "vlm_params_with_nonzero_grad": 30,
+      "marker_grad_nonzero": true
+    },
+    "A": {
+      "vlm_params_trainable": 36,
+      "vlm_params_with_nonzero_grad": 30,
+      "marker_grad_nonzero": false
+    }
+  }
+}

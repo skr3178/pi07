@@ -1,0 +1,22 @@
+2026-10-29 11:16:24,602 imagewam.models.backbones.action_dit_flux2: Initializing ActionDiTFlux2 without pretrained action weights.
+2026-10-29 11:16:24,602 imagewam.models.backbones.mot: Using gradient checkpointing for mixture attention.
+2026-10-29 11:16:24,602 imagewam.models.backbones.mot: Initialized MoT with experts=['video', 'action'] protocol=flux2 layers=25 heads=24 kv_heads=24 head_dim=128
+2026-10-29 11:16:24,602 imagewam.models.backbones.mot: MoT attention config: gqa_implementation=repeat force_flash_attention=False
+2026-10-29 11:16:27,342 imagewam.models.backbones.imagewam: Loading ImageWAM checkpoint from /media/skr/storage/models/imagewam/imagewam_release/libero/flux2_klein_4b/model.pt with payload keys=['mot', 'proprio_encoder', 'step', 'torch_dtype'] step=34720
+2026-10-29 11:16:28,193 imagewam.models.backbones.imagewam: Loaded MoT weights from checkpoint: missing_keys=0 unexpected_keys=0
+2026-10-29 11:16:28,193 imagewam.models.backbones.imagewam: Loaded proprio_encoder weights from checkpoint.
+Loaded model in 7.8 s
+2026-10-29 11:16:28,552 imagewam.models.backbones.imagewam: Lazy-loading FLUX.2 Qwen3 text encoder for prompt inference: Qwen/Qwen3-4B
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 110.16it/s]
+Cached 13 prompts; released Qwen3
+Finished single-step controls: drawer_close_original (15 generations)
+Finished single-step controls: drawer_close_late (30 generations)
+Finished single-step controls: microwave_close_original (45 generations)
+Finished single-step controls: microwave_close_late (60 generations)
+Finished single-step controls: pudding_place_original (75 generations)
+Finished single-step controls: pudding_place_late (90 generations)
+Finished frozen-state chain: drawer_close_original, 6 steps
+Finished frozen-state chain: microwave_close_original, 7 steps
+Finished frozen-state chain: pudding_place_original, 6 steps
+Inference finished

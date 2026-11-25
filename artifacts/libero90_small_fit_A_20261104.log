@@ -1,0 +1,18 @@
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+WARNING:robosuite_logs:No private macro file found!
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+WARNING:robosuite_logs:It is recommended to use a private macro file
+[robosuite WARNING] To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+WARNING:robosuite_logs:To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+zero update {'max_abs_action_difference': 0.10386857390403748, 'rms_action_difference': 0.0026758743915706873, 'observations': 8, 'goal_masks': False}
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+lr=0.0001 step=0 flow=2.27490 action8=0.59868
+lr=0.0001 step=50 flow=0.16577 action8=0.07331
+lr=0.0001 step=100 flow=0.12877 action8=0.03820
+lr=0.0001 step=150 flow=0.11198 action8=0.02577
+lr=0.0001 step=200 flow=0.11552 action8=0.02650

@@ -1,0 +1,16 @@
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+A step 50: {"dropped": {"flow_mse": 0.38780690552010283, "valid_action_components": 31479}}
+A step 100: {"dropped": {"flow_mse": 0.390063741123223, "valid_action_components": 31479}}
+A step 150: {"dropped": {"flow_mse": 0.40183629474959054, "valid_action_components": 31479}}
+A step 200: {"dropped": {"flow_mse": 0.3889894575768639, "valid_action_components": 31479}}
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+B step 50: {"real_future": {"flow_mse": 0.5080691757853201, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.38592842631149693, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.49442742528691674, "valid_action_components": 31479}}
+B step 100: {"real_future": {"flow_mse": 0.47100734813414286, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.39836297584343466, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.4682050985457077, "valid_action_components": 31479}}
+B step 150: {"real_future": {"flow_mse": 0.4607341885898069, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.3914332031202974, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.4523799424439715, "valid_action_components": 31479}}
+B step 200: {"real_future": {"flow_mse": 0.45852268644775684, "valid_action_components": 31479}, "dropped": {"flow_mse": 0.3901742284718635, "valid_action_components": 31479}, "copied_current": {"flow_mse": 0.4400470346868476, "valid_action_components": 31479}}
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory

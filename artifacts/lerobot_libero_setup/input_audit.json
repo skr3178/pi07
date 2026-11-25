@@ -1,0 +1,193 @@
+{
+  "status": "passed",
+  "episodes": 500,
+  "frames": 138090,
+  "samples": [
+    {
+      "episode": 0,
+      "frame": 0,
+      "task": "turn on the stove and put the moka pot on it",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 0,
+      "frame": 135,
+      "task": "turn on the stove and put the moka pot on it",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 0,
+      "frame": 271,
+      "task": "turn on the stove and put the moka pot on it",
+      "padded_action_steps": 49
+    },
+    {
+      "episode": 50,
+      "frame": 0,
+      "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 50,
+      "frame": 130,
+      "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 50,
+      "frame": 260,
+      "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "padded_action_steps": 49
+    },
+    {
+      "episode": 100,
+      "frame": 0,
+      "task": "put the yellow and white mug in the microwave and close it",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 100,
+      "frame": 164,
+      "task": "put the yellow and white mug in the microwave and close it",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 100,
+      "frame": 328,
+      "task": "put the yellow and white mug in the microwave and close it",
+      "padded_action_steps": 49
+    },
+    {
+      "episode": 150,
+      "frame": 0,
+      "task": "put both moka pots on the stove",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 150,
+      "frame": 228,
+      "task": "put both moka pots on the stove",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 150,
+      "frame": 456,
+      "task": "put both moka pots on the stove",
+      "padded_action_steps": 49
+    },
+    {
+      "episode": 200,
+      "frame": 0,
+      "task": "put both the alphabet soup and the cream cheese box in the basket",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 200,
+      "frame": 120,
+      "task": "put both the alphabet soup and the cream cheese box in the basket",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 200,
+      "frame": 241,
+      "task": "put both the alphabet soup and the cream cheese box in the basket",
+      "padded_action_steps": 49
+    },
+    {
+      "episode": 250,
+      "frame": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 250,
+      "frame": 193,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 250,
+      "frame": 387,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "padded_action_steps": 49
+    },
+    {
+      "episode": 300,
+      "frame": 0,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 300,
+      "frame": 128,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 300,
+      "frame": 257,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "padded_action_steps": 49
+    },
+    {
+      "episode": 350,
+      "frame": 0,
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 350,
+      "frame": 137,
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 350,
+      "frame": 274,
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "padded_action_steps": 49
+    },
+    {
+      "episode": 400,
+      "frame": 0,
+      "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 400,
+      "frame": 101,
+      "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 400,
+      "frame": 202,
+      "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "padded_action_steps": 49
+    },
+    {
+      "episode": 450,
+      "frame": 0,
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 450,
+      "frame": 116,
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "padded_action_steps": 0
+    },
+    {
+      "episode": 450,
+      "frame": 233,
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "padded_action_steps": 49
+    }
+  ],
+  "decoded_samples": 30,
+  "finite_samples": 30,
+  "cross_episode_action_queries": 0,
+  "action_padding_mismatches": 0,
+  "task_count": 10,
+  "scope": "30 stratified runtime samples, not an exhaustive visual or semantic label audit; future-goal pair builder remains untested."
+}

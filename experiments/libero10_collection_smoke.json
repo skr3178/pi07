@@ -1,0 +1,23 @@
+{
+  "suite": "libero_10",
+  "phase": "training_collection",
+  "record_training_data": true,
+  "task_ids": [
+    1
+  ],
+  "init_ids": [
+    12
+  ],
+  "max_steps": 8,
+  "goal_refresh_steps": 16,
+  "conditions": [
+    {
+      "checkpoint": "/media/skr/storage/checkpoints/pi07_goal_ab/l90v2_Bnear/B",
+      "layout": "alt",
+      "goals": "copy",
+      "name": "collection_smoke",
+      "action_noise_std": 0.15
+    }
+  ],
+  "purpose": "Eight-step collection format check, not performance data"
+}

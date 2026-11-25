@@ -1,0 +1,32 @@
+{
+  "suite": "libero_10",
+  "phase": "training_collection",
+  "record_training_data": true,
+  "task_ids": [
+    1,
+    2,
+    5
+  ],
+  "init_ids": [
+    12,
+    13
+  ],
+  "max_steps": 520,
+  "goal_refresh_steps": 16,
+  "conditions": [
+    {
+      "checkpoint": "/media/skr/storage/checkpoints/pi07_goal_ab/l90v2_Bnear/B",
+      "layout": "alt",
+      "goals": "copy",
+      "name": "collection_clean"
+    },
+    {
+      "checkpoint": "/media/skr/storage/checkpoints/pi07_goal_ab/l90v2_Bnear/B",
+      "layout": "alt",
+      "goals": "copy",
+      "name": "collection_noise",
+      "action_noise_std": 0.15
+    }
+  ],
+  "purpose": "Dedicated mixed-behavior collection; distinct starts 12/13, raw full-rate cameras and executed actions. Quality and mistakes require review."
+}

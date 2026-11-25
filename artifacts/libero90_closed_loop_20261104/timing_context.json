@@ -1,0 +1,28 @@
+{
+  "note": "A 32-observation policy fitting diagnostic may overlap B-off evaluation on the GPU. Task outcomes and paired seeds remain valid; timing during overlap is not an isolated inference benchmark.",
+  "concurrent_run": "../libero90_small_fit_A_20261104",
+  "start_utc": "2026-11-04T06:52:55.817458+00:00",
+  "end_utc": "2026-11-04T06:57:23.127101+00:00",
+  "additional_concurrent_run": {
+    "path": "../libero90_small_fit_B_20261104",
+    "start_utc": "2026-11-04T06:58:08.524043+00:00",
+    "end_utc": "2026-11-04T07:03:19.334483+00:00"
+  },
+  "other_overlap": [
+    {
+      "run": "../section_v_oracle_runtime_smoke_20261104",
+      "start_utc": "2026-11-04T07:18:28.725107+00:00",
+      "purpose": "Three 16-step interface checks, not an efficacy experiment"
+    },
+    {
+      "run": "../section_v_l10_task_1000_20261104",
+      "start_utc": "2026-11-04T07:20:11.706849+00:00",
+      "purpose": "Fresh task-only control for the new Section V format; GPU timing is shared"
+    },
+    {
+      "run": "../libero90_copy_control_20261104",
+      "start_utc": "2026-11-04T07:23:41.086854+00:00",
+      "purpose": "Matched live copied-current control; timings share GPU"
+    }
+  ]
+}

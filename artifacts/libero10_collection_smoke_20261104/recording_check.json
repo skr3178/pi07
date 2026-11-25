@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "frames": 8,
+  "state_equal_after_declared_float32_cast": true,
+  "state_cast_max_difference": 1.0921150916942679e-07,
+  "current_predicate_alignment": true,
+  "executed_actions_finite_and_bounded": true,
+  "noise_recorded_in_executed_actions": true,
+  "pre_terminal_frames_only": true
+}

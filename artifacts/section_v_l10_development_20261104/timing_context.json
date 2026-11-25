@@ -1,0 +1,7 @@
+{
+  "overlapping_jobs": [
+    "section_v_goal_task_1000_20261104",
+    "section_v_goal_visual_1000_20261104"
+  ],
+  "note": "GPU policy training overlaps part of this live evaluation. Episode/control inputs remain paired; latency and throughput are not isolated benchmark measurements."
+}

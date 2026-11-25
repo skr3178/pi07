@@ -1,0 +1,66 @@
+{
+  "measurements": {
+    "libero_10": [
+      {
+        "axis": 0,
+        "count": 15314,
+        "least_squares_gain": 0.011602793956216528,
+        "median_delta_position_per_action": 0.01218759686766216
+      },
+      {
+        "axis": 1,
+        "count": 15276,
+        "least_squares_gain": 0.012153441849138172,
+        "median_delta_position_per_action": 0.01295531441929082
+      },
+      {
+        "axis": 2,
+        "count": 16088,
+        "least_squares_gain": 0.011619465531059376,
+        "median_delta_position_per_action": 0.012610408365162997
+      }
+    ],
+    "libero_goal": [
+      {
+        "axis": 0,
+        "count": 6859,
+        "least_squares_gain": 0.010838235170909932,
+        "median_delta_position_per_action": 0.010969797770182291
+      },
+      {
+        "axis": 1,
+        "count": 6601,
+        "least_squares_gain": 0.011029398747546638,
+        "median_delta_position_per_action": 0.012347078307437382
+      },
+      {
+        "axis": 2,
+        "count": 9170,
+        "least_squares_gain": 0.009895927938957404,
+        "median_delta_position_per_action": 0.012078648796037462
+      }
+    ],
+    "collected_20hz_simulator": [
+      {
+        "axis": 0,
+        "count": 37,
+        "least_squares_gain": 0.007043214049190283,
+        "median_delta_position_per_action": 0.010796677321195602
+      },
+      {
+        "axis": 1,
+        "count": 18,
+        "least_squares_gain": 0.012905551120638847,
+        "median_delta_position_per_action": 0.010700786486268044
+      },
+      {
+        "axis": 2,
+        "count": 13,
+        "least_squares_gain": 0.0016053930157795548,
+        "median_delta_position_per_action": 0.000886100810021162
+      }
+    ]
+  },
+  "limits": "Exploratory stable-command, elevated-EEF kinematic check, not a simulator replay or physical timestamp certification. Does not change training horizons.",
+  "interpretation": "Inconclusive exploratory comparison. Demonstration x/y/z gains are similar across the two datasets, but the live filtered sample is small (13\u201337 transitions per axis) and its z response differs substantially. Contact, controller dynamics and task selection are not controlled. This cannot certify action-scale equivalence or physical timestamps and does not justify changing action execution or goal horizons."
+}

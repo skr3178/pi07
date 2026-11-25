@@ -1,0 +1,74 @@
+{
+  "purpose": "development only; not the final 100-episode benchmark",
+  "training_run": "/home/skr/Downloads/pi_07/pi07_code/artifacts/goal_training_1000",
+  "checkpoint_sha256": {
+    "A": "00a8d848bbf3f2dab02aac3c942ad79f62fd1f1eb63af3d2dfd2f2c0784262a9",
+    "B": "bbdb8e71f7ee1b76740ceff3351003ff9e96783cdb8d132e3739b6b520a2990a"
+  },
+  "conditions": [
+    "A_dropped",
+    "B_dropped",
+    "B_generated"
+  ],
+  "jobs": [
+    {
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 0,
+      "seed": 0
+    },
+    {
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 1,
+      "seed": 1
+    },
+    {
+      "task_id": 4,
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "initial_state_id": 0,
+      "seed": 400
+    },
+    {
+      "task_id": 4,
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "initial_state_id": 1,
+      "seed": 401
+    },
+    {
+      "task_id": 8,
+      "task": "put both moka pots on the stove",
+      "initial_state_id": 0,
+      "seed": 800
+    },
+    {
+      "task_id": 8,
+      "task": "put both moka pots on the stove",
+      "initial_state_id": 1,
+      "seed": 801
+    }
+  ],
+  "max_steps": 520,
+  "settling_steps": 10,
+  "action_chunk": 50,
+  "execute_steps": 8,
+  "goal_refresh_simulator_actions": 16,
+  "world_model_calls_per_refresh": 1,
+  "world_model_denoising_steps": 10,
+  "goal_seed": "500000 + episode seed * 1000 + refresh simulator step",
+  "goal_prompt": "full task text",
+  "image_convention": "already rotated 180 degrees by LeRobot; main then wrist",
+  "image_sizes": "256px observations; per-camera resize to 224 for ImageWAM; generated goals resize to 256 for policy",
+  "state_convention": "current raw EEF xyz, axis-angle rotation, two gripper joints; ImageWAM min/max normalization",
+  "timing": "simulation pauses during generation/inference; no real-time claim",
+  "sources_sha256": {
+    "run_goal_development.py": "8f4000458e0fc7c880ded162743f13387e28268d34b47748fdf588c8df3d9b2c",
+    "imagewam_goal_worker.py": "14ae63d004953153ac7c4b84b2f4e996ba98891e06fcf118321c134f895ebfdf",
+    "goal_policy.py": "7c2f7edc5e46652239333788aed34b619e9b755c4815ad14a08f0f7afd195782"
+  },
+  "world_model": "/media/skr/storage/models/imagewam/imagewam_release/libero/flux2_klein_4b/model.pt",
+  "world_model_sha256": "53620f93f8772d2047f27f9ca9b4a1f56cdd7932de566282e0f4a80cfff21cb5",
+  "world_model_config_sha256": "8a257ba05ea1ed70afa294b17c384ce8a2d08598e661bf937b22882346e46462",
+  "world_model_stats_sha256": "5770ca032724314814dce0db828f2c3eb402bcf75933bd6e6f4a516831f3f3e8",
+  "imagewam_source_commits": "imagewam commit: 5d4a341ed20a95cdb08f0293f3d44778b9a9e05a\nflux2 commit: 50fe5162777813d869182b139e83b10743caef15\n"
+}

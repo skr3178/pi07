@@ -1,0 +1,71 @@
+diff --git a/modeling/bagel/qwen2_navit.py b/modeling/bagel/qwen2_navit.py
+index f818565..44864df 100644
+--- a/modeling/bagel/qwen2_navit.py
++++ b/modeling/bagel/qwen2_navit.py
+@@ -21,7 +21,10 @@ from torch.nn.attention.flex_attention import flex_attention
+ from torch.nn.functional import scaled_dot_product_attention
+ from transformers.utils import ModelOutput
+ 
+-from flash_attn import flash_attn_varlen_func
++try:
++    from flash_attn import flash_attn_varlen_func
++except ImportError:
++    from modeling.attention_compat import flash_attn_varlen_func
+ from modeling.qwen2.modeling_qwen2 import (
+     Qwen2Attention, 
+     Qwen2MLP, 
+diff --git a/modeling/bagel/siglip_navit.py b/modeling/bagel/siglip_navit.py
+index 26efea3..62e1619 100644
+--- a/modeling/bagel/siglip_navit.py
++++ b/modeling/bagel/siglip_navit.py
+@@ -15,7 +15,10 @@ from torch import nn
+ from transformers.activations import ACT2FN
+ from modeling.siglip.configuration_siglip import SiglipVisionConfig as _SiglipVisionConfig
+ from modeling.siglip.modeling_siglip import SiglipAttention, SiglipPreTrainedModel
+-from flash_attn import flash_attn_varlen_func
++try:
++    from flash_attn import flash_attn_varlen_func
++except ImportError:
++    from modeling.attention_compat import flash_attn_varlen_func
+ 
+ 
+ class SiglipVisionConfig(_SiglipVisionConfig):
+diff --git a/modeling/attention_compat.py b/modeling/attention_compat.py
+new file mode 100644
+index 0000000..af7f75a
+--- /dev/null
++++ b/modeling/attention_compat.py
+@@ -0,0 +1,33 @@
++"""Inference fallback for FlashAttention's packed variable-length interface.
++
++Uses PyTorch SDPA with FlashAttention's bottom-right causal alignment.
++This changes the attention implementation, not the model weights; numerical
++outputs need not be bit-identical to the upstream FlashAttention kernel.
++"""
++import torch
++from torch.nn.functional import scaled_dot_product_attention
++
++
++def flash_attn_varlen_func(q, k, v, cu_seqlens_q, cu_seqlens_k,
++                           max_seqlen_q, max_seqlen_k, causal=False):
++    q_bounds = cu_seqlens_q.tolist()
++    k_bounds = cu_seqlens_k.tolist()
++    if len(q_bounds) != len(k_bounds):
++        raise ValueError("Query and key batches must have equal length")
++    outputs = []
++    for i in range(len(q_bounds) - 1):
++        qi = q[q_bounds[i]:q_bounds[i + 1]].transpose(0, 1).unsqueeze(0)
++        ki = k[k_bounds[i]:k_bounds[i + 1]].transpose(0, 1).unsqueeze(0)
++        vi = v[k_bounds[i]:k_bounds[i + 1]].transpose(0, 1).unsqueeze(0)
++        nq, nk = qi.shape[-2], ki.shape[-2]
++        mask = None
++        same_length_causal = causal and nq == nk
++        if causal and nq != nk:
++            mask = (torch.arange(nk, device=q.device)[None, :]
++                    <= torch.arange(nq, device=q.device)[:, None] + nk - nq)
++        result = scaled_dot_product_attention(
++            qi, ki, vi, attn_mask=mask, is_causal=same_length_causal,
++            dropout_p=0.0, enable_gqa=qi.shape[1] != ki.shape[1],
++        )
++        outputs.append(result.squeeze(0).transpose(0, 1))
++    return torch.cat(outputs, dim=0)

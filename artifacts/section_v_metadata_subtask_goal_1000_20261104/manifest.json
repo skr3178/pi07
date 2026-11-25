@@ -1,0 +1,89 @@
+{
+  "profile": "subtask_goal",
+  "prompt_options": {
+    "subtasks": true,
+    "goals": true,
+    "metadata": false,
+    "goal_probability": 0.25,
+    "subtask_drop_given_goal": 0.3,
+    "metadata_drop": 0.15,
+    "metadata_field_drop": 0.05,
+    "speed_bin_steps": 50
+  },
+  "seed": 20261104,
+  "output": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_metadata_subtask_goal_1000_20261104",
+  "device": "cuda",
+  "resume_checkpoint": null,
+  "steps": 1000,
+  "batch_size": 8,
+  "examples": 8000,
+  "base_checkpoint": "/media/skr/SeagateHub1/models/smolvla_libero_90_pi07",
+  "base_checkpoint_sha256": "43275682eaea8b5728ab490eff7a6d74aab1e751002516ca2b48d47859e648a4",
+  "layout": "alt",
+  "goal_sampling": "saved",
+  "dataset": "mixed",
+  "dataset_root": "/home/skr/Downloads/pi_07/pi07_code/data/libero10_metadata_mixture_20261104",
+  "action_convention": "simulator end-effector commands; gripper -1 open, +1 close",
+  "dataset_action_transform": "identity",
+  "dataset_info_sha256": "e4ca1b42756953f6c5c688375f1683ff1e7f63a0939daa85a84e9b46ee0fa018",
+  "generated_training_goals": null,
+  "uncertain_subtask_episodes": {
+    "177": "two-pot task has only one phase label after first-frame repair",
+    "185": "two-pot task has only one phase label after first-frame repair",
+    "189": "two-pot task has only one phase label after first-frame repair"
+  },
+  "source_schedule_dir": "/home/skr/Downloads/pi_07/pi07_code/artifacts/metadata_mixture_schedule_20261104",
+  "train_schedule_sha256": "d246fbfb48b7a7034c474f88e4a614d3e395de19b3cabdae5315d8505bcd390f",
+  "validation_schedule_sha256": "ab474540f3840b3dd3041de85cbb6862242d814b9113c35bb8413c44fc6606e0",
+  "annotations_sha256": "90cd2a6d681db67b2feacfd6d002fff2eb77bccb82e1b25e3860f5924730fdbc",
+  "source_sha256": {
+    "train_section_v.py": "79176e626c7116cf5d6c10224421b45a47f0917ad95aaac8d6f228734b98734b",
+    "section_v_prompt.py": "eeff1c71ff986e39b30fa651de9e9ffeb5e5cb96e08859eefde6a96a5211b5cc",
+    "section_v_data.py": "b5f315c2b427b5f81f6ac638260afbbcfa7921d7fd8f9df85b985755486dd9dd",
+    "goal_policy.py": "7c2f7edc5e46652239333788aed34b619e9b755c4815ad14a08f0f7afd195782",
+    "goal_data.py": "25ad71bec00f0c5f71cb150c18d1668269365bedb73a89fc51579d53ab1d0f04",
+    "libero_runtime.py": "c5d1f9e98007c3c4d66f89b0bffc8e29f456c5e1c527ce9fb82bd93c86a9fbd5",
+    "train_goal_pilot.py": "cd90363d1c0a1c6f4b8fe802bc05f43fae2983b33f58777f143cb917f17efec8",
+    "attention_check.py": "3fec03f09087432f9dad9910f0406baaafddc4de5c7dbadb09539fd441e563cb",
+    "generated_goal_data.py": "930521082ea0a6c2340c2e2a6c32a7e191e4ad2f64cb1f338804c2ab0ceeb516",
+    "libero_data.py": "c8bacb217978db301eb3b9d55a1a7ee44983d868f717d05e6c1076f52196a28a",
+    "rollout_data.py": "ec78997dd6f8e00e339f454adbff1fba5e39d1d4a6f0122bf26d3e1ae822c1ac",
+    "mixed_data.py": "c94bc645423951eee972479ef7a19c4a2cdc86a61482455208ab98ef8858b912"
+  },
+  "known_training_annotations": {
+    "subtask": 8000,
+    "speed_steps": 8000,
+    "quality": 8000,
+    "mistake": 73
+  },
+  "goal_present_count": 2023,
+  "visible_training_metadata_values": {
+    "speed_steps": [],
+    "quality": [],
+    "mistake": []
+  },
+  "max_tokens": 44,
+  "token_limit": 128,
+  "silent_truncation": false,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0001,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "eps": 1e-08,
+    "weight_decay": 1e-10,
+    "warmup_steps": 20,
+    "grad_clip": 10.0
+  },
+  "flow_seed_rule": "seed + 100000 + update; same explicit noise/time as original pilot",
+  "notes": [
+    "All profiles include Control Mode: ee and the same 128-token budget.",
+    "Train a fresh task-only profile control; old A has different text formatting/length.",
+    "Demo subtask labels and durations are offline supervision, not live observations.",
+    "Unknown quality/mistake annotations stay absent; success is not converted to quality.",
+    "Full profile does not establish mixed-quality learning without validated quality variation.",
+    "Metadata CFG is implemented separately in metadata_guidance.py; joint control and autonomous subtask planning are outside this run."
+  ]
+}

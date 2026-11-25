@@ -1,0 +1,35 @@
+{
+  "reviewer": "Codex assistant visual inspection",
+  "suite": "libero_10",
+  "task_id": 0,
+  "initial_state_id": 0,
+  "steps": [
+    0,
+    16,
+    32,
+    48
+  ],
+  "columns": [
+    "current main/wrist",
+    "ImageWAM prediction +16 transitions",
+    "actual policy execution after 16 actions"
+  ],
+  "observations": [
+    "Camera layout and objects remain broadly coherent in these four predictions.",
+    "Predictions mainly show short changes in arm pose; no completed basket placement is visible in the inspected goal images.",
+    "The actual policy continuation sometimes differs from the prediction. Since ImageWAM is not conditioned on the executed action sequence, this alone does not establish an invalid goal."
+  ],
+  "conclusion": "Plausible short continuations in this inspected sample; semantic subtask-end goals and physical achievability are not established.",
+  "limits": "Four consecutive predictions from one development episode; no independent rater, no representative image-quality rate, no training annotations created.",
+  "source_sha256": {
+    "SG_generated_task0_init0_step0000_current.npz": "5f548527c5417357b781098c750b83d61a46705cd69a614131150a2c1658b1d6",
+    "SG_generated_task0_init0_step0000_goal.png": "c966109ce5706848a14930eb3b5ffae88bf60f4d8711465794fb0e2bec885c39",
+    "SG_generated_task0_init0_step0016_current.npz": "e27e737465a16d0da34aae372a4042b12c0587cb1d8c4d0c80b28b4f342d1cac",
+    "SG_generated_task0_init0_step0016_goal.png": "6e4fff39aaed44103a1ac9d8a31847188a57084712d2e9e6548af49fc1bed56b",
+    "SG_generated_task0_init0_step0032_current.npz": "e98863e930763ac3a1a72b7861e8b612253be54e2303ea8caa9a5740a28bc8ed",
+    "SG_generated_task0_init0_step0032_goal.png": "201db20900b0275f7fa7cb01145c8c5ac8536a151be034406ff37e6161ff909c",
+    "SG_generated_task0_init0_step0048_current.npz": "9090cf8f1344d9e1f5bfd37ae96f540bf655fcfcfdc99648fcc810965c85abdf",
+    "SG_generated_task0_init0_step0048_goal.png": "60aaa592013366fee677579027a494ef8da661ee1e98b572ffc79be456587d4d",
+    "SG_generated_task0_init0_step0064_current.npz": "e1a2ad28f1f6ddf31fbfcffd994ffb1c722c0ec7594db98f96aadf601fd443ce"
+  }
+}

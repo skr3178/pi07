@@ -1,0 +1,83 @@
+{
+  "status": "complete",
+  "optimizer_updates": 1,
+  "validation": [
+    {
+      "step": 0,
+      "flow_mse": 2.945063591003418,
+      "valid_action_components": 350,
+      "observations": 1,
+      "sampled_actions": {
+        "first_8": {
+          "mse": 0.19618165493011475,
+          "valid_components": 56,
+          "per_observation": [
+            0.19618165493011475
+          ]
+        },
+        "first_50": {
+          "mse": 0.720995352608817,
+          "valid_components": 350,
+          "per_observation": [
+            0.7209953665733337
+          ]
+        }
+      }
+    },
+    {
+      "step": 1,
+      "flow_mse": 2.934413433074951,
+      "valid_action_components": 350,
+      "observations": 1,
+      "sampled_actions": {
+        "first_8": {
+          "mse": 0.19609582424163818,
+          "valid_components": 56,
+          "per_observation": [
+            0.19609582424163818
+          ]
+        },
+        "first_50": {
+          "mse": 0.7235315377371652,
+          "valid_components": 350,
+          "per_observation": [
+            0.7235315442085266
+          ]
+        }
+      }
+    }
+  ],
+  "updates": [
+    {
+      "step": 1,
+      "loss": 11.464781761169434,
+      "gradient_norm": 149.43511962890625
+    }
+  ],
+  "initial_state_sha256": "587b2521637197026b691eb80f9ce5ee6f7e3501d6764735eb9a144a3ecc21d6",
+  "trainable_parameters": 99880992,
+  "training_and_validation_seconds": 8.659913991999929,
+  "frozen_backbone_unchanged": true,
+  "final_goals_dropped": {
+    "flow_mse": 3.946017265319824,
+    "valid_action_components": 350,
+    "observations": 1,
+    "sampled_actions": {
+      "first_8": {
+        "mse": 0.27761593886784147,
+        "valid_components": 56,
+        "per_observation": [
+          0.2776159346103668
+        ]
+      },
+      "first_50": {
+        "mse": 0.5587890189034598,
+        "valid_components": 350,
+        "per_observation": [
+          0.5587890148162842
+        ]
+      }
+    }
+  },
+  "checkpoint_roundtrip_exact": true
+}

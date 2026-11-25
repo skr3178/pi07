@@ -1,0 +1,37 @@
+{
+  "suite": "libero_10",
+  "task_ids": [
+    0
+  ],
+  "init_ids": [
+    0
+  ],
+  "max_steps": 8,
+  "goal_refresh_steps": 16,
+  "conditions": [
+    {
+      "name": "reference",
+      "checkpoint": "/media/skr/storage/models/smolvla_libero_90_pi07",
+      "layout": "plain",
+      "goals": "off"
+    },
+    {
+      "name": "A",
+      "checkpoint": "/media/skr/storage/checkpoints/pi07_goal_ab/l90v2_A/A",
+      "layout": "alt",
+      "goals": "off"
+    },
+    {
+      "name": "Bnear_off",
+      "checkpoint": "/media/skr/storage/checkpoints/pi07_goal_ab/l90v2_Bnear/B",
+      "layout": "alt",
+      "goals": "off"
+    },
+    {
+      "name": "Bnear_generated",
+      "checkpoint": "/media/skr/storage/checkpoints/pi07_goal_ab/l90v2_Bnear/B",
+      "layout": "alt",
+      "goals": "generated"
+    }
+  ]
+}

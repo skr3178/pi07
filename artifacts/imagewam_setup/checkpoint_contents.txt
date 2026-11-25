@@ -1,0 +1,26 @@
+download: exit=0 at 19:50:34
+model.pt: 9035379577 bytes (expected 9035379577)
+complete: yes
+orphaned partial files deleted: 1
+
+top-level type: dict
+  key 'mot': OrderedDict with 407 entries
+  key 'step': int = 34720
+  key 'torch_dtype': str = 'torch.bfloat16'
+  key 'proprio_encoder': OrderedDict with 2 entries
+
+409 tensor names, 140 of them aliases of another name; 4.518B unique params, 9.04 GB
+  mot.mixtures.video                                              3875.5M    7.75 GB  ['BFloat16Storage']
+  mot.mixtures.action                                              642.0M    1.28 GB  ['BFloat16Storage']
+  proprio_encoder.weight                                             0.1M    0.00 GB  ['BFloat16Storage']
+  proprio_encoder.bias                                               0.0M    0.00 GB  ['BFloat16Storage']
+
+Checked 2026-10-29 (inspect_pt.py fixed: the first run counted 140 aliased names twice and reported 8.2B params / 16.4 GB):
+- All tensors sit in one 9.04 GB bf16 storage. 140 names under mixtures.video.{double,single}_blocks.* point at the same
+  bytes as mixtures.video.transformer.{double,single}_blocks.*.
+- mixtures.video.transformer.* = the full FLUX.2 Klein base 4B transformer: same 149 tensor names and shapes as
+  flux-2-klein-base-4b.safetensors (3.876B params). Fully fine-tuned, not frozen: ~99.5% of sampled values differ from
+  the base file, mean |change| 30-40% of mean |weight| (img_in, double_blocks.0 qkv, single_blocks.10 linear1, final_layer).
+- mixtures.action.* = action head, 642M params: action_encoder, time_in, 5 double blocks, 20 single blocks, modulation, head.
+- proprio_encoder: Linear 8 -> 7680.
+- Not in model.pt: autoencoder (FLUX.2-dev ae.safetensors) and text encoder (Qwen3-4B); both downloaded separately.

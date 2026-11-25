@@ -1,0 +1,143 @@
+{
+  "checkpoint": "/media/skr/storage/models/smolvla_libero",
+  "model_sha256": "9a9f6413e42c0f332fccbce9a0dc796af2790f82cf002f791cdbf7e01e1afca8",
+  "adapter": {
+    "adapter": "inactive_fields_only",
+    "handled_fields": {
+      "type": "smolvla",
+      "use_peft": false,
+      "rtc_config": null
+    },
+    "overrides": {
+      "device": "cuda",
+      "load_vlm_weights": false,
+      "n_action_steps": 8,
+      "push_to_hub": false
+    }
+  },
+  "source_commits": {
+    "env": "/media/skr/storage/envs/pi07-lerobot",
+    "sources": {
+      "lerobot": {
+        "path": "/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot",
+        "commit": "76a425c600b82e6bcf91650cbed347899eb1e07f"
+      },
+      "lerobot-libero": {
+        "path": "/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero",
+        "commit": "14fd6f022ff6647defc24e73563b95aa36670f43"
+      }
+    }
+  },
+  "development_initial_states": [
+    0,
+    1
+  ],
+  "exclude_from_final_evaluation": true,
+  "chunk_size": 50,
+  "execute_steps": 8,
+  "denoising_steps": 10,
+  "settling_steps": 10,
+  "action_clipping": [
+    -1,
+    1
+  ],
+  "video_every_simulator_steps": 8,
+  "jobs": [
+    {
+      "suite": "libero_10",
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 0,
+      "seed": 0,
+      "max_steps": 520
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 1,
+      "seed": 1,
+      "max_steps": 520
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 4,
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "initial_state_id": 0,
+      "seed": 400,
+      "max_steps": 520
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 4,
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "initial_state_id": 1,
+      "seed": 401,
+      "max_steps": 520
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 8,
+      "task": "put both moka pots on the stove",
+      "initial_state_id": 0,
+      "seed": 800,
+      "max_steps": 520
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 8,
+      "task": "put both moka pots on the stove",
+      "initial_state_id": 1,
+      "seed": 801,
+      "max_steps": 520
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 0,
+      "task": "open the middle drawer of the cabinet",
+      "initial_state_id": 0,
+      "seed": 10000,
+      "max_steps": 300
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 0,
+      "task": "open the middle drawer of the cabinet",
+      "initial_state_id": 1,
+      "seed": 10001,
+      "max_steps": 300
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 4,
+      "task": "put the bowl on top of the cabinet",
+      "initial_state_id": 0,
+      "seed": 10400,
+      "max_steps": 300
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 4,
+      "task": "put the bowl on top of the cabinet",
+      "initial_state_id": 1,
+      "seed": 10401,
+      "max_steps": 300
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 8,
+      "task": "put the bowl on the plate",
+      "initial_state_id": 0,
+      "seed": 10800,
+      "max_steps": 300
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 8,
+      "task": "put the bowl on the plate",
+      "initial_state_id": 1,
+      "seed": 10801,
+      "max_steps": 300
+    }
+  ]
+}

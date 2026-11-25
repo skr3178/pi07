@@ -1,0 +1,35 @@
+{
+  "suite": "libero_10",
+  "task_ids": [
+    2
+  ],
+  "init_ids": [
+    0
+  ],
+  "max_steps": 8,
+  "conditions": [
+    {
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_resume_full_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates",
+      "metadata": {
+        "desired_speed_steps": 300
+      },
+      "name": "speed_beta0",
+      "metadata_cfg_beta": 0
+    },
+    {
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_resume_full_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates",
+      "metadata": {
+        "desired_speed_steps": 300
+      },
+      "name": "speed_beta1p3",
+      "metadata_cfg_beta": 1.3
+    }
+  ],
+  "purpose": "Eight-step metadata-guidance runtime smoke with a two-update checkpoint; no efficacy claim"
+}

@@ -1,0 +1,131 @@
+{
+  "suite": "libero_10",
+  "phase": "development",
+  "task_ids": [
+    1,
+    2,
+    5
+  ],
+  "init_ids": [
+    0,
+    1
+  ],
+  "max_steps": 520,
+  "goal_refresh_steps": 16,
+  "conditions": [
+    {
+      "name": "NoMeta",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_metadata_subtask_goal_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates"
+    },
+    {
+      "name": "MetaDropped",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_metadata_full_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates"
+    },
+    {
+      "name": "Quality1",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_metadata_full_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates",
+      "metadata": {
+        "desired_quality": 1
+      },
+      "metadata_cfg_beta": 0
+    },
+    {
+      "name": "Quality5",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_metadata_full_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates",
+      "metadata": {
+        "desired_quality": 5
+      },
+      "metadata_cfg_beta": 0
+    },
+    {
+      "name": "Quality5_CFG",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_metadata_full_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates",
+      "metadata": {
+        "desired_quality": 5
+      },
+      "metadata_cfg_beta": 1.3
+    },
+    {
+      "name": "Speed200",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_metadata_full_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates",
+      "metadata": {
+        "desired_speed_steps": 200
+      },
+      "metadata_cfg_beta": 0
+    },
+    {
+      "name": "Speed500",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_metadata_full_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates",
+      "metadata": {
+        "desired_speed_steps": 500
+      },
+      "metadata_cfg_beta": 0
+    },
+    {
+      "name": "MistakeFalse",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_metadata_full_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates",
+      "metadata": {
+        "desired_mistake": false
+      },
+      "metadata_cfg_beta": 0
+    },
+    {
+      "name": "MistakeTrue",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_metadata_full_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates",
+      "metadata": {
+        "desired_mistake": true
+      },
+      "metadata_cfg_beta": 0
+    }
+  ],
+  "purpose": "Small curated mixed-quality metadata experiment. Provisional assistant labels; six paired development starts, one training seed. All goals off to isolate metadata behavior.",
+  "paired_comparisons": [
+    [
+      "MetaDropped",
+      "Quality5"
+    ],
+    [
+      "Quality1",
+      "Quality5"
+    ],
+    [
+      "Quality5",
+      "Quality5_CFG"
+    ],
+    [
+      "Speed500",
+      "Speed200"
+    ],
+    [
+      "MistakeTrue",
+      "MistakeFalse"
+    ]
+  ]
+}

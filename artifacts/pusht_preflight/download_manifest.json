@@ -1,0 +1,12 @@
+{
+  "repo_id": "lerobot/pusht",
+  "revision": "7628202a2180972f291ba1bc6723834921e72c19",
+  "files": [
+    "meta/info.json",
+    "meta/stats.json",
+    "meta/tasks.parquet",
+    "meta/episodes/chunk-000/file-000.parquet",
+    "data/chunk-000/file-000.parquet",
+    "videos/observation.image/chunk-000/file-000.mp4"
+  ]
+}

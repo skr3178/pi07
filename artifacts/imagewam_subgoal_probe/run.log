@@ -1,0 +1,78 @@
+2026-10-29 11:04:03,758 imagewam.models.backbones.action_dit_flux2: Initializing ActionDiTFlux2 without pretrained action weights.
+2026-10-29 11:04:03,758 imagewam.models.backbones.mot: Using gradient checkpointing for mixture attention.
+2026-10-29 11:04:03,758 imagewam.models.backbones.mot: Initialized MoT with experts=['video', 'action'] protocol=flux2 layers=25 heads=24 kv_heads=24 head_dim=128
+2026-10-29 11:04:03,758 imagewam.models.backbones.mot: MoT attention config: gqa_implementation=repeat force_flash_attention=False
+2026-10-29 11:04:19,921 imagewam.models.backbones.imagewam: Loading ImageWAM checkpoint from /media/skr/storage/models/imagewam/imagewam_release/libero/flux2_klein_4b/model.pt with payload keys=['mot', 'proprio_encoder', 'step', 'torch_dtype'] step=34720
+2026-10-29 11:04:20,784 imagewam.models.backbones.imagewam: Loaded MoT weights from checkpoint: missing_keys=0 unexpected_keys=0
+2026-10-29 11:04:20,785 imagewam.models.backbones.imagewam: Loaded proprio_encoder weights from checkpoint.
+model loaded in 108 s; GPU 9.2 GB
+2026-10-29 11:04:21,147 imagewam.models.backbones.imagewam: Lazy-loading FLUX.2 Qwen3 text encoder for prompt inference: Qwen/Qwen3-4B
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.09s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.27s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.20it/s]
+encoded 11 prompts; peak GPU with Qwen3 17.5 GB
+{"id": "drawer_close", "copy_baseline": {"psnr_main": 20.908634747590295, "psnr_wrist": 12.785942337853358, "psnr_moving": 9.811811368414705}} {'task': {'mean_psnr_main': 21.1, 'mean_psnr_wrist': 13.11, 'mean_psnr_moving': 10.74}, 'subtask': {'mean_psnr_main': 21.02, 'mean_psnr_wrist': 12.9, 'mean_psnr_moving': 10.57}}
+{"id": "microwave_close", "copy_baseline": {"psnr_main": 16.737409357452915, "psnr_wrist": 16.683962999036048, "psnr_moving": 7.819604305743048}} {'task': {'mean_psnr_main': 16.4, 'mean_psnr_wrist': 15.35, 'mean_psnr_moving': 9.55}, 'subtask': {'mean_psnr_main': 16.61, 'mean_psnr_wrist': 15.26, 'mean_psnr_moving': 9.61}}
+{"id": "pudding_place", "copy_baseline": {"psnr_main": 15.814100525487891, "psnr_wrist": 16.035549399071968, "psnr_moving": 9.403335173412849}} {'task': {'mean_psnr_main': 19.56, 'mean_psnr_wrist': 17.6, 'mean_psnr_moving': 13.03}, 'subtask': {'mean_psnr_main': 18.25, 'mean_psnr_wrist': 17.93, 'mean_psnr_moving': 13.33}}
+{"seconds_per_image": {"mean": 1.38, "min": 1.33, "n": 61}, "peak_gpu_gb_without_qwen3": 9.5}
+[
+ {
+  "id": "drawer_close",
+  "prompt_kind": "task",
+  "steps": 6,
+  "end_frame": 256,
+  "reference_frame": 260,
+  "psnr_main_vs_real_end": 17.032289596536906,
+  "psnr_main_vs_reference": 16.00229476609542,
+  "copy_baseline_psnr_main_vs_reference": 13.783150748589
+ },
+ {
+  "id": "drawer_close",
+  "prompt_kind": "subtask",
+  "steps": 6,
+  "end_frame": 256,
+  "reference_frame": 260,
+  "psnr_main_vs_real_end": 16.862717532146622,
+  "psnr_main_vs_reference": 15.887354028214343,
+  "copy_baseline_psnr_main_vs_reference": 13.783150748589
+ },
+ {
+  "id": "microwave_close",
+  "prompt_kind": "task",
+  "steps": 7,
+  "end_frame": 324,
+  "reference_frame": 328,
+  "psnr_main_vs_real_end": 15.051633884752624,
+  "psnr_main_vs_reference": 14.97547259017789,
+  "copy_baseline_psnr_main_vs_reference": 14.574784058127129
+ },
+ {
+  "id": "microwave_close",
+  "prompt_kind": "subtask",
+  "steps": 7,
+  "end_frame": 324,
+  "reference_frame": 328,
+  "psnr_main_vs_real_end": 14.600769185044127,
+  "psnr_main_vs_reference": 14.568171478289017,
+  "copy_baseline_psnr_main_vs_reference": 14.574784058127129
+ },
+ {
+  "id": "pudding_place",
+  "prompt_kind": "task",
+  "steps": 6,
+  "end_frame": 200,
+  "reference_frame": 202,
+  "psnr_main_vs_real_end": 18.28848215870677,
+  "psnr_main_vs_reference": 17.856098571228266,
+  "copy_baseline_psnr_main_vs_reference": 14.669095842360086
+ },
+ {
+  "id": "pudding_place",
+  "prompt_kind": "subtask",
+  "steps": 6,
+  "end_frame": 200,
+  "reference_frame": 202,
+  "psnr_main_vs_real_end": 18.67401962482691,
+  "psnr_main_vs_reference": 18.262175004747398,
+  "copy_baseline_psnr_main_vs_reference": 14.669095842360086
+ }
+]

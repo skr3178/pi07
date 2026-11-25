@@ -1,0 +1,7 @@
+{
+  "purpose": "Two-update integration check on actual ImageWAM-generated training goals, not a matched performance experiment",
+  "source_schedule_rows": [
+    75,
+    771
+  ]
+}

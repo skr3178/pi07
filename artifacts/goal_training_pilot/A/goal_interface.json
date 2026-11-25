@@ -1,0 +1,15 @@
+{
+  "class": "goal_policy.GoalSmolVLAPolicy",
+  "arm": "A",
+  "current_cameras": [
+    "observation.images.camera1",
+    "observation.images.camera2"
+  ],
+  "goal_cameras": [
+    "observation.images.goal_camera1",
+    "observation.images.goal_camera2"
+  ],
+  "mask_suffix": "_padding_mask",
+  "true_means": "goal present",
+  "fixed_slots": true
+}

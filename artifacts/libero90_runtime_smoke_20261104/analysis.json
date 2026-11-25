@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "summary": {
+    "reference": {
+      "successes": 0,
+      "episodes": 1,
+      "mean_max_progress": 0.0,
+      "mean_max_progress_gain": 0.0
+    },
+    "A": {
+      "successes": 0,
+      "episodes": 1,
+      "mean_max_progress": 0.0,
+      "mean_max_progress_gain": 0.0
+    },
+    "Bnear_off": {
+      "successes": 0,
+      "episodes": 1,
+      "mean_max_progress": 0.0,
+      "mean_max_progress_gain": 0.0
+    },
+    "Bnear_generated": {
+      "successes": 0,
+      "episodes": 1,
+      "mean_max_progress": 0.0,
+      "mean_max_progress_gain": 0.0
+    }
+  },
+  "paired": [
+    {
+      "condition": "reference",
+      "reference": "A",
+      "success_rate_difference": 0.0,
+      "task_bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "paired_wins": 0,
+      "paired_losses": 0
+    },
+    {
+      "condition": "Bnear_off",
+      "reference": "A",
+      "success_rate_difference": 0.0,
+      "task_bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "paired_wins": 0,
+      "paired_losses": 0
+    },
+    {
+      "condition": "Bnear_generated",
+      "reference": "A",
+      "success_rate_difference": 0.0,
+      "task_bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "paired_wins": 0,
+      "paired_losses": 0
+    }
+  ],
+  "episodes": [
+    {
+      "condition": "reference",
+      "task_id": 0,
+      "initial_state_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "success": false,
+      "steps": 8,
+      "initial_progress": 0.0,
+      "max_progress": 0.0,
+      "max_progress_gain": 0.0
+    },
+    {
+      "condition": "A",
+      "task_id": 0,
+      "initial_state_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "success": false,
+      "steps": 8,
+      "initial_progress": 0.0,
+      "max_progress": 0.0,
+      "max_progress_gain": 0.0
+    },
+    {
+      "condition": "Bnear_off",
+      "task_id": 0,
+      "initial_state_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "success": false,
+      "steps": 8,
+      "initial_progress": 0.0,
+      "max_progress": 0.0,
+      "max_progress_gain": 0.0
+    },
+    {
+      "condition": "Bnear_generated",
+      "task_id": 0,
+      "initial_state_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "success": false,
+      "steps": 8,
+      "initial_progress": 0.0,
+      "max_progress": 0.0,
+      "max_progress_gain": 0.0
+    }
+  ],
+  "generated_pairs_audited": 1,
+  "generation_state_max_difference": 0.0,
+  "reset_state_max_difference_limit": 1e-08,
+  "limitations": [
+    "Development starts only; no final benchmark or unseen-pretraining claim.",
+    "One training seed; task bootstrap describes these task/start outcomes, not training variability.",
+    "Predicate progress includes already-satisfied conditions; gain subtracts initial progress.",
+    "Input audit verifies recorded states and shapes, not semantic correctness of generated goals."
+  ]
+}

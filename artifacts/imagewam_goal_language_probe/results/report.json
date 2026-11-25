@@ -1,0 +1,378 @@
+{
+ "start_episodes": {
+  "35": "open the middle drawer of the cabinet",
+  "145": "put the bowl on the plate",
+  "407": "turn on the stove"
+ },
+ "reference_episodes": {
+  "0": [
+   0,
+   1,
+   11,
+   3,
+   9
+  ],
+  "1": [
+   60,
+   56,
+   65,
+   62,
+   72
+  ],
+  "2": [
+   89,
+   99,
+   108,
+   103,
+   75
+  ],
+  "3": [
+   121,
+   114,
+   156,
+   152,
+   117
+  ],
+  "4": [
+   170,
+   164,
+   182,
+   165,
+   183
+  ],
+  "5": [
+   241,
+   225,
+   248,
+   231,
+   235
+  ],
+  "6": [
+   287,
+   284,
+   285,
+   295,
+   292
+  ],
+  "7": [
+   319,
+   330,
+   336,
+   314,
+   325
+  ],
+  "8": [
+   341,
+   354,
+   374,
+   378,
+   361
+  ],
+  "9": [
+   399,
+   416,
+   405,
+   420,
+   412
+  ]
+ },
+ "dataset_fps_label": 20,
+ "horizons_steps": [
+  16,
+  80
+ ],
+ "results": {
+  "h16": {
+   "instruction_accuracy": 0.7,
+   "chance": 0.1,
+   "ceiling_real_frames_leave_one_out": 0.74,
+   "mean_distinct_classes_over_10_instructions": 7.44,
+   "rows": [
+    {
+     "start_episode": 35,
+     "seed": 0,
+     "predicted_task_per_instruction": [
+      2,
+      1,
+      2,
+      6,
+      6,
+      6,
+      6,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 4,
+     "copy_class": 8
+    },
+    {
+     "start_episode": 35,
+     "seed": 1,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      4,
+      6,
+      3,
+      6,
+      6,
+      7,
+      7,
+      9
+     ],
+     "empty_prompt_class": 3,
+     "copy_class": 8
+    },
+    {
+     "start_episode": 35,
+     "seed": 2,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      2,
+      3,
+      3,
+      6,
+      6,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 4,
+     "copy_class": 8
+    },
+    {
+     "start_episode": 145,
+     "seed": 0,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      2,
+      4,
+      4,
+      3,
+      4,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 8,
+     "copy_class": 8
+    },
+    {
+     "start_episode": 145,
+     "seed": 1,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 3,
+     "copy_class": 8
+    },
+    {
+     "start_episode": 145,
+     "seed": 2,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      2,
+      4,
+      4,
+      3,
+      4,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 4,
+     "copy_class": 8
+    },
+    {
+     "start_episode": 407,
+     "seed": 0,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      2,
+      4,
+      4,
+      4,
+      6,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 6,
+     "copy_class": 8
+    },
+    {
+     "start_episode": 407,
+     "seed": 1,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      4,
+      3,
+      4,
+      3,
+      6,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 3,
+     "copy_class": 8
+    },
+    {
+     "start_episode": 407,
+     "seed": 2,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      4,
+      4,
+      4,
+      4,
+      6,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 4,
+     "copy_class": 8
+    }
+   ],
+   "main_mad_between_instructions_same_seed": 5.35,
+   "main_mad_between_seeds_same_instruction": 3.88
+  },
+  "h80": {
+   "instruction_accuracy": 0.983,
+   "chance": 0.1,
+   "ceiling_real_frames_leave_one_out": 0.94,
+   "mean_distinct_classes_over_10_instructions": 9.83,
+   "rows": [
+    {
+     "start_episode": 35,
+     "seed": 0,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 3,
+     "copy_class": 1
+    },
+    {
+     "start_episode": 35,
+     "seed": 1,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 3,
+     "copy_class": 1
+    },
+    {
+     "start_episode": 145,
+     "seed": 0,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 6,
+     "copy_class": 4
+    },
+    {
+     "start_episode": 145,
+     "seed": 1,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 4,
+     "copy_class": 4
+    },
+    {
+     "start_episode": 407,
+     "seed": 0,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      4,
+      6,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 3,
+     "copy_class": 4
+    },
+    {
+     "start_episode": 407,
+     "seed": 1,
+     "predicted_task_per_instruction": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "empty_prompt_class": 0,
+     "copy_class": 4
+    }
+   ],
+   "main_mad_between_instructions_same_seed": 12.0,
+   "main_mad_between_seeds_same_instruction": 7.7
+  }
+ },
+ "seconds_per_image": 1.4,
+ "peak_gpu_gb_without_qwen3": 9.51
+}

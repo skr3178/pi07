@@ -1,0 +1,140 @@
+[
+  {
+    "episode_index": 0,
+    "frames": [
+      0,
+      19,
+      39,
+      58,
+      77,
+      97,
+      116,
+      136,
+      155,
+      174,
+      194,
+      213,
+      232,
+      252,
+      271
+    ],
+    "sheet": "episode_000.png",
+    "task": "turn on the stove and put the moka pot on it",
+    "review": "unreviewed"
+  },
+  {
+    "episode_index": 3,
+    "frames": [
+      0,
+      19,
+      38,
+      57,
+      75,
+      94,
+      113,
+      132,
+      151,
+      170,
+      189,
+      207,
+      226,
+      245,
+      264
+    ],
+    "sheet": "episode_003.png",
+    "task": "turn on the stove and put the moka pot on it",
+    "review": "unreviewed"
+  },
+  {
+    "episode_index": 300,
+    "frames": [
+      0,
+      18,
+      37,
+      55,
+      73,
+      92,
+      110,
+      128,
+      147,
+      165,
+      184,
+      202,
+      220,
+      239,
+      257
+    ],
+    "sheet": "episode_300.png",
+    "task": "put both the cream cheese box and the butter in the basket",
+    "review": "unreviewed"
+  },
+  {
+    "episode_index": 317,
+    "frames": [
+      0,
+      18,
+      35,
+      53,
+      70,
+      88,
+      105,
+      123,
+      141,
+      158,
+      176,
+      193,
+      211,
+      228,
+      246
+    ],
+    "sheet": "episode_317.png",
+    "task": "put both the cream cheese box and the butter in the basket",
+    "review": "unreviewed"
+  },
+  {
+    "episode_index": 450,
+    "frames": [
+      0,
+      17,
+      33,
+      50,
+      67,
+      83,
+      100,
+      116,
+      133,
+      150,
+      166,
+      183,
+      200,
+      216,
+      233
+    ],
+    "sheet": "episode_450.png",
+    "task": "pick up the book and place it in the back compartment of the caddy",
+    "review": "unreviewed"
+  },
+  {
+    "episode_index": 454,
+    "frames": [
+      0,
+      12,
+      24,
+      36,
+      48,
+      60,
+      72,
+      84,
+      96,
+      108,
+      120,
+      132,
+      144,
+      156,
+      168
+    ],
+    "sheet": "episode_454.png",
+    "task": "pick up the book and place it in the back compartment of the caddy",
+    "review": "unreviewed"
+  }
+]

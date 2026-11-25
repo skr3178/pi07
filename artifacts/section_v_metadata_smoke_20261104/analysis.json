@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "summary": {
+    "speed_beta0": {
+      "successes": 0,
+      "episodes": 1,
+      "mean_max_progress": 0.0,
+      "mean_max_progress_gain": 0.0
+    },
+    "speed_beta1p3": {
+      "successes": 0,
+      "episodes": 1,
+      "mean_max_progress": 0.0,
+      "mean_max_progress_gain": 0.0
+    }
+  },
+  "paired": [
+    {
+      "condition": "speed_beta1p3",
+      "reference": "speed_beta0",
+      "success_rate_difference": 0.0,
+      "task_bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "paired_wins": 0,
+      "paired_losses": 0
+    }
+  ],
+  "episodes": [
+    {
+      "condition": "speed_beta0",
+      "task_id": 2,
+      "initial_state_id": 0,
+      "task": "turn on the stove and put the moka pot on it",
+      "success": false,
+      "steps": 8,
+      "initial_progress": 0.0,
+      "max_progress": 0.0,
+      "max_progress_gain": 0.0
+    },
+    {
+      "condition": "speed_beta1p3",
+      "task_id": 2,
+      "initial_state_id": 0,
+      "task": "turn on the stove and put the moka pot on it",
+      "success": false,
+      "steps": 8,
+      "initial_progress": 0.0,
+      "max_progress": 0.0,
+      "max_progress_gain": 0.0
+    }
+  ],
+  "generated_pairs_audited": 0,
+  "generation_state_max_difference": 0.0,
+  "copied_pairs_audited": 0,
+  "cross_condition_reset_comparisons": 1,
+  "reset_state_max_difference_limit": 1e-08,
+  "limitations": [
+    "Development starts only; no final benchmark or unseen-pretraining claim.",
+    "One training seed; task bootstrap describes these task/start outcomes, not training variability.",
+    "Predicate progress includes already-satisfied conditions; gain subtracts initial progress.",
+    "Input audit verifies recorded states and shapes, not semantic correctness of generated goals."
+  ]
+}

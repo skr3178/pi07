@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "optimizer_updates": 1,
+  "validation": [
+    {
+      "step": 0,
+      "flow_mse": 9.526228904724121,
+      "valid_action_components": 350,
+      "observations": 1
+    },
+    {
+      "step": 1,
+      "flow_mse": 9.488770484924316,
+      "valid_action_components": 350,
+      "observations": 1
+    }
+  ],
+  "updates": [
+    {
+      "step": 1,
+      "loss": 2.2275326251983643,
+      "gradient_norm": 51.17341613769531
+    }
+  ],
+  "initial_state_sha256": "915fcf8ab7ac8c8e2ac6cf0031575617f1d62a4ac4bd776441e96fcb06016467",
+  "trainable_parameters": 99880992,
+  "training_and_validation_seconds": 5.407692750000933,
+  "frozen_backbone_unchanged": true,
+  "final_goals_dropped": {
+    "flow_mse": 8.979413032531738,
+    "valid_action_components": 350,
+    "observations": 1
+  },
+  "checkpoint_roundtrip_exact": true
+}

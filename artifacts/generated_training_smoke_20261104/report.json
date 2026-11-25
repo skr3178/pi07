@@ -1,0 +1,111 @@
+{
+  "status": "complete",
+  "optimizer_updates": 2,
+  "validation": [
+    {
+      "step": 0,
+      "flow_mse": 2.945063591003418,
+      "valid_action_components": 350,
+      "observations": 1,
+      "sampled_actions": {
+        "first_8": {
+          "mse": 0.19618165493011475,
+          "valid_components": 56,
+          "per_observation": [
+            0.19618165493011475
+          ]
+        },
+        "first_50": {
+          "mse": 0.720995352608817,
+          "valid_components": 350,
+          "per_observation": [
+            0.7209953665733337
+          ]
+        }
+      }
+    },
+    {
+      "step": 1,
+      "flow_mse": 2.9384312629699707,
+      "valid_action_components": 350,
+      "observations": 1,
+      "sampled_actions": {
+        "first_8": {
+          "mse": 0.19631883076259068,
+          "valid_components": 56,
+          "per_observation": [
+            0.1963188350200653
+          ]
+        },
+        "first_50": {
+          "mse": 0.7279422869001116,
+          "valid_components": 350,
+          "per_observation": [
+            0.7279422879219055
+          ]
+        }
+      }
+    },
+    {
+      "step": 2,
+      "flow_mse": 2.902473211288452,
+      "valid_action_components": 350,
+      "observations": 1,
+      "sampled_actions": {
+        "first_8": {
+          "mse": 0.1964841570172991,
+          "valid_components": 56,
+          "per_observation": [
+            0.19648416340351105
+          ]
+        },
+        "first_50": {
+          "mse": 0.7297843715122768,
+          "valid_components": 350,
+          "per_observation": [
+            0.729784369468689
+          ]
+        }
+      }
+    }
+  ],
+  "updates": [
+    {
+      "step": 1,
+      "loss": 1.1999136209487915,
+      "gradient_norm": 37.65231704711914
+    },
+    {
+      "step": 2,
+      "loss": 4.412516117095947,
+      "gradient_norm": 84.79788970947266
+    }
+  ],
+  "initial_state_sha256": "587b2521637197026b691eb80f9ce5ee6f7e3501d6764735eb9a144a3ecc21d6",
+  "trainable_parameters": 99880992,
+  "latest_checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/generated_training_smoke_20261104/checkpoint",
+  "training_and_validation_seconds": 17.94684408599278,
+  "frozen_backbone_unchanged": true,
+  "final_goals_dropped": {
+    "flow_mse": 3.93095326423645,
+    "valid_action_components": 350,
+    "observations": 1,
+    "sampled_actions": {
+      "first_8": {
+        "mse": 0.2749887704849243,
+        "valid_components": 56,
+        "per_observation": [
+          0.2749887704849243
+        ]
+      },
+      "first_50": {
+        "mse": 0.5578714425223215,
+        "valid_components": 350,
+        "per_observation": [
+          0.5578714609146118
+        ]
+      }
+    }
+  },
+  "checkpoint_roundtrip_exact": true
+}

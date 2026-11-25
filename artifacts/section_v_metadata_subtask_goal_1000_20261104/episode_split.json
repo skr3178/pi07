@@ -1,0 +1,61 @@
+{
+  "seed": 20261104,
+  "train_episodes": [
+    0,
+    300,
+    450,
+    501,
+    502,
+    504,
+    507,
+    508,
+    510
+  ],
+  "validation_episodes": [
+    3,
+    317,
+    454,
+    500,
+    503,
+    505,
+    506,
+    509,
+    511
+  ],
+  "split_unit": "frozen original demo episodes plus simulator-start-grouped rollout episodes",
+  "physical_initial_state_grouping_verified": false,
+  "rollout_split": {
+    "seed": 20261104,
+    "train_episodes": [
+      1,
+      2,
+      4,
+      7,
+      8,
+      10
+    ],
+    "validation_episodes": [
+      0,
+      3,
+      5,
+      6,
+      9,
+      11
+    ],
+    "split_unit": "task and simulator initial-state ID, across every collection condition",
+    "validation_initial_states_by_task": {
+      "0": [
+        13
+      ],
+      "6": [
+        12
+      ],
+      "9": [
+        13
+      ]
+    },
+    "physical_initial_state_grouping_verified": true,
+    "limitation": "No certified independence from base-model pretraining or source demonstrations."
+  },
+  "limitation": "Demo physical starts and overlap with rollout starts/pretraining are unverified."
+}

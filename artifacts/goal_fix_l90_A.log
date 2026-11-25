@@ -1,0 +1,45 @@
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+A gradient check: {'vlm_params_trainable': 0, 'vlm_params_with_nonzero_grad': 0, 'marker_grad_nonzero': False}
+A step 250: mean loss 0.7289
+A step 500: mean loss 0.5252
+A held-out at step 500:
+  dropped: {"mse_8": 0.5974872486116904, "mse_50": 0.6345363318410792}
+A step 750: mean loss 0.4858
+A step 1000: mean loss 0.4794
+A held-out at step 1000:
+  dropped: {"mse_8": 0.48504543227229713, "mse_50": 0.5788381834595769}
+A step 1250: mean loss 0.4616
+A step 1500: mean loss 0.4607
+A held-out at step 1500:
+  dropped: {"mse_8": 0.49192516475154496, "mse_50": 0.5421769660720188}
+A step 1750: mean loss 0.4570
+A step 2000: mean loss 0.4521
+A trained: {"trainable_parameters": 99880992, "base": "/media/skr/storage/models/smolvla_libero_90_pi07", "loss_per_250": [0.7289324914216995, 0.5251954723596572, 0.4858047323226929, 0.47941120553016664, 0.46155964815616607, 0.4606819384098053, 0.45699807167053225, 0.4520698837041855], "curve": [{"step": 500, "mean_loss_last250": 0.5251954723596572, "offline_action_mse": {"dropped": {"mse_8": 0.5974872486116904, "mse_50": 0.6345363318410792}}}, {"step": 1000, "mean_loss_last250": 0.47941120553016664, "offline_action_mse": {"dropped": {"mse_8": 0.48504543227229713, "mse_50": 0.5788381834595769}}}, {"step": 1500, "mean_loss_last250": 0.4606819384098053, "offline_action_mse": {"dropped": {"mse_8": 0.49192516475154496, "mse_50": 0.5421769660720188}}}], "train_seconds": 1264.7420526009992, "peak_allocated_gb": 4.714077696, "final_mean_loss_last250": 0.4520698837041855}
+  dropped: {"mse_8": 0.42051158317261866, "mse_50": 0.5273781700416632}
+Traceback (most recent call last):
+  File "/home/skr/Downloads/pi_07/pi07_code/train_goal_fix.py", line 180, in <module>
+    main(p.parse_args())
+  File "/home/skr/Downloads/pi_07/pi07_code/train_goal_fix.py", line 161, in main
+    write_json(out / "report.json", report)
+  File "/home/skr/Downloads/pi_07/pi07_code/train_goal_pilot.py", line 34, in write_json
+    tmp.write_text(json.dumps(value, indent=2)+"\n"); tmp.replace(path)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/home/skr/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type PosixPath is not JSON serializable

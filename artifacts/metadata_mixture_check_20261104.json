@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "observations_checked": 54,
+  "padded_positions": 882,
+  "paired_profiles": "same goals and subtask dropout; only metadata presence differs",
+  "visible_training_metadata": {
+    "quality": {
+      "5": 1086,
+      "4": 2424,
+      "2": 1171,
+      "1": 1804
+    },
+    "mistake": {
+      "True": 45,
+      "False": 13
+    },
+    "speed_steps": {
+      "250": 3300,
+      "500": 2947,
+      "200": 223
+    }
+  },
+  "training_episodes": [
+    0,
+    300,
+    450,
+    501,
+    502,
+    504,
+    507,
+    508,
+    510
+  ],
+  "validation_episodes": [
+    3,
+    317,
+    454,
+    500,
+    503,
+    505,
+    506,
+    509,
+    511
+  ],
+  "rollout_fraction": 0.494375,
+  "limits": "Provisional assistant labels; sparse mistakes; demo physical starts/time spacing and pretraining overlap unverified."
+}

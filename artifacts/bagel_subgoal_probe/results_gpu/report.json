@@ -1,0 +1,94 @@
+{
+  "checkpoint": "/media/skr/storage/models/BAGEL-7B-MoT-DF11",
+  "scope": "base BAGEL zero-shot image editing",
+  "source_commit": "46c5298876e0b323f61ce1b0dd26e055ca32acf5",
+  "attention": "PyTorch SDPA fallback with bottom-right causal alignment",
+  "device_placement": "single GPU prepared-input wrapper; DFloat11 CPU offload",
+  "gpu": "NVIDIA RTX PRO 4000 Blackwell",
+  "torch": "2.7.0+cu128",
+  "cpu_offload_blocks": 0,
+  "seed": 0,
+  "settings": {
+    "think": false,
+    "cfg_text_scale": 4.0,
+    "cfg_img_scale": 2.0,
+    "cfg_interval": [
+      0.0,
+      1.0
+    ],
+    "timestep_shift": 3.0,
+    "num_timesteps": 50,
+    "cfg_renorm_min": 1.0,
+    "cfg_renorm_type": "text_channel",
+    "do_sample": false
+  },
+  "load_seconds": 79.43,
+  "cases": [
+    {
+      "id": "drawer_close",
+      "episode": 50,
+      "frame": 160,
+      "subtask": "Close the bottom drawer of the cabinet, keeping the black bowl inside.",
+      "current": "/home/skr/Downloads/pi_07/pi07_code/artifacts/bagel_subgoal_probe/drawer_close_current.png",
+      "reference": "/home/skr/Downloads/pi_07/pi07_code/artifacts/bagel_subgoal_probe/drawer_close_reference.png",
+      "reference_frame": 260,
+      "camera": "observation.images.image",
+      "prompt": "Edit this robot camera image to show the scene immediately after the robot completes this subtask: Close the bottom drawer of the cabinet, keeping the black bowl inside. Preserve the camera viewpoint, robot identity, room, lighting, and all other objects. Show one physically plausible near-future scene. Do not add text, arrows, panels, or new objects.",
+      "reference_offset_seconds": 10.0,
+      "input_sha256": "a809818dc977ea7bd6ae043bfc514a65d3b5596c1dd2179cf9fe6ed3fda78230",
+      "reference_sha256": "02d4aabef105606fdea7778382b2a543fd748566429b1d19c8bc467655a1c291",
+      "generated": "/home/skr/Downloads/pi_07/pi07_code/artifacts/bagel_subgoal_probe/results_gpu/drawer_close_seed0.png",
+      "elapsed_seconds": 54.44,
+      "peak_gpu_allocated_bytes": 22744623104,
+      "peak_gpu_reserved_bytes": 23383244800,
+      "generated_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "id": "microwave_close",
+      "episode": 100,
+      "frame": 212,
+      "subtask": "Close the microwave door, keeping the yellow and white mug inside.",
+      "current": "/home/skr/Downloads/pi_07/pi07_code/artifacts/bagel_subgoal_probe/microwave_close_current.png",
+      "reference": "/home/skr/Downloads/pi_07/pi07_code/artifacts/bagel_subgoal_probe/microwave_close_reference.png",
+      "reference_frame": 328,
+      "camera": "observation.images.image",
+      "prompt": "Edit this robot camera image to show the scene immediately after the robot completes this subtask: Close the microwave door, keeping the yellow and white mug inside. Preserve the camera viewpoint, robot identity, room, lighting, and all other objects. Show one physically plausible near-future scene. Do not add text, arrows, panels, or new objects.",
+      "reference_offset_seconds": 11.6,
+      "input_sha256": "6bd686159162d89a4eff71e638fc853f84a3c02bd884828555be28c9e6efa079",
+      "reference_sha256": "b5b9a6e00c0341a2a1455410f0416c3ac0a826052049889625d7c78e52f8ac27",
+      "generated": "/home/skr/Downloads/pi_07/pi07_code/artifacts/bagel_subgoal_probe/results_gpu/microwave_close_seed0.png",
+      "elapsed_seconds": 55.2,
+      "peak_gpu_allocated_bytes": 22745372672,
+      "peak_gpu_reserved_bytes": 23383244800,
+      "generated_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "id": "pudding_place",
+      "episode": 400,
+      "frame": 104,
+      "subtask": "Place the chocolate pudding to the right of the plate, keeping the white mug on the plate.",
+      "current": "/home/skr/Downloads/pi_07/pi07_code/artifacts/bagel_subgoal_probe/pudding_place_current.png",
+      "reference": "/home/skr/Downloads/pi_07/pi07_code/artifacts/bagel_subgoal_probe/pudding_place_reference.png",
+      "reference_frame": 202,
+      "camera": "observation.images.image",
+      "prompt": "Edit this robot camera image to show the scene immediately after the robot completes this subtask: Place the chocolate pudding to the right of the plate, keeping the white mug on the plate. Preserve the camera viewpoint, robot identity, room, lighting, and all other objects. Show one physically plausible near-future scene. Do not add text, arrows, panels, or new objects.",
+      "reference_offset_seconds": 9.8,
+      "input_sha256": "ae70b2ca79ca3a84fc4e0bdd6671dd8d24bc8356e20dfed2357b3d6320b2802d",
+      "reference_sha256": "f0a70fe1046fd15ac772bea48ae3be99ea1c282a38c2223196ffd2fffc4fd675",
+      "generated": "/home/skr/Downloads/pi_07/pi07_code/artifacts/bagel_subgoal_probe/results_gpu/pudding_place_seed0.png",
+      "elapsed_seconds": 55.56,
+      "peak_gpu_allocated_bytes": 22745974784,
+      "peak_gpu_reserved_bytes": 23383244800,
+      "generated_size": [
+        512,
+        512
+      ]
+    }
+  ]
+}

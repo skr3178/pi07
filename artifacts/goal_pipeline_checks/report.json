@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "data": {
+    "pairs_checked": 10000,
+    "cross_episode_pairs": 0,
+    "train_episodes": 450,
+    "validation_episodes": 50,
+    "goal_present_count": 2509,
+    "goal_present_rate": 0.2509,
+    "segment_endpoint_fraction_given_goal": 0.24073335990434436,
+    "schedule_sha256": "9faae184002233b47b4041ffeed67c0543c6f8b6d106bf6e3ea099ef63b6bdd1",
+    "repaired_one_frame_artifact_episodes": 50,
+    "physical_initial_state_grouping_verified": false,
+    "future_horizon": "0\u201340 retained dataset frames or current segment end; no physical-time equivalence claimed",
+    "goal_camera_pairs_exactly_matched": 10
+  },
+  "model": {
+    "parameters": 450046176,
+    "trainable_parameters": 99880992,
+    "backbone_trainable_parameters": 0,
+    "adapter": {
+      "adapter": "inactive_fields_only",
+      "handled_fields": {
+        "type": "smolvla",
+        "use_peft": false,
+        "rtc_config": null
+      },
+      "overrides": {
+        "device": "cuda",
+        "load_vlm_weights": false,
+        "n_action_steps": 8,
+        "push_to_hub": false
+      }
+    }
+  },
+  "masking": {
+    "masked_pixels_action_max_delta": 0.0,
+    "other_batch_members_goal_mask_action_max_delta": 0.0,
+    "valid_goals_action_mean_delta": 0.2633470594882965,
+    "current_observation_tokens": 128,
+    "observation_to_goal_or_text_edges": 0
+  },
+  "training_gate": {
+    "steps": 30,
+    "batch_size": 2,
+    "padding_target_loss_delta": 0.0,
+    "initial_fixed_batch_loss": 1.8454705476760864,
+    "final_fixed_batch_loss": 0.0074314577504992485,
+    "relative_loss_reduction": 0.9959731366291067,
+    "initial_gradient_norm": 25.78800392150879,
+    "gradient_tensors_checked": 155,
+    "finite_gradient_tensors": 155,
+    "step_seconds_p50": 0.09361352650012122,
+    "step_seconds_p95": 0.10070835680126038,
+    "peak_allocated_gb": 2.753860096,
+    "peak_reserved_gb": 2.801795072,
+    "losses": [
+      1.8454705476760864,
+      2.2353579998016357,
+      0.6146020889282227,
+      0.4129990339279175,
+      0.38315579295158386,
+      0.27821454405784607,
+      0.213746577501297,
+      0.1858796775341034,
+      0.15375764667987823,
+      0.11218864470720291,
+      0.08377718180418015,
+      0.07865609973669052,
+      0.07877174019813538,
+      0.07078320533037186,
+      0.05667882785201073,
+      0.044896677136421204,
+      0.040558092296123505,
+      0.03764290735125542,
+      0.03315803036093712,
+      0.027673738077282906,
+      0.02309400402009487,
+      0.019901879131793976,
+      0.018473247066140175,
+      0.01778392866253853,
+      0.01683746837079525,
+      0.01548369973897934,
+      0.013715299777686596,
+      0.011633509770035744,
+      0.009862673468887806,
+      0.008360231295228004
+    ],
+    "purpose": "fixed-batch/noise implementation check; weights discarded"
+  }
+}

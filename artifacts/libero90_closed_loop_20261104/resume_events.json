@@ -1,0 +1,18 @@
+[
+  {
+    "utc": "2026-11-04T07:08:15.415717+00:00",
+    "source_directory": "source_resume_1",
+    "source_sha256": {
+      "evaluate_libero.py": "2ce70f40580bd787e4c28b992bed9141bb69a997bc709042f9536af6382282e7",
+      "run_goal_development.py": "8f4000458e0fc7c880ded162743f13387e28268d34b47748fdf588c8df3d9b2c",
+      "imagewam_goal_worker.py": "14ae63d004953153ac7c4b84b2f4e996ba98891e06fcf118321c134f895ebfdf",
+      "goal_policy.py": "7c2f7edc5e46652239333788aed34b619e9b755c4815ad14a08f0f7afd195782",
+      "attention_check.py": "3fec03f09087432f9dad9910f0406baaafddc4de5c7dbadb09539fd441e563cb",
+      "libero_runtime.py": "c5d1f9e98007c3c4d66f89b0bffc8e29f456c5e1c527ce9fb82bd93c86a9fbd5",
+      "section_v_prompt.py": "eeff1c71ff986e39b30fa651de9e9ffeb5e5cb96e08859eefde6a96a5211b5cc",
+      "subtask_controller.py": "7afab91f76e9452032dad071df9d3e3cea70ae1edd991ebbce35095bb592aad6"
+    },
+    "previous_status": "interrupted",
+    "note": "Only missing/failed episodes are rerun; original manifest and source snapshot retained."
+  }
+]

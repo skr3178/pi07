@@ -1,0 +1,223 @@
+{
+  "created_date": "2026-10-29",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "horizon_dataset_steps": 16,
+  "dataset_fps": 10.0,
+  "denoising_steps": 10,
+  "cases": [
+    {
+      "id": "drawer_close_original",
+      "base_id": "drawer_close",
+      "stage": "original",
+      "episode": 50,
+      "frame": 160,
+      "subtask_id": 2,
+      "segment_end": 260,
+      "chain_steps": 6,
+      "chain_end": 256,
+      "state": [
+        -0.02245851792395115,
+        0.12605486810207367,
+        0.9993866682052612,
+        2.5757436752319336,
+        -1.8857760429382324,
+        0.11847119778394699,
+        0.003348161466419697,
+        -0.0030090485233813524
+      ],
+      "prompts": {
+        "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+        "aligned": "close the bottom drawer of the cabinet",
+        "paraphrase": "push the bottom drawer shut",
+        "counter": "pull the bottom drawer of the cabinet further open",
+        "empty": ""
+      },
+      "images": {
+        "current": "results/inputs/drawer_close_original_current.png",
+        "gt16": "results/inputs/drawer_close_original_gt16.png",
+        "endpoint": "results/inputs/drawer_close_original_endpoint.png",
+        "chain_gt": "results/inputs/drawer_close_original_chain_gt.png"
+      }
+    },
+    {
+      "id": "drawer_close_late",
+      "base_id": "drawer_close",
+      "stage": "late",
+      "episode": 50,
+      "frame": 228,
+      "subtask_id": 2,
+      "segment_end": 260,
+      "chain_steps": 2,
+      "chain_end": 260,
+      "state": [
+        0.07452826201915741,
+        0.0658787339925766,
+        0.966380774974823,
+        2.5553810596466064,
+        -2.147590398788452,
+        -0.7478506565093994,
+        0.03976967930793762,
+        -0.037972141057252884
+      ],
+      "prompts": {
+        "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+        "aligned": "close the bottom drawer of the cabinet",
+        "paraphrase": "push the bottom drawer shut",
+        "counter": "pull the bottom drawer of the cabinet further open",
+        "empty": ""
+      },
+      "images": {
+        "current": "results/inputs/drawer_close_late_current.png",
+        "gt16": "results/inputs/drawer_close_late_gt16.png",
+        "endpoint": "results/inputs/drawer_close_late_endpoint.png",
+        "chain_gt": "results/inputs/drawer_close_late_chain_gt.png"
+      }
+    },
+    {
+      "id": "microwave_close_original",
+      "base_id": "microwave_close",
+      "stage": "original",
+      "episode": 100,
+      "frame": 212,
+      "subtask_id": 1,
+      "segment_end": 328,
+      "chain_steps": 7,
+      "chain_end": 324,
+      "state": [
+        -0.014741247519850731,
+        0.2650117874145508,
+        1.0047556161880493,
+        2.478675365447998,
+        -3.393315076828003,
+        -1.1044201850891113,
+        0.03864257410168648,
+        -0.039260197430849075
+      ],
+      "prompts": {
+        "task": "put the yellow and white mug in the microwave and close it",
+        "aligned": "close the microwave door",
+        "paraphrase": "push the microwave door shut",
+        "counter": "pull the microwave door further open",
+        "empty": ""
+      },
+      "images": {
+        "current": "results/inputs/microwave_close_original_current.png",
+        "gt16": "results/inputs/microwave_close_original_gt16.png",
+        "endpoint": "results/inputs/microwave_close_original_endpoint.png",
+        "chain_gt": "results/inputs/microwave_close_original_chain_gt.png"
+      }
+    },
+    {
+      "id": "microwave_close_late",
+      "base_id": "microwave_close",
+      "stage": "late",
+      "episode": 100,
+      "frame": 296,
+      "subtask_id": 1,
+      "segment_end": 328,
+      "chain_steps": 2,
+      "chain_end": 328,
+      "state": [
+        -0.24848300218582153,
+        0.15812885761260986,
+        1.0692296028137207,
+        3.7411587238311768,
+        -1.0107333660125732,
+        -0.4194992482662201,
+        0.04002515226602554,
+        -0.039526164531707764
+      ],
+      "prompts": {
+        "task": "put the yellow and white mug in the microwave and close it",
+        "aligned": "close the microwave door",
+        "paraphrase": "push the microwave door shut",
+        "counter": "pull the microwave door further open",
+        "empty": ""
+      },
+      "images": {
+        "current": "results/inputs/microwave_close_late_current.png",
+        "gt16": "results/inputs/microwave_close_late_gt16.png",
+        "endpoint": "results/inputs/microwave_close_late_endpoint.png",
+        "chain_gt": "results/inputs/microwave_close_late_chain_gt.png"
+      }
+    },
+    {
+      "id": "pudding_place_original",
+      "base_id": "pudding_place",
+      "stage": "original",
+      "episode": 400,
+      "frame": 104,
+      "subtask_id": 3,
+      "segment_end": 202,
+      "chain_steps": 6,
+      "chain_end": 200,
+      "state": [
+        0.14810366928577423,
+        0.039671458303928375,
+        0.5210527181625366,
+        3.09291410446167,
+        0.4986491799354553,
+        -0.13577285408973694,
+        0.0018386717420071363,
+        -0.004232808481901884
+      ],
+      "prompts": {
+        "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "aligned": "place the chocolate pudding to the right of the plate",
+        "paraphrase": "put the chocolate pudding on the right side of the plate",
+        "counter": "place the chocolate pudding to the left of the plate",
+        "empty": ""
+      },
+      "images": {
+        "current": "results/inputs/pudding_place_original_current.png",
+        "gt16": "results/inputs/pudding_place_original_gt16.png",
+        "endpoint": "results/inputs/pudding_place_original_endpoint.png",
+        "chain_gt": "results/inputs/pudding_place_original_chain_gt.png"
+      }
+    },
+    {
+      "id": "pudding_place_late",
+      "base_id": "pudding_place",
+      "stage": "late",
+      "episode": 400,
+      "frame": 170,
+      "subtask_id": 3,
+      "segment_end": 202,
+      "chain_steps": 2,
+      "chain_end": 202,
+      "state": [
+        -0.06535791605710983,
+        0.11808208376169205,
+        0.4485764801502228,
+        3.101356267929077,
+        -0.05237296596169472,
+        0.07933870702981949,
+        0.023798391222953796,
+        -0.02411876618862152
+      ],
+      "prompts": {
+        "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "aligned": "place the chocolate pudding to the right of the plate",
+        "paraphrase": "put the chocolate pudding on the right side of the plate",
+        "counter": "place the chocolate pudding to the left of the plate",
+        "empty": ""
+      },
+      "images": {
+        "current": "results/inputs/pudding_place_late_current.png",
+        "gt16": "results/inputs/pudding_place_late_gt16.png",
+        "endpoint": "results/inputs/pudding_place_late_endpoint.png",
+        "chain_gt": "results/inputs/pudding_place_late_chain_gt.png"
+      }
+    }
+  ],
+  "limitations": [
+    "Six states from three demonstration episodes; not a generalization benchmark.",
+    "Counterfactual prompts lack matched ground truth and may be outside the checkpoint's language training distribution.",
+    "Empty means an empty user string passed through the usual chat template, not a zero text embedding.",
+    "Frozen-state chains are an inconsistent-state stress test, not a robot dynamics model or a deployment method."
+  ]
+}

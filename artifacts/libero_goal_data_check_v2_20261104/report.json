@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "episodes": 433,
+  "frames": 52895,
+  "tasks": 10,
+  "decoded_examples": 30,
+  "raw_arm_actions_state_exact": true,
+  "padding_masks_exact": true,
+  "gripper_conversion": "simulator_action = 1 - 2 * raw_FastWAM_action",
+  "canonical_gripper_motion_check": {
+    "-1": {
+      "transitions": 8821,
+      "mean_width_change": 0.001668525510467589,
+      "closing_fraction": 0.2955447228205419
+    },
+    "1": {
+      "transitions": 7868,
+      "mean_width_change": -0.002775710541754961,
+      "closing_fraction": 0.8266395526182003
+    }
+  },
+  "padded_action_steps_checked": 520,
+  "current_cameras_shape": [
+    3,
+    256,
+    256
+  ],
+  "maximum_abs_normalized_state": 3.816760778427124,
+  "maximum_abs_normalized_action": 4.871916770935059,
+  "subtask_annotations": "absent; not inferred from task names",
+  "limits": "Checks numerical schema, sampled alignment and aggregate gripper motion, not full simulator replay or success."
+}

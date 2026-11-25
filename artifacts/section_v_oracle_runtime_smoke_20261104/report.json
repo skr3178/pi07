@@ -1,0 +1,138 @@
+{
+  "status": "complete",
+  "episodes": [
+    {
+      "condition": "full_oracle_off",
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 0,
+      "seed": 200,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "turnon",
+          "flat_stove_1"
+        ],
+        [
+          "on",
+          "moka_pot_1",
+          "flat_stove_1_cook_region"
+        ]
+      ],
+      "success": false,
+      "steps": 16,
+      "timeout": true,
+      "clipped_components": 0,
+      "action_components": 112,
+      "chunk_seconds": [
+        1.0803774629894178,
+        0.3286332819989184
+      ],
+      "generations": [],
+      "subtask_events": [
+        {
+          "step": 0,
+          "text": "turn on the stove",
+          "source": "simulator_predicate_oracle"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "full_oracle_off_task2_init0.mp4",
+      "wall_seconds": 4.439302704005968
+    },
+    {
+      "condition": "full_oracle_off",
+      "task_id": 3,
+      "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "initial_state_id": 0,
+      "seed": 300,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "close",
+          "white_cabinet_1_bottom_region"
+        ],
+        [
+          "in",
+          "akita_black_bowl_1",
+          "white_cabinet_1_bottom_region"
+        ]
+      ],
+      "success": false,
+      "steps": 16,
+      "timeout": true,
+      "clipped_components": 0,
+      "action_components": 112,
+      "chunk_seconds": [
+        0.4234777509991545,
+        0.42111205200490076
+      ],
+      "generations": [],
+      "subtask_events": [
+        {
+          "step": 0,
+          "text": "put the black bowl in the bottom drawer",
+          "source": "simulator_predicate_oracle"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "full_oracle_off_task3_init0.mp4",
+      "wall_seconds": 3.5642029189912137
+    },
+    {
+      "condition": "full_oracle_off",
+      "task_id": 9,
+      "task": "put the yellow and white mug in the microwave and close it",
+      "initial_state_id": 0,
+      "seed": 900,
+      "reset_state_max_difference": 0.0,
+      "goal_predicates": [
+        [
+          "in",
+          "white_yellow_mug_1",
+          "microwave_1_heating_region"
+        ],
+        [
+          "close",
+          "microwave_1"
+        ]
+      ],
+      "success": false,
+      "steps": 16,
+      "timeout": true,
+      "clipped_components": 0,
+      "action_components": 112,
+      "chunk_seconds": [
+        0.4215398879896384,
+        0.4215540539880749
+      ],
+      "generations": [],
+      "subtask_events": [
+        {
+          "step": 0,
+          "text": "put the yellow and white mug in the microwave",
+          "source": "simulator_predicate_oracle"
+        }
+      ],
+      "max_predicate_fraction": 0.0,
+      "final_predicate_fraction": 0.0,
+      "video": "full_oracle_off_task9_init0.mp4",
+      "wall_seconds": 3.9373678019910585
+    }
+  ],
+  "summaries": {
+    "full_oracle_off": {
+      "episodes": 3,
+      "errors": 0,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_max_predicate_fraction": 0.0,
+      "wall_seconds": 11.94087342498824
+    }
+  },
+  "policy_peak_allocated_gb": {
+    "full_oracle_off": 1.286165504
+  }
+}

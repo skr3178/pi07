@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "episodes": 500,
+  "frames": 138090,
+  "decoded_samples": 30,
+  "finite_samples": 30,
+  "cross_episode_action_queries": 0,
+  "action_padding_mismatches": 0,
+  "task_count": 10,
+  "scope": "30 stratified runtime samples, not an exhaustive visual or semantic label audit; future-goal pair builder remains untested."
+}

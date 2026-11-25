@@ -1,0 +1,66 @@
+{
+  "status": "failed",
+  "checks": {
+    "cuda": {
+      "gpu": "NVIDIA RTX PRO 4000 Blackwell",
+      "cuda": "12.8",
+      "capability": [
+        12,
+        0
+      ]
+    },
+    "dataset": {
+      "observation.images.image": {
+        "shape": [
+          3,
+          256,
+          256
+        ],
+        "dtype": "torch.float32",
+        "min": 0.0,
+        "max": 1.0
+      },
+      "observation.images.image2": {
+        "shape": [
+          3,
+          256,
+          256
+        ],
+        "dtype": "torch.float32",
+        "min": 0.0,
+        "max": 0.9490196108818054
+      },
+      "observation.state": {
+        "shape": [
+          8
+        ],
+        "dtype": "torch.float32",
+        "min": -0.19946953654289246,
+        "max": 3.131434679031372
+      },
+      "action": {
+        "shape": [
+          50,
+          7
+        ],
+        "dtype": "torch.float32",
+        "min": -1.0,
+        "max": 0.637499988079071
+      },
+      "task": "turn on the stove and put the moka pot on it"
+    }
+  },
+  "simulator_runs": [],
+  "versions": {
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128",
+    "torchcodec": "0.5",
+    "transformers": "4.56.1",
+    "lerobot": "0.3.4",
+    "libero": "0.1.4",
+    "mujoco": "3.3.2",
+    "numpy": "2.2.6"
+  },
+  "vlm_config_tokenizer_snapshot": "/media/skr/storage/hf_home/hub/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+  "error": "Traceback (most recent call last):\n  File \"/home/skr/Downloads/pi_07/pi07_code/artifacts/lerobot_libero_setup/smoke_test.py\", line 180, in <module>\n    main()\n  File \"/home/skr/Downloads/pi_07/pi07_code/artifacts/lerobot_libero_setup/smoke_test.py\", line 99, in main\n    config = SmolVLAConfig.from_pretrained(checkpoint)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot/src/lerobot/configs/policies.py\", line 199, in from_pretrained\n    orig_config = draccus.parse(cls, config_file, args=[])\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/argparsing.py\", line 211, in parse\n    return parser.parse_args(args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/argparsing.py\", line 102, in parse_args\n    args, _ = self.parse_known_args(args, namespace, is_parse_args=True)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/argparsing.py\", line 136, in parse_known_args\n    parsed_t = self._postprocessing(parsed_args)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/argparsing.py\", line 180, in _postprocessing\n    cfg = decoding.decode(self.config_class, deflat_d)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/parsers/registry_utils.py\", line 78, in wrapper\n    return base_func(*args, **kw)\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/parsers/decoding.py\", line 48, in decode\n    return get_decoding_fn(cls)(raw_value, ())  # type: ignore\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/parsers/decoding.py\", line 175, in decode_choice_class\n    return decode_dataclass(cls, raw_value)  # type: ignore\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/draccus/parsers/decoding.py\", line 149, in decode_dataclass\n    raise DecodingError(path, f\"The fields {formatted_keys} are not valid for {stringify_type(cls)}\")\ndraccus.utils.DecodingError: The fields `type`, `use_peft`, `rtc_config` are not valid for SmolVLAConfig\n"
+}

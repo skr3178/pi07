@@ -1,0 +1,23 @@
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+WARNING:robosuite_logs:No private macro file found!
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+WARNING:robosuite_logs:It is recommended to use a private macro file
+[robosuite WARNING] To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+WARNING:robosuite_logs:To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+libero_10_task0_init0: success=False steps=520 wall=18.7s
+libero_10_task0_init1: success=False steps=520 wall=16.7s
+libero_10_task4_init0: success=True steps=229 wall=14.0s
+libero_10_task4_init1: success=False steps=520 wall=19.8s
+libero_10_task8_init0: success=False steps=520 wall=17.1s
+libero_10_task8_init1: success=False steps=520 wall=16.5s
+libero_goal_task0_init0: success=True steps=119 wall=7.9s
+libero_goal_task0_init1: success=True steps=126 wall=8.0s
+libero_goal_task4_init0: success=True steps=86 wall=7.2s
+libero_goal_task4_init1: success=True steps=81 wall=6.9s
+libero_goal_task8_init0: success=True steps=79 wall=6.8s
+libero_goal_task8_init1: success=True steps=73 wall=6.7s
+{"attempted_episodes": 12, "valid_episodes": 12, "exceptions": 0, "successes": 7, "success_rate": 0.5833333333333334, "wilson_95": [0.31951131254954973, 0.8067396863412435], "timeouts": 5, "mean_steps_to_success": 113.28571428571429, "action_clipping_fraction": 0.07763883625952592, "chunk_latency_p50_seconds": 0.14074468599937973, "chunk_latency_p95_seconds": 0.14466251309950168, "rollout_wall_seconds": 146.3082435910037}

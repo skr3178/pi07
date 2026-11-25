@@ -1,0 +1,70 @@
+{
+  "purpose": "Runtime smoke of oracle subtask text using a ONE-UPDATE checkpoint, not a benchmark",
+  "spec": {
+    "purpose": "Runtime smoke of oracle subtask text using a ONE-UPDATE checkpoint, not a benchmark",
+    "suite": "libero_10",
+    "task_ids": [
+      2,
+      3,
+      9
+    ],
+    "init_ids": [
+      0
+    ],
+    "max_steps": 16,
+    "goal_refresh_steps": 16,
+    "conditions": [
+      {
+        "name": "full_oracle_off",
+        "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l90_training_smoke_20261104/checkpoint",
+        "layout": "alt",
+        "goals": "off",
+        "subtasks": "oracle_predicates"
+      }
+    ]
+  },
+  "jobs": [
+    {
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 0,
+      "seed": 200
+    },
+    {
+      "task_id": 3,
+      "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "initial_state_id": 0,
+      "seed": 300
+    },
+    {
+      "task_id": 9,
+      "task": "put the yellow and white mug in the microwave and close it",
+      "initial_state_id": 0,
+      "seed": 900
+    }
+  ],
+  "checkpoint_sha256": {
+    "full_oracle_off": "3b85aaee9b503a98d32e76572339a186a4d4dee2de2a5e9e065ac099c3fdfd8d"
+  },
+  "source_sha256": {
+    "evaluate_libero.py": "3d0ef57301d682265499afc7b2a92c27fc90d03d1be582854508b801ff960f92",
+    "run_goal_development.py": "8f4000458e0fc7c880ded162743f13387e28268d34b47748fdf588c8df3d9b2c",
+    "imagewam_goal_worker.py": "14ae63d004953153ac7c4b84b2f4e996ba98891e06fcf118321c134f895ebfdf",
+    "goal_policy.py": "7c2f7edc5e46652239333788aed34b619e9b755c4815ad14a08f0f7afd195782",
+    "attention_check.py": "3fec03f09087432f9dad9910f0406baaafddc4de5c7dbadb09539fd441e563cb",
+    "libero_runtime.py": "c5d1f9e98007c3c4d66f89b0bffc8e29f456c5e1c527ce9fb82bd93c86a9fbd5",
+    "section_v_prompt.py": "eeff1c71ff986e39b30fa651de9e9ffeb5e5cb96e08859eefde6a96a5211b5cc",
+    "subtask_controller.py": "7afab91f76e9452032dad071df9d3e3cea70ae1edd991ebbce35095bb592aad6"
+  },
+  "execute_steps": 8,
+  "settling_steps": 10,
+  "control_hz": 20,
+  "world_model_calls_per_refresh": 1,
+  "goal_prompt": "current oracle subtask when enabled, otherwise full task",
+  "live_subtask_controller": "privileged current BDDL predicates",
+  "subtask_update_frequency": "every eight simulator actions; refresh goals on change",
+  "world_model_metadata_conditioning": false,
+  "world_model": "/media/skr/storage/models/imagewam/imagewam_release/libero/flux2_klein_4b/model.pt",
+  "timing": "simulator pauses for generation and policy inference",
+  "progress_definition": "fraction of BDDL terminal predicates currently true; not a quality label"
+}

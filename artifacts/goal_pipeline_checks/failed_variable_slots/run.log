@@ -1,0 +1,9 @@
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+Traceback (most recent call last):
+  File "/home/skr/Downloads/pi_07/pi07_code/check_goal_pipeline.py", line 166, in <module>
+    main()
+  File "/home/skr/Downloads/pi_07/pi07_code/check_goal_pipeline.py", line 101, in main
+    assert removed_equivalence <= 1e-5, removed_equivalence
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.015688419342041016

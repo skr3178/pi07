@@ -1,0 +1,55 @@
+{
+  "purpose": "matched development training pilot, not final benchmark",
+  "seed": 20261029,
+  "steps_per_arm": 1000,
+  "batch_size": 8,
+  "examples_per_arm": 8000,
+  "checkpoint": "/media/skr/storage/models/smolvla_libero",
+  "checkpoint_sha256": "9a9f6413e42c0f332fccbce9a0dc796af2790f82cf002f791cdbf7e01e1afca8",
+  "source_sha256": {
+    "goal_policy.py": "7c2f7edc5e46652239333788aed34b619e9b755c4815ad14a08f0f7afd195782",
+    "goal_data.py": "25ad71bec00f0c5f71cb150c18d1668269365bedb73a89fc51579d53ab1d0f04",
+    "libero_runtime.py": "c5d1f9e98007c3c4d66f89b0bffc8e29f456c5e1c527ce9fb82bd93c86a9fbd5",
+    "train_goal_pilot.py": "cd90363d1c0a1c6f4b8fe802bc05f43fae2983b33f58777f143cb917f17efec8"
+  },
+  "dependencies": {
+    "env": "/media/skr/storage/envs/pi07-lerobot",
+    "sources": {
+      "lerobot": {
+        "path": "/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot",
+        "commit": "76a425c600b82e6bcf91650cbed347899eb1e07f"
+      },
+      "lerobot-libero": {
+        "path": "/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero",
+        "commit": "14fd6f022ff6647defc24e73563b95aa36670f43"
+      }
+    }
+  },
+  "train_schedule_sha256": "1c34e63438599778834cb52a674bbce2594e9190251c92d660ab3cfcbeb72a27",
+  "validation_schedule_sha256": "cdbc44499e6bd33c941917ae6566ff3623ac60a21a7374a8559caf2a453ec324",
+  "split_sha256": "e62e0ada197859493def8ad7cd73268c58301eb6e6dff0419d05cec184f38231",
+  "dataset_revision": "66a4f67dd88bde16c2d55395edf23617d04972dd",
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0001,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "eps": 1e-08,
+    "weight_decay": 1e-10,
+    "gradient_clip": 10.0,
+    "warmup_steps": 20
+  },
+  "precision": "BF16 autocast; checkpoint/module parameter dtypes retained",
+  "trainable": "action expert/projections and state projection; VLM frozen",
+  "attention": "fixed four image slots; observations cannot see goals/text; identical in A/B",
+  "goal_present_count_B": 1994,
+  "goal_present_rate_B": 0.24925,
+  "goal_sampling": "25% segment endpoint, otherwise uniform 0\u201340 remaining episode frames",
+  "task_text": "same full task in both arms; no subtask text or metadata yet",
+  "action_chunk": 50,
+  "execute_steps": 8,
+  "validation_observations": 100,
+  "validation_limits": "fixed flow-noise diagnostic; not action rollout success or pretraining holdout"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "failed",
+  "data": {
+    "pairs_checked": 10000,
+    "cross_episode_pairs": 0,
+    "train_episodes": 450,
+    "validation_episodes": 50,
+    "goal_present_count": 2509,
+    "goal_present_rate": 0.2509,
+    "segment_endpoint_fraction_given_goal": 0.24073335990434436,
+    "schedule_sha256": "9faae184002233b47b4041ffeed67c0543c6f8b6d106bf6e3ea099ef63b6bdd1",
+    "repaired_one_frame_artifact_episodes": 50,
+    "physical_initial_state_grouping_verified": false,
+    "future_horizon": "0\u201340 retained dataset frames or current segment end; no physical-time equivalence claimed",
+    "goal_camera_pairs_exactly_matched": 10
+  },
+  "model": {
+    "parameters": 450046176,
+    "trainable_parameters": 99880992,
+    "backbone_trainable_parameters": 0,
+    "adapter": {
+      "adapter": "inactive_fields_only",
+      "handled_fields": {
+        "type": "smolvla",
+        "use_peft": false,
+        "rtc_config": null
+      },
+      "overrides": {
+        "device": "cuda",
+        "load_vlm_weights": false,
+        "n_action_steps": 8,
+        "push_to_hub": false
+      }
+    }
+  },
+  "error": "Traceback (most recent call last):\n  File \"/home/skr/Downloads/pi_07/pi07_code/check_goal_pipeline.py\", line 166, in <module>\n    main()\n  File \"/home/skr/Downloads/pi_07/pi07_code/check_goal_pipeline.py\", line 101, in main\n    assert removed_equivalence <= 1e-5, removed_equivalence\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 0.015688419342041016\n"
+}

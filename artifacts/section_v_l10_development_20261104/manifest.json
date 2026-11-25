@@ -1,0 +1,220 @@
+{
+  "purpose": "Fresh Section V training comparison: same 1,000 updates, paired starts, task / oracle subtask / 25%-trained goal inputs. Text availability matched at training; no held-out final starts.",
+  "spec": {
+    "suite": "libero_10",
+    "task_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "init_ids": [
+      0,
+      1
+    ],
+    "max_steps": 520,
+    "goal_refresh_steps": 16,
+    "conditions": [
+      {
+        "name": "A",
+        "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_task_1000_20261104/checkpoint",
+        "layout": "alt",
+        "goals": "off"
+      },
+      {
+        "name": "S",
+        "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_1000_20261104/checkpoint",
+        "layout": "alt",
+        "goals": "off",
+        "subtasks": "oracle_predicates"
+      },
+      {
+        "name": "SG_off",
+        "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_goal_1000_20261104/checkpoint",
+        "layout": "alt",
+        "goals": "off",
+        "subtasks": "oracle_predicates"
+      },
+      {
+        "name": "SG_copy",
+        "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_goal_1000_20261104/checkpoint",
+        "layout": "alt",
+        "goals": "copy",
+        "subtasks": "oracle_predicates"
+      },
+      {
+        "name": "SG_generated",
+        "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_goal_1000_20261104/checkpoint",
+        "layout": "alt",
+        "goals": "generated",
+        "subtasks": "oracle_predicates"
+      }
+    ],
+    "purpose": "Fresh Section V training comparison: same 1,000 updates, paired starts, task / oracle subtask / 25%-trained goal inputs. Text availability matched at training; no held-out final starts."
+  },
+  "jobs": [
+    {
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 0,
+      "seed": 0
+    },
+    {
+      "task_id": 0,
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "initial_state_id": 1,
+      "seed": 1
+    },
+    {
+      "task_id": 1,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "initial_state_id": 0,
+      "seed": 100
+    },
+    {
+      "task_id": 1,
+      "task": "put both the cream cheese box and the butter in the basket",
+      "initial_state_id": 1,
+      "seed": 101
+    },
+    {
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 0,
+      "seed": 200
+    },
+    {
+      "task_id": 2,
+      "task": "turn on the stove and put the moka pot on it",
+      "initial_state_id": 1,
+      "seed": 201
+    },
+    {
+      "task_id": 3,
+      "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "initial_state_id": 0,
+      "seed": 300
+    },
+    {
+      "task_id": 3,
+      "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "initial_state_id": 1,
+      "seed": 301
+    },
+    {
+      "task_id": 4,
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "initial_state_id": 0,
+      "seed": 400
+    },
+    {
+      "task_id": 4,
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "initial_state_id": 1,
+      "seed": 401
+    },
+    {
+      "task_id": 5,
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "initial_state_id": 0,
+      "seed": 500
+    },
+    {
+      "task_id": 5,
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "initial_state_id": 1,
+      "seed": 501
+    },
+    {
+      "task_id": 6,
+      "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "initial_state_id": 0,
+      "seed": 600
+    },
+    {
+      "task_id": 6,
+      "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "initial_state_id": 1,
+      "seed": 601
+    },
+    {
+      "task_id": 7,
+      "task": "put both the alphabet soup and the cream cheese box in the basket",
+      "initial_state_id": 0,
+      "seed": 700
+    },
+    {
+      "task_id": 7,
+      "task": "put both the alphabet soup and the cream cheese box in the basket",
+      "initial_state_id": 1,
+      "seed": 701
+    },
+    {
+      "task_id": 8,
+      "task": "put both moka pots on the stove",
+      "initial_state_id": 0,
+      "seed": 800
+    },
+    {
+      "task_id": 8,
+      "task": "put both moka pots on the stove",
+      "initial_state_id": 1,
+      "seed": 801
+    },
+    {
+      "task_id": 9,
+      "task": "put the yellow and white mug in the microwave and close it",
+      "initial_state_id": 0,
+      "seed": 900
+    },
+    {
+      "task_id": 9,
+      "task": "put the yellow and white mug in the microwave and close it",
+      "initial_state_id": 1,
+      "seed": 901
+    }
+  ],
+  "checkpoint_sha256": {
+    "A": "4cbbc75e6adb96a46c92dede93cf291cf49b99d3e812340c4ecab45238f8881c",
+    "S": "a068e37dd3d83e7189346129ebce6b9596ddf43ab71aac422c1896c7f4ed658f",
+    "SG_off": "48a8814faf3d5e29ef4b2f528c4d4c8ad73f154dc9fc3a71b60f4b46b16f8945",
+    "SG_copy": "48a8814faf3d5e29ef4b2f528c4d4c8ad73f154dc9fc3a71b60f4b46b16f8945",
+    "SG_generated": "48a8814faf3d5e29ef4b2f528c4d4c8ad73f154dc9fc3a71b60f4b46b16f8945"
+  },
+  "source_sha256": {
+    "evaluate_libero.py": "218c6d7049a94d52102e73436a2dae085b820a1bbb05723d29863e79adf9fee3",
+    "run_goal_development.py": "8f4000458e0fc7c880ded162743f13387e28268d34b47748fdf588c8df3d9b2c",
+    "imagewam_goal_worker.py": "14ae63d004953153ac7c4b84b2f4e996ba98891e06fcf118321c134f895ebfdf",
+    "goal_policy.py": "7c2f7edc5e46652239333788aed34b619e9b755c4815ad14a08f0f7afd195782",
+    "attention_check.py": "3fec03f09087432f9dad9910f0406baaafddc4de5c7dbadb09539fd441e563cb",
+    "libero_runtime.py": "c5d1f9e98007c3c4d66f89b0bffc8e29f456c5e1c527ce9fb82bd93c86a9fbd5",
+    "section_v_prompt.py": "eeff1c71ff986e39b30fa651de9e9ffeb5e5cb96e08859eefde6a96a5211b5cc",
+    "subtask_controller.py": "7afab91f76e9452032dad071df9d3e3cea70ae1edd991ebbce35095bb592aad6",
+    "metadata_guidance.py": "14031c328e0a215bfa0b4f702f014ee6278defec42b98a37e8a6c5fcf5b8eb7e"
+  },
+  "execute_steps": 8,
+  "settling_steps": 10,
+  "control_hz": 20,
+  "world_model_calls_per_refresh": 1,
+  "goal_prompt": "current oracle subtask when enabled, otherwise full task",
+  "live_subtask_controller": "privileged current BDDL predicates",
+  "subtask_update_frequency": "every eight simulator actions; refresh goals on change",
+  "world_model_metadata_conditioning": false,
+  "metadata_cfg_convention": "v_cond + beta * (v_cond - v_no_metadata); beta=0 is ordinary conditioned inference",
+  "metadata_cfg_implementation": "separate positive/negative prefix caches; same task, subtask, images, state and noise",
+  "phase": "development",
+  "training_data_recorded": false,
+  "training_record_format": "per-step uint8 main/wrist before action; state; executed clipped action; current predicate truth",
+  "world_model": "/media/skr/storage/models/imagewam/imagewam_release/libero/flux2_klein_4b/model.pt",
+  "timing": "simulator pauses for generation and policy inference",
+  "progress_definition": "fraction of BDDL terminal predicates currently true; not a quality label",
+  "world_model_sha256": "53620f93f8772d2047f27f9ca9b4a1f56cdd7932de566282e0f4a80cfff21cb5",
+  "world_model_config_sha256": "8a257ba05ea1ed70afa294b17c384ce8a2d08598e661bf937b22882346e46462",
+  "world_model_stats_sha256": "5770ca032724314814dce0db828f2c3eb402bcf75933bd6e6f4a516831f3f3e8"
+}

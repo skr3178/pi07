@@ -1,0 +1,22 @@
+{
+  "dataset": "mixed",
+  "dataset_root": "/home/skr/Downloads/pi_07/pi07_code/data/libero10_metadata_mixture_20261104",
+  "dataset_info_sha256": "e4ca1b42756953f6c5c688375f1683ff1e7f63a0939daa85a84e9b46ee0fa018",
+  "seed": 20261104,
+  "train_examples": 2,
+  "validation_examples": 1,
+  "validation_task_counts": {
+    "0": 10,
+    "6": 10,
+    "9": 10
+  },
+  "validation_episode_count": 8,
+  "future_horizon_unit": "retained dataset frames; physical elapsed time not certified",
+  "endpoint_definition": "annotated segment end",
+  "source_sha256": "8ecf0cfb98c0ac54b9b81dcbe3a52fcc07f6d2af2e782bb6c7dade8f75d269bc",
+  "source_positions": [
+    0,
+    363
+  ],
+  "purpose": "Two-update integration only; one demo and one reviewed no-mistake rollout frame"
+}

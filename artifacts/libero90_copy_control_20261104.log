@@ -1,0 +1,29 @@
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+WARNING:robosuite_logs:No private macro file found!
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+WARNING:robosuite_logs:It is recommended to use a private macro file
+[robosuite WARNING] To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+WARNING:robosuite_logs:To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+Bnear_copy_task0_init0: success=False steps=520 progress=0.00
+Bnear_copy_task0_init1: success=False steps=520 progress=0.00
+Bnear_copy_task1_init0: success=True steps=303 progress=1.00
+Bnear_copy_task1_init1: success=True steps=300 progress=1.00
+Bnear_copy_task2_init0: success=True steps=235 progress=1.00
+Bnear_copy_task2_init1: success=False steps=520 progress=0.00
+Bnear_copy_task3_init0: success=False steps=520 progress=0.50
+Bnear_copy_task3_init1: success=False steps=520 progress=0.50
+Bnear_copy_task4_init0: success=False steps=520 progress=0.50
+Bnear_copy_task4_init1: success=False steps=520 progress=0.00
+Bnear_copy_task5_init0: success=False steps=520 progress=0.00
+Bnear_copy_task5_init1: success=True steps=186 progress=1.00
+Bnear_copy_task6_init0: success=False steps=520 progress=0.00
+Bnear_copy_task6_init1: success=False steps=520 progress=0.00
+Bnear_copy_task7_init0: success=False steps=520 progress=0.00
+Bnear_copy_task7_init1: success=False steps=520 progress=0.50
+Bnear_copy_task8_init0: success=False steps=520 progress=0.33
+Bnear_copy_task8_init1: success=False steps=520 progress=0.33
+Bnear_copy_task9_init0: success=False steps=520 progress=0.00
+Bnear_copy_task9_init1: success=False steps=520 progress=0.00

@@ -1,0 +1,302 @@
+Cloning into '/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero'...
+Updating files:  54% (610/1119)Updating files:  55% (616/1119)Updating files:  56% (627/1119)Updating files:  57% (638/1119)Updating files:  58% (650/1119)Updating files:  59% (661/1119)Updating files:  60% (672/1119)Updating files:  61% (683/1119)Updating files:  62% (694/1119)Updating files:  63% (705/1119)Updating files:  64% (717/1119)Updating files:  65% (728/1119)Updating files:  66% (739/1119)Updating files:  67% (750/1119)Updating files:  68% (761/1119)Updating files:  69% (773/1119)Updating files:  70% (784/1119)Updating files:  71% (795/1119)Updating files:  72% (806/1119)Updating files:  73% (817/1119)Updating files:  74% (829/1119)Updating files:  75% (840/1119)Updating files:  76% (851/1119)Updating files:  77% (862/1119)Updating files:  78% (873/1119)Updating files:  79% (885/1119)Updating files:  80% (896/1119)Updating files:  81% (907/1119)Updating files:  82% (918/1119)Updating files:  83% (929/1119)Updating files:  84% (940/1119)Updating files:  85% (952/1119)Updating files:  86% (963/1119)Updating files:  87% (974/1119)Updating files:  88% (985/1119)Updating files:  89% (996/1119)Updating files:  90% (1008/1119)Updating files:  91% (1019/1119)Updating files:  92% (1030/1119)Updating files:  93% (1041/1119)Updating files:  94% (1052/1119)Updating files:  95% (1064/1119)Updating files:  96% (1075/1119)Updating files:  97% (1086/1119)Updating files:  98% (1097/1119)Updating files:  99% (1108/1119)Updating files: 100% (1119/1119)Updating files: 100% (1119/1119), done.
+Using CPython 3.11.14
+Creating virtual environment at: /media/skr/storage/envs/pi07-lerobot
+Activate with: source /media/skr/storage/envs/pi07-lerobot/bin/activate
+Using Python 3.11.14 environment at: /media/skr/storage/envs/pi07-lerobot
+Resolved 28 packages in 2.54s
+Downloading nvidia-nccl-cu12 (192.0MiB)
+Downloading numpy (16.1MiB)
+Downloading nvidia-cufft-cu12 (184.2MiB)
+Downloading nvidia-cuda-nvrtc-cu12 (83.9MiB)
+ Downloaded numpy
+Downloading nvidia-cublas-cu12 (581.4MiB)
+ Downloaded nvidia-nccl-cu12
+Downloading sympy (6.0MiB)
+ Downloaded sympy
+Downloading nvidia-cuda-cupti-cu12 (9.8MiB)
+ Downloaded nvidia-cufft-cu12
+Downloading nvidia-cusolver-cu12 (248.3MiB)
+ Downloaded nvidia-cuda-nvrtc-cu12
+Downloading nvidia-cufile-cu12 (1.1MiB)
+ Downloaded nvidia-cuda-cupti-cu12
+Downloading nvidia-cusparse-cu12 (278.5MiB)
+ Downloaded nvidia-cufile-cu12
+Downloading pillow (6.8MiB)
+ Downloaded pillow
+Downloading triton (148.5MiB)
+ Downloaded triton
+Downloading nvidia-cusparselt-cu12 (149.5MiB)
+ Downloaded nvidia-cublas-cu12
+Downloading nvidia-nvjitlink-cu12 (37.4MiB)
+ Downloaded nvidia-cusolver-cu12
+Downloading networkx (2.0MiB)
+ Downloaded networkx
+Downloading nvidia-curand-cu12 (60.7MiB)
+ Downloaded nvidia-nvjitlink-cu12
+Downloading setuptools (1.2MiB)
+ Downloaded setuptools
+Downloading nvidia-cudnn-cu12 (693.2MiB)
+ Downloaded nvidia-cusparse-cu12
+ Downloaded nvidia-cusparselt-cu12
+ Downloaded nvidia-curand-cu12
+ Downloaded nvidia-cudnn-cu12
+Prepared 26 packages in 4m 36s
+Installed 28 packages in 5.50s
+ + filelock==4.2.4
+ + fsspec==2026.9.0
+ + jinja2==3.1.6
+ + markupsafe==3.0.3
+ + mpmath==1.3.0
+ + networkx==3.6.1
+ + numpy==2.4.6
+ + nvidia-cublas-cu12==12.8.3.14
+ + nvidia-cuda-cupti-cu12==12.8.57
+ + nvidia-cuda-nvrtc-cu12==12.8.61
+ + nvidia-cuda-runtime-cu12==12.8.57
+ + nvidia-cudnn-cu12==9.7.1.26
+ + nvidia-cufft-cu12==11.3.3.41
+ + nvidia-cufile-cu12==1.13.0.11
+ + nvidia-curand-cu12==10.3.9.55
+ + nvidia-cusolver-cu12==11.7.2.55
+ + nvidia-cusparse-cu12==12.5.7.53
+ + nvidia-cusparselt-cu12==0.6.3
+ + nvidia-nccl-cu12==2.26.2
+ + nvidia-nvjitlink-cu12==12.8.61
+ + nvidia-nvtx-cu12==12.8.55
+ + pillow==13.0.0
+ + setuptools==78.1.0
+ + sympy==1.14.0
+ + torch==2.7.1+cu128
+ + torchvision==0.22.1+cu128
+ + triton==3.3.1
+ + typing-extensions==4.16.0
+Using Python 3.11.14 environment at: /media/skr/storage/envs/pi07-lerobot
+  × No solution found when resolving dependencies:
+  ╰─▶ Because rerun-sdk>=0.24.0,<=0.26.2 depends on numpy>=2 and
+      transformers==4.56.1 depends on numpy==1.26.4, we can conclude that
+      rerun-sdk>=0.24.0,<=0.26.2 and transformers==4.56.1 are incompatible.
+      And because lerobot[smolvla]==0.3.4 depends on transformers==4.56.1 and
+      lerobot==0.3.4 depends on rerun-sdk>=0.24.0,<0.27.0, we can conclude
+      that lerobot==0.3.4 and lerobot[smolvla]==0.3.4 are incompatible.
+      And because only lerobot[smolvla]==0.3.4 is available and you
+      require lerobot[smolvla], we can conclude that your requirements are
+      unsatisfiable.
+Using Python 3.11.14 environment at: /media/skr/storage/envs/pi07-lerobot
+Checked 2 packages in 2ms
+Using Python 3.11.14 environment at: /media/skr/storage/envs/pi07-lerobot
+Resolved 161 packages in 805ms
+   Building libero @ file:///home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero
+   Building lerobot @ file:///home/skr/Downloads/pi_07/pi07_code/vendor/lerobot
+Downloading robosuite (184.5MiB)
+Downloading llvmlite (56.9MiB)
+Downloading rerun-sdk (94.2MiB)
+Downloading opencv-python (60.1MiB)
+      Built lerobot @ file:///home/skr/Downloads/pi_07/pi07_code/vendor/lerobot
+ Downloaded llvmlite
+Downloading pyarrow (51.4MiB)
+ Downloaded opencv-python
+Downloading av (37.7MiB)
+ Downloaded rerun-sdk
+Downloading cmake (28.3MiB)
+ Downloaded av
+Downloading imageio-ffmpeg (28.1MiB)
+ Downloaded pyarrow
+Downloading wandb (18.7MiB)
+ Downloaded cmake
+Downloading numpy (16.0MiB)
+ Downloaded imageio-ffmpeg
+Downloading pandas (11.8MiB)
+ Downloaded wandb
+Downloading mujoco (6.3MiB)
+ Downloaded mujoco
+Downloading hf-xet (4.0MiB)
+ Downloaded pandas
+Downloading diffusers (3.9MiB)
+ Downloaded hf-xet
+Downloading numba (3.7MiB)
+ Downloaded numpy
+Downloading hf-transfer (3.4MiB)
+ Downloaded diffusers
+Downloading pyopengl (3.0MiB)
+ Downloaded numba
+ Downloaded hf-transfer
+Downloading pydantic-core (2.1MiB)
+Downloading torchcodec (1.3MiB)
+ Downloaded pyopengl
+ Downloaded torchcodec
+ Downloaded pydantic-core
+   Building gym==0.26.2
+   Building hf-egl-probe==1.0.2
+   Building egl-probe==1.0.2
+   Building robomimic==0.2.0
+   Building bddl==1.0.1
+   Building evdev==2.0.0
+   Building docopt==0.6.2
+      Built docopt==0.6.2
+      Built robomimic==0.2.0
+      Built bddl==1.0.1
+      Built gym==0.26.2
+      Built libero @ file:///home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero
+      Built evdev==2.0.0
+      Built hf-egl-probe==1.0.2
+      Built egl-probe==1.0.2
+ Downloaded robosuite
+Prepared 74 packages in 2m 04s
+Uninstalled 2 packages in 43ms
+Installed 135 packages in 633ms
+ + absl-py==2.5.1
+ + accelerate==1.15.0
+ + aiohappyeyeballs==2.7.1
+ + aiohttp==3.14.5
+ + aiosignal==1.4.0
+ + annotated-types==0.8.0
+ + antlr4-python3-runtime==4.9.3
+ + attrs==26.1.0
+ + av==15.1.0
+ + bddl==1.0.1
+ + certifi==2026.10.23
+ + charset-normalizer==3.5.2
+ + click==8.5.0
+ + cloudpickle==3.1.2
+ + cmake==4.1.3
+ + contourpy==1.3.3
+ + cycler==0.12.1
+ + datasets==4.1.1
+ + deepdiff==8.6.2
+ + diffusers==0.35.2
+ + dill==0.4.0
+ + docopt==0.6.2
+ + draccus==0.10.0
+ + easydict==1.13
+ + egl-probe==1.0.2
+ + einops==0.8.2
+ + etils==1.14.0
+ + evdev==2.0.0
+ + farama-notifications==0.0.6
+ + fastjsonschema==2.22.2
+ + fonttools==4.68.0
+ + frozenlist==1.8.0
+ - fsspec==2026.9.0
+ + fsspec==2025.9.0
+ + future==1.0.0
+ + gitdb==4.0.12
+ + gitpython==3.2.1
+ + glfw==2.11.0
+ + grpcio==1.85.0
+ + gym==0.26.2
+ + gym-notices==0.1.0
+ + gymnasium==1.4.0
+ + h5py==3.16.0
+ + hf-egl-probe==1.0.2
+ + hf-transfer==0.1.9
+ + hf-xet==1.7.1
+ + huggingface-hub==0.35.3
+ + hydra-core==1.3.8
+ + idna==3.20
+ + imageio==2.38.1
+ + imageio-ffmpeg==0.7.0
+ + importlib-metadata==10.1.0
+ + iniconfig==2.3.1
+ + inquirerpy==0.3.4
+ + jsonlines==4.0.0
+ + jsonschema==4.26.0
+ + jsonschema-specifications==2025.9.1
+ + jupyter-core==5.9.1
+ + jupytext==1.19.6
+ + kiwisolver==1.5.1
+ + lerobot==0.3.4 (from file:///home/skr/Downloads/pi_07/pi07_code/vendor/lerobot)
+ + libero==0.1.4 (from file:///home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero)
+ + llvmlite==0.50.0
+ + markdown==3.11.2
+ + markdown-it-py==4.2.0
+ + matplotlib==3.11.2
+ + mdit-py-plugins==0.6.1
+ + mdurl==0.1.2
+ + mergedeep==1.3.4
+ + mujoco==3.3.2
+ + multidict==7.2.1
+ + multiprocess==0.70.16
+ + mypy-extensions==1.1.0
+ + nbformat==5.11.1
+ + num2words==0.5.14
+ + numba==0.68.1
+ - numpy==2.4.6
+ + numpy==2.2.6
+ + omegaconf==2.3.1
+ + opencv-python==4.11.0.86
+ + opencv-python-headless==4.11.0.86
+ + orderly-set==5.5.0
+ + packaging==25.0
+ + pandas==3.1.0
+ + pfzy==0.3.4
+ + platformdirs==4.14.0
+ + pluggy==1.7.0
+ + prompt-toolkit==3.0.53
+ + propcache==0.5.4
+ + protobuf==6.33.6
+ + psutil==7.2.2
+ + pyarrow==26.0.0
+ + pydantic==2.14.1
+ + pydantic-core==2.50.1
+ + pygments==2.21.0
+ + pynput==1.8.2
+ + pyopengl==3.1.10
+ + pyparsing==3.3.3
+ + pyserial==3.5
+ + pytest==9.2.0
+ + python-dateutil==3.0.0
+ + python-xlib==0.33
+ + pyyaml==6.0.3
+ + pyyaml-include==1.4.1
+ + referencing==0.37.0
+ + regex==2026.9.29
+ + requests==2.34.2
+ + rerun-sdk==0.26.2
+ + robomimic==0.2.0
+ + robosuite==1.4.0
+ + rpds-py==2026.9.1
+ + safetensors==0.8.0
+ + scipy==1.17.1
+ + sentry-sdk==2.73.0
+ + six==1.17.0
+ + smmap==5.0.3
+ + tensorboard==2.21.0
+ + tensorboard-data-server==0.7.2
+ + tensorboardx==2.6.5
+ + termcolor==3.3.0
+ + thop==0.1.1.post2209072238
+ + tokenizers==0.22.2
+ + toml==0.10.2
+ + torchcodec==0.5
+ + tqdm==4.70.1
+ + traitlets==5.16.1
+ + transformers==4.56.1
+ + typing-inspect==0.9.0
+ + typing-inspection==0.4.4
+ + tzdata==2026.6
+ + urllib3==2.8.0
+ + wandb==0.21.4
+ + wcwidth==0.9.4
+ + werkzeug==3.1.9
+ + xxhash==4.0.2
+ + yarl==1.25.1
+ + zipp==4.1.2
+pi07_code/artifacts/lerobot_libero_setup/build_env.sh: line 27: syntax error near unexpected token `then'
+Using Python 3.11.14 environment at: /media/skr/storage/envs/pi07-lerobot
+Checked 2 packages in 5ms
+Using Python 3.11.14 environment at: /media/skr/storage/envs/pi07-lerobot
+Resolved 161 packages in 18ms
+   Building libero @ file:///home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero
+   Building lerobot @ file:///home/skr/Downloads/pi_07/pi07_code/vendor/lerobot
+      Built lerobot @ file:///home/skr/Downloads/pi_07/pi07_code/vendor/lerobot
+      Built libero @ file:///home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero
+Prepared 2 packages in 671ms
+Uninstalled 2 packages in 0.90ms
+Installed 2 packages in 1ms
+ ~ lerobot==0.3.4 (from file:///home/skr/Downloads/pi_07/pi07_code/vendor/lerobot)
+ ~ libero==0.1.4 (from file:///home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero)
+Using Python 3.11.14 environment at: /media/skr/storage/envs/pi07-lerobot
+Checked 161 packages in 1ms
+All installed packages are compatible
+Using Python 3.11.14 environment at: /media/skr/storage/envs/pi07-lerobot

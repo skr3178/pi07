@@ -1,0 +1,13 @@
+{
+  "env": "/media/skr/storage/envs/pi07-lerobot",
+  "sources": {
+    "lerobot": {
+      "path": "/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot",
+      "commit": "76a425c600b82e6bcf91650cbed347899eb1e07f"
+    },
+    "lerobot-libero": {
+      "path": "/home/skr/Downloads/pi_07/pi07_code/vendor/lerobot-libero",
+      "commit": "14fd6f022ff6647defc24e73563b95aa36670f43"
+    }
+  }
+}

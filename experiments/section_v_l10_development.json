@@ -1,0 +1,58 @@
+{
+  "suite": "libero_10",
+  "task_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "init_ids": [
+    0,
+    1
+  ],
+  "max_steps": 520,
+  "goal_refresh_steps": 16,
+  "conditions": [
+    {
+      "name": "A",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_task_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off"
+    },
+    {
+      "name": "S",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates"
+    },
+    {
+      "name": "SG_off",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_goal_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "off",
+      "subtasks": "oracle_predicates"
+    },
+    {
+      "name": "SG_copy",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_goal_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "copy",
+      "subtasks": "oracle_predicates"
+    },
+    {
+      "name": "SG_generated",
+      "checkpoint": "/home/skr/Downloads/pi_07/pi07_code/artifacts/section_v_l10_subtask_goal_1000_20261104/checkpoint",
+      "layout": "alt",
+      "goals": "generated",
+      "subtasks": "oracle_predicates"
+    }
+  ],
+  "purpose": "Fresh Section V training comparison: same 1,000 updates, paired starts, task / oracle subtask / 25%-trained goal inputs. Text availability matched at training; no held-out final starts."
+}
