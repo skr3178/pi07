@@ -1,0 +1,249 @@
+{
+  "args": {
+    "name": "text_only",
+    "policy": "live_text",
+    "goal": "none",
+    "goal_task": null,
+    "tasks": "0,1,2,3,4,5,6,7,8,9",
+    "starts": 2,
+    "max_steps": 300,
+    "refresh": 16
+  },
+  "policy_args": {
+    "name": "live_text",
+    "text": 1,
+    "goal": 0,
+    "quality": 0,
+    "dropout": "none",
+    "mix": "clean",
+    "steps": 6000,
+    "batch": 256,
+    "eval_every": 1000,
+    "seed": 0,
+    "save": true
+  },
+  "episodes": [
+    {
+      "task": 0,
+      "instruction": "open the middle drawer of the cabinet",
+      "start": 0,
+      "success": true,
+      "steps": 127,
+      "goal_shows": "open the middle drawer of the cabinet",
+      "goal_updates": [],
+      "video": "text_only_task0_start0.mp4",
+      "seconds": 2.800402522960212
+    },
+    {
+      "task": 0,
+      "instruction": "open the middle drawer of the cabinet",
+      "start": 1,
+      "success": false,
+      "steps": 300,
+      "goal_shows": "open the middle drawer of the cabinet",
+      "goal_updates": [],
+      "video": "text_only_task0_start1.mp4",
+      "seconds": 3.5936583430157043
+    },
+    {
+      "task": 1,
+      "instruction": "put the bowl on the stove",
+      "start": 0,
+      "success": true,
+      "steps": 80,
+      "goal_shows": "put the bowl on the stove",
+      "goal_updates": [],
+      "video": "text_only_task1_start0.mp4",
+      "seconds": 2.1361606380087323
+    },
+    {
+      "task": 1,
+      "instruction": "put the bowl on the stove",
+      "start": 1,
+      "success": true,
+      "steps": 85,
+      "goal_shows": "put the bowl on the stove",
+      "goal_updates": [],
+      "video": "text_only_task1_start1.mp4",
+      "seconds": 2.178757439018227
+    },
+    {
+      "task": 2,
+      "instruction": "put the wine bottle on top of the cabinet",
+      "start": 0,
+      "success": true,
+      "steps": 105,
+      "goal_shows": "put the wine bottle on top of the cabinet",
+      "goal_updates": [],
+      "video": "text_only_task2_start0.mp4",
+      "seconds": 2.419491231034044
+    },
+    {
+      "task": 2,
+      "instruction": "put the wine bottle on top of the cabinet",
+      "start": 1,
+      "success": true,
+      "steps": 93,
+      "goal_shows": "put the wine bottle on top of the cabinet",
+      "goal_updates": [],
+      "video": "text_only_task2_start1.mp4",
+      "seconds": 2.278560500999447
+    },
+    {
+      "task": 3,
+      "instruction": "open the top drawer and put the bowl inside",
+      "start": 0,
+      "success": true,
+      "steps": 271,
+      "goal_shows": "open the top drawer and put the bowl inside",
+      "goal_updates": [],
+      "video": "text_only_task3_start0.mp4",
+      "seconds": 4.411948608001694
+    },
+    {
+      "task": 3,
+      "instruction": "open the top drawer and put the bowl inside",
+      "start": 1,
+      "success": true,
+      "steps": 178,
+      "goal_shows": "open the top drawer and put the bowl inside",
+      "goal_updates": [],
+      "video": "text_only_task3_start1.mp4",
+      "seconds": 3.121361044002697
+    },
+    {
+      "task": 4,
+      "instruction": "put the bowl on top of the cabinet",
+      "start": 0,
+      "success": true,
+      "steps": 96,
+      "goal_shows": "put the bowl on top of the cabinet",
+      "goal_updates": [],
+      "video": "text_only_task4_start0.mp4",
+      "seconds": 2.4023818249697797
+    },
+    {
+      "task": 4,
+      "instruction": "put the bowl on top of the cabinet",
+      "start": 1,
+      "success": true,
+      "steps": 80,
+      "goal_shows": "put the bowl on top of the cabinet",
+      "goal_updates": [],
+      "video": "text_only_task4_start1.mp4",
+      "seconds": 2.131713959039189
+    },
+    {
+      "task": 5,
+      "instruction": "push the plate to the front of the stove",
+      "start": 0,
+      "success": false,
+      "steps": 300,
+      "goal_shows": "push the plate to the front of the stove",
+      "goal_updates": [],
+      "video": "text_only_task5_start0.mp4",
+      "seconds": 3.5172762199654244
+    },
+    {
+      "task": 5,
+      "instruction": "push the plate to the front of the stove",
+      "start": 1,
+      "success": false,
+      "steps": 300,
+      "goal_shows": "push the plate to the front of the stove",
+      "goal_updates": [],
+      "video": "text_only_task5_start1.mp4",
+      "seconds": 3.650308058015071
+    },
+    {
+      "task": 6,
+      "instruction": "put the cream cheese in the bowl",
+      "start": 0,
+      "success": false,
+      "steps": 300,
+      "goal_shows": "put the cream cheese in the bowl",
+      "goal_updates": [],
+      "video": "text_only_task6_start0.mp4",
+      "seconds": 3.6341700369957834
+    },
+    {
+      "task": 6,
+      "instruction": "put the cream cheese in the bowl",
+      "start": 1,
+      "success": true,
+      "steps": 87,
+      "goal_shows": "put the cream cheese in the bowl",
+      "goal_updates": [],
+      "video": "text_only_task6_start1.mp4",
+      "seconds": 2.2165272650308907
+    },
+    {
+      "task": 7,
+      "instruction": "turn on the stove",
+      "start": 0,
+      "success": true,
+      "steps": 80,
+      "goal_shows": "turn on the stove",
+      "goal_updates": [],
+      "video": "text_only_task7_start0.mp4",
+      "seconds": 2.098778496030718
+    },
+    {
+      "task": 7,
+      "instruction": "turn on the stove",
+      "start": 1,
+      "success": true,
+      "steps": 80,
+      "goal_shows": "turn on the stove",
+      "goal_updates": [],
+      "video": "text_only_task7_start1.mp4",
+      "seconds": 2.125038233003579
+    },
+    {
+      "task": 8,
+      "instruction": "put the bowl on the plate",
+      "start": 0,
+      "success": true,
+      "steps": 88,
+      "goal_shows": "put the bowl on the plate",
+      "goal_updates": [],
+      "video": "text_only_task8_start0.mp4",
+      "seconds": 2.2593604249996133
+    },
+    {
+      "task": 8,
+      "instruction": "put the bowl on the plate",
+      "start": 1,
+      "success": true,
+      "steps": 79,
+      "goal_shows": "put the bowl on the plate",
+      "goal_updates": [],
+      "video": "text_only_task8_start1.mp4",
+      "seconds": 2.2016404820024036
+    },
+    {
+      "task": 9,
+      "instruction": "put the wine bottle on the rack",
+      "start": 0,
+      "success": true,
+      "steps": 124,
+      "goal_shows": "put the wine bottle on the rack",
+      "goal_updates": [],
+      "video": "text_only_task9_start0.mp4",
+      "seconds": 2.5961848329752684
+    },
+    {
+      "task": 9,
+      "instruction": "put the wine bottle on the rack",
+      "start": 1,
+      "success": false,
+      "steps": 300,
+      "goal_shows": "put the wine bottle on the rack",
+      "goal_updates": [],
+      "video": "text_only_task9_start1.mp4",
+      "seconds": 3.5845232830033638
+    }
+  ],
+  "successes": 15,
+  "total": 20
+}

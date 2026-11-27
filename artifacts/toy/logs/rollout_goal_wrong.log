@@ -1,0 +1,28 @@
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+WARNING:robosuite_logs:No private macro file found!
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+WARNING:robosuite_logs:It is recommended to use a private macro file
+[robosuite WARNING] To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+WARNING:robosuite_logs:To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+{"task": 0, "instruction": "open the middle drawer of the cabinet", "start": 0, "success": false, "steps": 300, "goal_shows": "put the bowl on the stove", "goal_updates": [0], "video": "goal_wrong_task0_start0.mp4", "seconds": 3.42551381199155}
+{"task": 0, "instruction": "open the middle drawer of the cabinet", "start": 1, "success": false, "steps": 300, "goal_shows": "put the bowl on the stove", "goal_updates": [0], "video": "goal_wrong_task0_start1.mp4", "seconds": 3.3141713200020604}
+{"task": 1, "instruction": "put the bowl on the stove", "start": 0, "success": false, "steps": 300, "goal_shows": "put the wine bottle on top of the cabinet", "goal_updates": [0], "video": "goal_wrong_task1_start0.mp4", "seconds": 3.3782261880114675}
+{"task": 1, "instruction": "put the bowl on the stove", "start": 1, "success": false, "steps": 300, "goal_shows": "put the wine bottle on top of the cabinet", "goal_updates": [0], "video": "goal_wrong_task1_start1.mp4", "seconds": 3.283296816982329}
+{"task": 2, "instruction": "put the wine bottle on top of the cabinet", "start": 0, "success": false, "steps": 300, "goal_shows": "open the top drawer and put the bowl inside", "goal_updates": [0], "video": "goal_wrong_task2_start0.mp4", "seconds": 3.411802204034757}
+{"task": 2, "instruction": "put the wine bottle on top of the cabinet", "start": 1, "success": false, "steps": 300, "goal_shows": "open the top drawer and put the bowl inside", "goal_updates": [0], "video": "goal_wrong_task2_start1.mp4", "seconds": 3.289726604009047}
+{"task": 3, "instruction": "open the top drawer and put the bowl inside", "start": 0, "success": false, "steps": 300, "goal_shows": "put the bowl on top of the cabinet", "goal_updates": [0], "video": "goal_wrong_task3_start0.mp4", "seconds": 3.634067969978787}
+{"task": 3, "instruction": "open the top drawer and put the bowl inside", "start": 1, "success": false, "steps": 300, "goal_shows": "put the bowl on top of the cabinet", "goal_updates": [0], "video": "goal_wrong_task3_start1.mp4", "seconds": 3.440257914015092}
+{"task": 4, "instruction": "put the bowl on top of the cabinet", "start": 0, "success": false, "steps": 300, "goal_shows": "push the plate to the front of the stove", "goal_updates": [0], "video": "goal_wrong_task4_start0.mp4", "seconds": 3.596166434988845}
+{"task": 4, "instruction": "put the bowl on top of the cabinet", "start": 1, "success": false, "steps": 300, "goal_shows": "push the plate to the front of the stove", "goal_updates": [0], "video": "goal_wrong_task4_start1.mp4", "seconds": 3.275388150999788}
+{"task": 5, "instruction": "push the plate to the front of the stove", "start": 0, "success": false, "steps": 300, "goal_shows": "put the cream cheese in the bowl", "goal_updates": [0], "video": "goal_wrong_task5_start0.mp4", "seconds": 3.3486869339831173}
+{"task": 5, "instruction": "push the plate to the front of the stove", "start": 1, "success": false, "steps": 300, "goal_shows": "put the cream cheese in the bowl", "goal_updates": [0], "video": "goal_wrong_task5_start1.mp4", "seconds": 3.3345521119772457}
+{"task": 6, "instruction": "put the cream cheese in the bowl", "start": 0, "success": false, "steps": 300, "goal_shows": "turn on the stove", "goal_updates": [0], "video": "goal_wrong_task6_start0.mp4", "seconds": 3.632946500030812}
+{"task": 6, "instruction": "put the cream cheese in the bowl", "start": 1, "success": false, "steps": 300, "goal_shows": "turn on the stove", "goal_updates": [0], "video": "goal_wrong_task6_start1.mp4", "seconds": 3.5774147320189513}
+{"task": 7, "instruction": "turn on the stove", "start": 0, "success": false, "steps": 300, "goal_shows": "put the bowl on the plate", "goal_updates": [0], "video": "goal_wrong_task7_start0.mp4", "seconds": 3.352845959016122}
+{"task": 7, "instruction": "turn on the stove", "start": 1, "success": false, "steps": 300, "goal_shows": "put the bowl on the plate", "goal_updates": [0], "video": "goal_wrong_task7_start1.mp4", "seconds": 3.20463401498273}
+{"task": 8, "instruction": "put the bowl on the plate", "start": 0, "success": false, "steps": 300, "goal_shows": "put the wine bottle on the rack", "goal_updates": [0], "video": "goal_wrong_task8_start0.mp4", "seconds": 3.5217605430516414}
+{"task": 8, "instruction": "put the bowl on the plate", "start": 1, "success": false, "steps": 300, "goal_shows": "put the wine bottle on the rack", "goal_updates": [0], "video": "goal_wrong_task8_start1.mp4", "seconds": 3.538614263990894}
+{"task": 9, "instruction": "put the wine bottle on the rack", "start": 0, "success": false, "steps": 300, "goal_shows": "open the middle drawer of the cabinet", "goal_updates": [0], "video": "goal_wrong_task9_start0.mp4", "seconds": 3.533900574024301}
+{"task": 9, "instruction": "put the wine bottle on the rack", "start": 1, "success": false, "steps": 300, "goal_shows": "open the middle drawer of the cabinet", "goal_updates": [0], "video": "goal_wrong_task9_start1.mp4", "seconds": 3.3123913829913363}
+goal_wrong: 0/20 successes

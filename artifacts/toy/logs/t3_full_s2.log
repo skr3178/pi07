@@ -1,0 +1,22 @@
+step 1000: loss 0.7773  text1_goal-end mse_8 0.4390
+step 2000: loss 0.4291  text1_goal-end mse_8 0.3718
+step 3000: loss 0.3395  text1_goal-end mse_8 0.3519
+step 4000: loss 0.2792  text1_goal-end mse_8 0.3439
+step 5000: loss 0.2443  text1_goal-end mse_8 0.3372
+  text1_goal-end: mse_8 0.3376  first2s 0.2577  gain 0.747
+  text1_goal-near: mse_8 0.3361  first2s 0.2554  gain 0.750
+  text1_goal-copy: mse_8 0.3419  first2s 0.2617  gain 0.743
+  text1_goal-wrong: mse_8 0.3711  first2s 0.3112  gain 0.698
+  text1_goal-off: mse_8 0.3415  first2s 0.2621  gain 0.747
+  text0_goal-end: mse_8 0.3470  first2s 0.2778  gain 0.734
+  text0_goal-near: mse_8 0.3442  first2s 0.2717  gain 0.736
+  text0_goal-copy: mse_8 0.3722  first2s 0.3332  gain 0.694
+  text0_goal-wrong: mse_8 0.4562  first2s 0.4642  gain 0.597
+  text0_goal-off: mse_8 0.4123  first2s 0.3983  gain 0.637
+  quality-3: mse_8 0.3665  first2s 0.2963  gain 0.633
+  quality-1: mse_8 0.4448  first2s 0.3940  gain 0.517
+  quality-off: mse_8 0.3808  first2s 0.3109  gain 0.640
+  quality-5_cfg1.3: mse_8 0.3418  first2s 0.2615  gain 0.777
+  quality-5_cfg1.7: mse_8 0.3496  first2s 0.2689  gain 0.816
+  quality-5_cfg2.2: mse_8 0.3702  first2s 0.2899  gain 0.862
+done in 803s, 11.8M parameters

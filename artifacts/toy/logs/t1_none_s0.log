@@ -1,0 +1,7 @@
+step 1000: loss 0.8322  text0_goal-off mse_8 0.4468
+step 2000: loss 0.4115  text0_goal-off mse_8 0.3804
+step 3000: loss 0.3182  text0_goal-off mse_8 0.3704
+step 4000: loss 0.2576  text0_goal-off mse_8 0.3529
+step 5000: loss 0.2188  text0_goal-off mse_8 0.3401
+  text0_goal-off: mse_8 0.3396  first2s 0.2824  gain 0.826
+done in 592s, 10.9M parameters

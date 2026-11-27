@@ -28,3 +28,5 @@ sample_audit.jsonl
 artifacts/pi07_reference_subgoals/current_*.png
 artifacts/pi07_reference_subgoals/subgoal_*.png
 artifacts/pi07_reference_subgoals/paper_fig3/
+# Exception: the small side-by-side comparison videos of the toy test
+!artifacts/toy/rollouts/comparison/*.mp4

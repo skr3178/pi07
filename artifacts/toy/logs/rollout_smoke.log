@@ -1,0 +1,9 @@
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+WARNING:robosuite_logs:No private macro file found!
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+WARNING:robosuite_logs:It is recommended to use a private macro file
+[robosuite WARNING] To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+WARNING:robosuite_logs:To setup, run: python /media/skr/storage/envs/pi07-lerobot/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+{"task": 0, "instruction": "open the middle drawer of the cabinet", "start": 0, "success": false, "steps": 40, "goal_shows": "open the middle drawer of the cabinet", "goal_updates": [0], "video": "smoke_task0_start0.mp4", "seconds": 0.9553907689987682}
+smoke: 0/1 successes

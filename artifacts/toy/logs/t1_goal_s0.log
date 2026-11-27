@@ -1,0 +1,11 @@
+step 1000: loss 0.7981  text0_goal-end mse_8 0.3682
+step 2000: loss 0.3664  text0_goal-end mse_8 0.3084
+step 3000: loss 0.2848  text0_goal-end mse_8 0.2902
+step 4000: loss 0.2365  text0_goal-end mse_8 0.2729
+step 5000: loss 0.2054  text0_goal-end mse_8 0.2676
+  text0_goal-end: mse_8 0.2676  first2s 0.1902  gain 0.887
+  text0_goal-near: mse_8 0.2646  first2s 0.1873  gain 0.884
+  text0_goal-copy: mse_8 0.3153  first2s 0.2517  gain 0.822
+  text0_goal-wrong: mse_8 0.5702  first2s 0.5823  gain 0.566
+  text0_goal-off: mse_8 0.4074  first2s 0.3413  gain 0.696
+done in 859s, 11.3M parameters

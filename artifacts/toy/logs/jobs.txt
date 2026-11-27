@@ -1,0 +1,20 @@
+t1_none_s1 --seed 1
+t1_text_s1 --text 1 --seed 1
+t1_goal_s1 --goal 1 --seed 1
+t1_textgoal_s1 --text 1 --goal 1 --seed 1
+t1_none_s2 --seed 2
+t1_text_s2 --text 1 --seed 2
+t1_goal_s2 --goal 1 --seed 2
+t1_textgoal_s2 --text 1 --goal 1 --seed 2
+t2_cleanthird_s0 --text 1 --mix clean_third --seed 0
+t2_unlabeled_s0 --text 1 --mix mixed --seed 0
+t2_labeled_s0 --text 1 --quality 1 --dropout paper --mix mixed --seed 0
+t2_cleanthird_s1 --text 1 --mix clean_third --seed 1
+t2_unlabeled_s1 --text 1 --mix mixed --seed 1
+t2_labeled_s1 --text 1 --quality 1 --dropout paper --mix mixed --seed 1
+t2_cleanthird_s2 --text 1 --mix clean_third --seed 2
+t2_unlabeled_s2 --text 1 --mix mixed --seed 2
+t2_labeled_s2 --text 1 --quality 1 --dropout paper --mix mixed --seed 2
+t3_full_s0 --text 1 --goal 1 --quality 1 --dropout paper --mix mixed --seed 0
+t3_full_s1 --text 1 --goal 1 --quality 1 --dropout paper --mix mixed --seed 1
+t3_full_s2 --text 1 --goal 1 --quality 1 --dropout paper --mix mixed --seed 2

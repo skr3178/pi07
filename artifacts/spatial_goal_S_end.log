@@ -1,0 +1,35 @@
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 2685.21it/s]
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 3509.88it/s]
+WARNING:root:Missing key(s) when loading model: {'model.goal_state_proj.bias', 'model.goal_state_proj.weight'}
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+goal projection receives gradient: True
+step 250: mean loss 0.7925
+step 500: mean loss 0.5371
+held-out at step 500:
+  end_real: mse_8 0.6186  mse_50 0.6537
+  copied_current: mse_8 0.6104  mse_50 0.6496
+  dropped: mse_8 0.6528  mse_50 0.6862
+step 750: mean loss 0.4912
+step 1000: mean loss 0.4786
+held-out at step 1000:
+  end_real: mse_8 0.4802  mse_50 0.5645
+  copied_current: mse_8 0.4779  mse_50 0.5643
+  dropped: mse_8 0.4737  mse_50 0.5694
+step 1250: mean loss 0.4609
+step 1500: mean loss 0.4609
+held-out at step 1500:
+  end_real: mse_8 0.4712  mse_50 0.5377
+  copied_current: mse_8 0.4866  mse_50 0.5577
+  dropped: mse_8 0.5042  mse_50 0.5790
+step 1750: mean loss 0.4532
+step 2000: mean loss 0.4475
+final held-out:
+  near_real: mse_8 0.4343  mse_50 0.5215
+  end_real: mse_8 0.4277  mse_50 0.5266
+  copied_current: mse_8 0.4284  mse_50 0.5361
+  near_wrong: mse_8 0.5769  mse_50 0.6449
+  end_wrong: mse_8 0.4766  mse_50 0.5661
+  dropped: mse_8 0.4476  mse_50 0.5566
+saved to /media/skr/storage/checkpoints/pi07_goal_ab/spatial/S_end
+done
